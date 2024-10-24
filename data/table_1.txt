@@ -1,0 +1,483 @@
+1 [Blood-Lymph].CTLA4_mabB <-> Lymph_Node.CTLA4_mab
+2 [Blood-Lymph].CTLA4_mabB <-> Peripheral.CTLA4_mabP_leaky
+3 [Blood-Lymph].CTLA4_mabB <-> Peripheral.CTLA4_mabP_tight
+4 [Blood-Lymph].CTLA4_mabB <-> Tumor.CTLA4_mabt
+5 [Blood-Lymph].CTLA4_mabB -> null
+6 [Blood-Lymph].Effector_T_TB -> [Blood-Lymph].Effector_T_TB + [Blood-Lymph].Effector_TB
+7 [Blood-Lymph].Effector_TB -> Liv_Spln_GI.EffT_GI_f_Vasc
+8 [Blood-Lymph].Effector_TB -> Liv_Spln_GI.EffT_Liver_f_Vasc
+9 [Blood-Lymph].Effector_TB -> Liv_Spln_GI.EffT_Spleen_f_Vasc
+10 [Blood-Lymph].Effector_TB -> Lymph_Node.EffT_LN_f_Vasc
+11 [Blood-Lymph].Effector_TB -> null
+12 [Blood-Lymph].Effector_TB -> Peripheral.EffT_P_f_Vasc
+13 [Blood-Lymph].Effector_TB -> Tumor.EffT_f_Vasc
+14 [Blood-Lymph].PD1_mabb <-> Lymph_Node.PD1_mab
+15 [Blood-Lymph].PD1_mabb <-> Peripheral.PD1_mabP_leaky
+16 [Blood-Lymph].PD1_mabb <-> Peripheral.PD1_mabP_tight
+17 [Blood-Lymph].PD1_mabb <-> Tumor.PD1_mabt
+18 [Blood-Lymph].PD1_mabb -> null
+19 [Blood-Lymph].PDL1_mabb <-> Lymph_Node.PDL1_mab
+20 [Blood-Lymph].PDL1_mabb <-> Peripheral.PDL1_mabP_leaky
+21 [Blood-Lymph].PDL1_mabb <-> Peripheral.PDL1_mabP_tight
+22 [Blood-Lymph].PDL1_mabb <-> Tumor.PDL1_mabt
+23 [Blood-Lymph].PDL1_mabb -> null
+24 [Blood-Lymph].PDL1_mabb -> null
+25 Liv_Spln_GI.EffT_GI_f_Vasc -> Liv_Spln_GI.EffT_Liver_f_Vasc
+26 Liv_Spln_GI.EffT_GI_f_Vasc -> null
+27 Liv_Spln_GI.EffT_Liver_AR_Vasc -> Liv_Spln_GI.EffT_LiverEx
+28 Liv_Spln_GI.EffT_Liver_AR_Vasc -> null
+29 Liv_Spln_GI.EffT_Liver_b_Vasc -> Liv_Spln_GI.EffT_Liver_AR_Vasc
+30 Liv_Spln_GI.EffT_Liver_b_Vasc -> Liv_Spln_GI.EffT_Liver_f_Vasc
+31 Liv_Spln_GI.EffT_Liver_b_Vasc -> null
+32 Liv_Spln_GI.EffT_Liver_f_Vasc -> Lungs.EffT_f_LungsVasc
+33 Liv_Spln_GI.EffT_Liver_f_Vasc -> null
+34 Liv_Spln_GI.EffT_LiverEx -> Lymph_Node.EffT_LN_ExRec
+35 Liv_Spln_GI.EffT_LiverEx -> null
+36 Liv_Spln_GI.EffT_Spleen_AR_Vasc -> Liv_Spln_GI.EffT_SpleenEx
+37 Liv_Spln_GI.EffT_Spleen_AR_Vasc -> null
+38 Liv_Spln_GI.EffT_Spleen_b_Vasc -> Liv_Spln_GI.EffT_Spleen_AR_Vasc
+39 Liv_Spln_GI.EffT_Spleen_b_Vasc -> Liv_Spln_GI.EffT_Spleen_f_Vasc
+40 Liv_Spln_GI.EffT_Spleen_b_Vasc -> null
+41 Liv_Spln_GI.EffT_Spleen_f_Vasc + Liv_Spln_GI.Spleen_Free_Sites -> Liv_Spln_GI.EffT_Spleen_b_Vasc +
+Liv_Spln_GI.Spleen_Free_Sites
+42 Liv_Spln_GI.EffT_Spleen_f_Vasc -> Liv_Spln_GI.EffT_Liver_f_Vasc
+43 Liv_Spln_GI.EffT_Spleen_f_Vasc -> null
+44 Liv_Spln_GI.EffT_SpleenEx -> Lymph_Node.EffT_LN_ExRec
+45 Liv_Spln_GI.EffT_SpleenEx -> null
+46 Liv_Spln_GI.Liver_Free_Sites + Liv_Spln_GI.EffT_Liver_f_Vasc -> Liv_Spln_GI.EffT_Liver_b_Vasc +
+Liv_Spln_GI.Liver_Free_Sites
+47 Lungs.EffT_AR_LungsVasc -> Lungs.EffT_LungsEx
+48 Lungs.EffT_AR_LungsVasc -> null
+49 Lungs.EffT_AR_LungsVasc -> null
+50 Lungs.EffT_f_LungsVasc + Lungs.Lung_Free_Sites -> Lungs.EffT_r_LungsVasc + Lungs.Lung_Free_Sites
+51 Lungs.EffT_f_LungsVasc -> [Blood-Lymph].Effector_TB
+52 Lungs.EffT_f_LungsVasc -> null
+53 Lungs.EffT_LungsEx -> Lymph_Node.EffT_LN_ExRec
+54 Lungs.EffT_LungsEx -> null
+55 Lungs.EffT_r_LungsVasc -> Lungs.EffT_AR_LungsVasc
+56 Lungs.EffT_r_LungsVasc -> Lungs.EffT_f_LungsVasc
+57 Lungs.EffT_r_LungsVasc -> null
+58 Lungs.EffT_r_LungsVasc -> null
+59 Lymph_Node.[PNT-Tr_CD80] + Lymph_Node.[Tr-PNT_PDL1] <-> Lymph_Node.[TrPNT_PDL1-CD80]
+60 Lymph_Node.[PNT-Tr_CD80] -> null
+61 Lymph_Node.[PNT-Tr_PD1] + Lymph_Node.[Tr-PNT_PDL1] <-> Lymph_Node.[TrPNT_PDL1-PD1]
+62 Lymph_Node.[PNT-Tr_PD1] + Lymph_Node.PD1_mab <-> Lymph_Node.PNTTr_PD1_aPD1
+63 Lymph_Node.[PNT-Tr_PD1] -> null
+64 Lymph_Node.[PNT-Tr_PDL1] + Lymph_Node.PDL1_mab <-> Lymph_Node.PNTTr_PDL1_aPDL1
+65 Lymph_Node.[PNT-Tr_PDL1] -> null
+66 Lymph_Node.[TregLN-NT] + Lymph_Node.Naive_T -> null
+67 Lymph_Node.[TregLN-NT] -> null
+68 Lymph_Node.[TregLN-PNT] + Lymph_Node.Primed_Naive_T -> null
+69 Lymph_Node.[TregLN-PNT] -> null
+70 Lymph_Node.[TregLN-PNT1] -> Lymph_Node.[PNT-Tr_CD80] + Lymph_Node.[TregLN-PNT1]
+71 Lymph_Node.[TregLN-PNT1] -> Lymph_Node.[PNT-Tr_PD1] + Lymph_Node.[TregLN-PNT1]
+72 Lymph_Node.[TregLN-PNT1] -> Lymph_Node.[PNT-Tr_PDL1] + Lymph_Node.[TregLN-PNT1]
+73 Lymph_Node.[TregLN-PNT1] -> Lymph_Node.[Tr-PNT_PD1] + Lymph_Node.[TregLN-PNT1]
+74 Lymph_Node.[TregLN-PNT1] -> Lymph_Node.[Tr-PNT_PDL1] + Lymph_Node.[TregLN-PNT1]
+75 Lymph_Node.[Tr-mAPC_CD80] -> null
+76 Lymph_Node.[Tr-mAPC_CD86] -> null
+77 Lymph_Node.[Tr-mAPC_CTLA4] + Lymph_Node.[Tr-mAPC_CD80] <-> Lymph_Node.TrALN_CT_CD80
+78 Lymph_Node.[Tr-mAPC_CTLA4] + Lymph_Node.[Tr-mAPC_CD86] <-> Lymph_Node.TrALN_CT_CD86
+79 Lymph_Node.[Tr-mAPC_CTLA4] + Lymph_Node.CTLA4_mab <-> Lymph_Node.TrALN_CT_aCT
+80 Lymph_Node.[Tr-mAPC_CTLA4] -> null
+81 Lymph_Node.[Tr-PNT_PD1] + Lymph_Node.[PNT-Tr_PDL1] <-> Lymph_Node.[TrPNT_PD1-L1]
+82 Lymph_Node.[Tr-PNT_PD1] + Lymph_Node.PD1_mab <-> Lymph_Node.TrPNT_PD1_aPD1
+83 Lymph_Node.[Tr-PNT_PD1] -> null
+84 Lymph_Node.[Tr-PNT_PDL1] + Lymph_Node.PDL1_mab <-> Lymph_Node.TrPNT_PDL1_aPDL1
+85 Lymph_Node.[Tr-PNT_PDL1] -> null
+86 Lymph_Node.APCLN + Lymph_Node.C_DebrisLN -> Lymph_Node.mAPC
+87 Lymph_Node.C_DebrisLN -> null
+88 Lymph_Node.CTLA4_mab -> [Blood-Lymph].CTLA4_mabB
+89 Lymph_Node.CTLA4_mab + Lymph_Node.PNT_CTLA4 <-> Lymph_Node.CTLA4_mAb_CTLA4
+90 Lymph_Node.CTLA4_mAb_CTLA4 -> null
+91 Lymph_Node.Effector_T -> null
+92 Lymph_Node.EffT_LN_ExRec -> Lungs.EffT_f_LungsVasc
+93 Lymph_Node.EffT_LN_ExRec -> null
+94 Lymph_Node.EffT_LN_f_Vasc -> Lungs.EffT_f_LungsVasc
+95 Lymph_Node.EffT_LN_f_Vasc -> null
+96 Lymph_Node.mAPC -> Lymph_Node.mAPC_CD80 + Lymph_Node.mAPC
+97 Lymph_Node.mAPC -> Lymph_Node.mAPC_CD86 + Lymph_Node.mAPC
+98 Lymph_Node.mAPC -> Lymph_Node.mAPC_PD1 + Lymph_Node.mAPC
+99 Lymph_Node.mAPC -> Lymph_Node.mAPC_PDL1 + Lymph_Node.mAPC
+100 Lymph_Node.mAPC -> Lymph_Node.mAPC_PDL2 + Lymph_Node.mAPC
+101 Lymph_Node.mAPC -> null
+102 Lymph_Node.mAPC -> null
+103 Lymph_Node.mAPC_CD80 -> null
+104 Lymph_Node.mAPC_CD86 -> null
+105 Lymph_Node.mAPC_Int_P1 -> Lymph_Node.mAPC_Int_P1 + Lymph_Node.mAPC_Int_P1_CD80
+106 Lymph_Node.mAPC_Int_P1 -> Lymph_Node.mAPC_Int_P1 + Lymph_Node.mAPC_Int_P1_CD86
+107 Lymph_Node.mAPC_Int_P1_CD80 -> null
+108 Lymph_Node.mAPC_Int_P1_CD86 -> null
+109 Lymph_Node.mAPC_Int_P2 -> Lymph_Node.mAPC_Int_P2_CD80 + Lymph_Node.mAPC_Int_P2
+110 Lymph_Node.mAPC_Int_P2 -> Lymph_Node.mAPC_Int_P2_CD86 + Lymph_Node.mAPC_Int_P2
+111 Lymph_Node.mAPC_Int_P2 -> Lymph_Node.mAPC_Int_P2_PD1 + Lymph_Node.mAPC_Int_P2
+112 Lymph_Node.mAPC_Int_P2 -> Lymph_Node.mAPC_Int_P2_PDL1 + Lymph_Node.mAPC_Int_P2
+113 Lymph_Node.mAPC_Int_P2 -> Lymph_Node.mAPC_Int_P2_PDL2 + Lymph_Node.mAPC_Int_P2
+114 Lymph_Node.mAPC_Int_P2_CD80 + Lymph_Node.PNT_CTLA4 <-> Lymph_Node.NEG_Sig_PNT_CD80
+115 Lymph_Node.mAPC_Int_P2_CD80 + Lymph_Node.PNT_Int_PDL1 <-> Lymph_Node.[PNT_PDL1-CD80]
+116 Lymph_Node.mAPC_Int_P2_CD80 -> null
+117 Lymph_Node.mAPC_Int_P2_CD86 + Lymph_Node.PNT_CTLA4 <-> Lymph_Node.NEG_Sig_PNT_CD86
+118 Lymph_Node.mAPC_Int_P2_CD86 + Lymph_Node.PNT_Int_CD28 <-> Lymph_Node.POS_Sig_PNT_CD86
+119 Lymph_Node.mAPC_Int_P2_CD86 -> null
+120 Lymph_Node.mAPC_Int_P2_PD1 + Lymph_Node.PD1_mab <-> Lymph_Node.PD1mAb_mAPC_PD1
+121 Lymph_Node.mAPC_Int_P2_PD1 -> null
+122 Lymph_Node.mAPC_Int_P2_PDL1 -> null
+123 Lymph_Node.mAPC_Int_P2_PDL2 + Lymph_Node.PNT_Int_PD1 <-> Lymph_Node.[PNT_PD1-PDL2]
+124 Lymph_Node.mAPC_Int_P2_PDL2 -> null
+125 Lymph_Node.mAPC_PD1 -> null
+126 Lymph_Node.mAPC_PDL1 -> null
+127 Lymph_Node.mAPC_PDL2 -> null
+128 Lymph_Node.Naive_T -> Lymph_Node.Naive_T1
+129 Lymph_Node.Naive_T -> null
+130 Lymph_Node.Naive_T1 -> Lymph_Node.Naive_T
+131 Lymph_Node.Naive_T1 -> Lymph_Node.Primed_Naive_T
+132 Lymph_Node.NEG_Sig_PNT_CD80 -> null
+133 Lymph_Node.NEG_Sig_PNT_CD86 -> null
+134 Lymph_Node.NT_Int_CD28 + Lymph_Node.mAPC_Int_P1_CD80 <-> Lymph_Node.POS_Sig_NT_CD80
+135 Lymph_Node.NT_Int_CD28 + Lymph_Node.mAPC_Int_P1_CD86 <-> Lymph_Node.POS_Sig_NT_CD86
+136 Lymph_Node.NT_Int_CD28 -> null
+137 Lymph_Node.NT1_Int1 -> Lymph_Node.NT1_Int1 + Lymph_Node.NT_Int_CD28
+138 Lymph_Node.PD1_mab -> [Blood-Lymph].PD1_mabb
+139 Lymph_Node.PDL1_mab -> [Blood-Lymph].PDL1_mabb
+140 Lymph_Node.PDL1_mab + Lymph_Node.mAPC_Int_P2_PDL1 <-> Lymph_Node.[PDL1mAb-mAPC_PDL1]
+141 Lymph_Node.PDL1_mab + Lymph_Node.PNT_Int_PDL1 <-> Lymph_Node.[PDL1mAb-PNT_PDL1]
+142 Lymph_Node.PNT_CTLA4 -> null
+143 Lymph_Node.PNT_Int_CD28 + Lymph_Node.mAPC_Int_P2_CD80 <-> Lymph_Node.POS_Sig_PNT_CD80
+144 Lymph_Node.PNT_Int_CD28 -> null
+145 Lymph_Node.PNT_Int_CD80 + Lymph_Node.mAPC_Int_P2_PDL1 <-> Lymph_Node.[PNT_CD80-PDL1]
+146 Lymph_Node.PNT_Int_CD80 -> null
+147 Lymph_Node.PNT_Int_PD1 + Lymph_Node.mAPC_Int_P2_PDL1 <-> Lymph_Node.[PNT_PD1-PDL1]
+148 Lymph_Node.PNT_Int_PD1 + Lymph_Node.PD1_mab <-> Lymph_Node.PD1mAb_PNT_PD1
+149 Lymph_Node.PNT_Int_PD1 -> null
+150 Lymph_Node.PNT_Int_PDL1 + Lymph_Node.mAPC_Int_P2_PD1 <-> Lymph_Node.[PNT_PDL1-PD1]
+151 Lymph_Node.PNT_Int_PDL1 -> null
+152 Lymph_Node.PNT1_Int -> Lymph_Node.PNT_CTLA4 + Lymph_Node.PNT1_Int
+153 Lymph_Node.PNT1_Int -> Lymph_Node.PNT_Int_CD28 + Lymph_Node.PNT1_Int
+154 Lymph_Node.PNT1_Int -> Lymph_Node.PNT_Int_CD80 + Lymph_Node.PNT1_Int
+155 Lymph_Node.PNT1_Int -> Lymph_Node.PNT1_Int + Lymph_Node.PNT_Int_PD1
+156 Lymph_Node.PNT1_Int -> Lymph_Node.PNT1_Int + Lymph_Node.PNT_Int_PDL1
+157 Lymph_Node.Primed_Naive_T -> Lymph_Node.Primed_Naive_T1
+158 Lymph_Node.Primed_Naive_T1 -> Lymph_Node.Anergic_Naive_T
+159 Lymph_Node.Primed_Naive_T1 -> Lymph_Node.Primed_Naive_T
+160 Lymph_Node.Primed_Naive_T1 -> Lymph_Node.Prolif_Naive_T
+161 Lymph_Node.Prolif_Naive_T -> Lymph_Node.Effector_T
+162 Lymph_Node.Prolif_Naive_T -> null
+163 Lymph_Node.TrALN_CT_aCT -> null
+164 Lymph_Node.TrALN_CT_CD80 -> null
+165 Lymph_Node.TrALN_CT_CD86 -> null
+166 Lymph_Node.TregLN -> Lymph_Node.TregLN + Lymph_Node.TrLN_CTLA4
+167 Lymph_Node.TregLN + Lymph_Node.mAPC1 -> Lymph_Node.TregLN_mAPC + Lymph_Node.TregLN +
+Lymph_Node.mAPC1
+168 Lymph_Node.TregLN + Lymph_Node.Naive_T2 -> Lymph_Node.[TregLN-NT] + Lymph_Node.TregLN +
+Lymph_Node.Naive_T2
+169 Lymph_Node.TregLN + Lymph_Node.Primed_Naive_T2 -> Lymph_Node.[TregLN-PNT] + Lymph_Node.TregLN +
+Lymph_Node.Primed_Naive_T2
+170 Lymph_Node.TregLN_mAPC + Lymph_Node.mAPC -> null
+171 Lymph_Node.TregLN_mAPC -> null
+172 Lymph_Node.TregLN_mAPC1 -> Lymph_Node.[Tr-mAPC_CD80] + Lymph_Node.TregLN_mAPC1
+173 Lymph_Node.TregLN_mAPC1 -> Lymph_Node.[Tr-mAPC_CD86] + Lymph_Node.TregLN_mAPC1
+174 Lymph_Node.TregLN_mAPC1 -> Lymph_Node.[Tr-mAPC_CTLA4] + Lymph_Node.TregLN_mAPC1
+175 Lymph_Node.TrLN_CTLA4 + Lymph_Node.CTLA4_mab <-> Lymph_Node.TrLN_CT_aCT
+176 Lymph_Node.TrLN_CTLA4 -> null
+177 null -> [Blood-Lymph].CTLA4_mabB
+178 null -> [Blood-Lymph].PD1_mabb
+179 null -> [Blood-Lymph].PDL1_mabb
+180 null -> Lymph_Node.Naive_T
+181 null -> Lymph_Node.Prolif_Naive_T
+182 null -> Tumor.APC_T
+183 null -> Tumor.Cancer
+184 Peripheral.CTLA4_mabP_leaky <-> Lymph_Node.CTLA4_mab
+185 Peripheral.CTLA4_mabP_tight <-> Lymph_Node.CTLA4_mab
+186 Peripheral.EffT_P_f_Vasc -> Lungs.EffT_f_LungsVasc
+187 Peripheral.EffT_P_f_Vasc -> null
+188 Peripheral.PD1_mabP_leaky <-> Lymph_Node.PD1_mab
+189 Peripheral.PD1_mabP_tight <-> Lymph_Node.PD1_mab
+190 Peripheral.PDL1_mabP_leaky <-> Lymph_Node.PDL1_mab
+191 Peripheral.PDL1_mabP_tight <-> Lymph_Node.PDL1_mab
+192 Tumor.[C{CD80}] -> Tumor.[C{CD80}] + Tumor.[C5=CD80]
+193 Tumor.[C{PD1}] -> Tumor.[C2=PD1] + Tumor.[C{PD1}]
+194 Tumor.[C{PD1}{CD80}] -> Tumor.[C{PD1}{CD80}] + Tumor.[C9a=PD1]
+195 Tumor.[C{PD1}{CD80}] -> Tumor.[C{PD1}{CD80}] + Tumor.[C9b=CD80]
+196 Tumor.[C{PD1}{PDL1}] -> Tumor.[C6a=PD1] + Tumor.[C{PD1}{PDL1}]
+197 Tumor.[C{PD1}{PDL1}] -> Tumor.[C6b=PDL1] + Tumor.[C{PD1}{PDL1}]
+198 Tumor.[C{PD1}{PDL1}{CD80}] -> Tumor.[C{PD1}{PDL1}{CD80}] + Tumor.[C14a=PD1]
+199 Tumor.[C{PD1}{PDL1}{CD80}] -> Tumor.[C{PD1}{PDL1}{CD80}] + Tumor.[C14b=PDL1]
+200 Tumor.[C{PD1}{PDL1}{CD80}] -> Tumor.[C{PD1}{PDL1}{CD80}] + Tumor.[C14c=CD80]
+201 Tumor.[C{PD1}{PDL1}{PDL2}] -> Tumor.[C{PD1}{PDL1}{PDL2}] + Tumor.[C10a=PD1]
+202 Tumor.[C{PD1}{PDL1}{PDL2}] -> Tumor.[C{PD1}{PDL1}{PDL2}] + Tumor.[C10b=PDL1]
+203 Tumor.[C{PD1}{PDL1}{PDL2}] -> Tumor.[C{PD1}{PDL1}{PDL2}] + Tumor.[C10c=PDL2]
+204 Tumor.[C{PD1}{PDL1}{PDL2}{CD80}] -> Tumor.[C{PD1}{PDL1}{PDL2}{CD80}] + Tumor.[C16a=PD1]
+205 Tumor.[C{PD1}{PDL1}{PDL2}{CD80}] -> Tumor.[C{PD1}{PDL1}{PDL2}{CD80}] + Tumor.[C16b=PDL1]
+206 Tumor.[C{PD1}{PDL1}{PDL2}{CD80}] -> Tumor.[C{PD1}{PDL1}{PDL2}{CD80}] + Tumor.[C16c=PDL2]
+207 Tumor.[C{PD1}{PDL1}{PDL2}{CD80}] -> Tumor.[C{PD1}{PDL1}{PDL2}{CD80}] + Tumor.[C16d=CD80]
+208 Tumor.[C{PD1}{PDL2}] -> Tumor.[C{PD1}{PDL2}] + Tumor.[C7a=PD1]
+209 Tumor.[C{PD1}{PDL2}] -> Tumor.[C{PD1}{PDL2}] + Tumor.[C7b=PDL2]
+210 Tumor.[C{PD1}{PDL2}{CD80}] -> Tumor.[C{PD1}{PDL2}{CD80}] + Tumor.[C15a=PD1]
+211 Tumor.[C{PD1}{PDL2}{CD80}] -> Tumor.[C{PD1}{PDL2}{CD80}] + Tumor.[C15b=PDL2]
+212 Tumor.[C{PD1}{PDL2}{CD80}] -> Tumor.[C{PD1}{PDL2}{CD80}] + Tumor.[C15c=CD80]
+213 Tumor.[C{PDL1}] -> Tumor.[C{PDL1}] + Tumor.[C3=PDL1]
+214 Tumor.[C{PDL1}{CD80}] -> Tumor.[C{PDL1}{CD80}] + Tumor.[C11a=PDL1]
+215 Tumor.[C{PDL1}{CD80}] -> Tumor.[C{PDL1}{CD80}] + Tumor.[C11b=CD80]
+216 Tumor.[C{PDL1}{PDL2}] -> Tumor.[C{PDL1}{PDL2}] + Tumor.[C8a=PDL1]
+217 Tumor.[C{PDL1}{PDL2}] -> Tumor.[C{PDL1}{PDL2}] + Tumor.[C8b=PDL2]
+218 Tumor.[C{PDL1}{PDL2}{CD80}] -> Tumor.[C{PDL1}{PDL2}{CD80}] + Tumor.[C13a=PDL1]
+219 Tumor.[C{PDL1}{PDL2}{CD80}] -> Tumor.[C{PDL1}{PDL2}{CD80}] + Tumor.[C13b=PDL2]
+220 Tumor.[C{PDL1}{PDL2}{CD80}] -> Tumor.[C{PDL1}{PDL2}{CD80}] + Tumor.[C13c=CD80]
+221 Tumor.[C{PDL2}] -> Tumor.[C{PDL2}] + Tumor.[C4=PDL2]
+222 Tumor.[C{PDL2}{CD80}] -> Tumor.[C{PDL2}{CD80}] + Tumor.[C12a=PDL2]
+223 Tumor.[C{PDL2}{CD80}] -> Tumor.[C{PDL2}{CD80}] + Tumor.[C12b=CD80]
+224 Tumor.[C10a=PD1] + Tumor.PD1_mabt <-> Tumor.[C10a=PD1:aPD1]
+225 Tumor.[C10a=PD1] -> null
+226 Tumor.[C10b=PDL1] + Tumor.PDL1_mabt <-> Tumor.[C10b=PDL1:aPDL1]
+227 Tumor.[C10b=PDL1] -> null
+228 Tumor.[C10c=PDL2] -> null
+229 Tumor.[C11a=PDL1] + Tumor.PDL1_mabt <-> Tumor.[C11a=PDL1:aPDL1]
+230 Tumor.[C11a=PDL1] -> null
+231 Tumor.[C11b=CD80] -> null
+232 Tumor.[C12a=PDL2] -> null
+233 Tumor.[C12b=CD80] -> null
+234 Tumor.[C13a=PDL1] + Tumor.PDL1_mabt <-> Tumor.[C13a=PDL1:aPDL1]
+235 Tumor.[C13a=PDL1] -> null
+236 Tumor.[C13b=PDL2] -> null
+237 Tumor.[C13c=CD80] -> null
+238 Tumor.[C14a=PD1] + Tumor.[T14a=PDL1] <-> Tumor.[T14a=PDL1:PD1=C14a]
+239 Tumor.[C14a=PD1] -> null
+240 Tumor.[C14b=PDL1] + Tumor.[T14c=CD80] <-> Tumor.[T14c=CD80:PDL1=C14b]
+241 Tumor.[C14b=PDL1] + Tumor.PDL1_mabt <-> Tumor.[C14b=PDL1:aPDL1]
+242 Tumor.[C14b=PDL1] -> null
+243 Tumor.[C14c=CD80] + Tumor.[T14a=PDL1] <-> Tumor.[T14a=PDL1:CD80=C14c]
+244 Tumor.[C14c=CD80] -> null
+245 Tumor.[C15a=PD1] + Tumor.PD1_mabt <-> Tumor.[C15a=PD1:aPD1]
+246 Tumor.[C15a=PD1] -> null
+247 Tumor.[C15b=PDL2] + Tumor.[T15b=PD1] <-> Tumor.[T15b=PD1:PDL2=C15b]
+248 Tumor.[C15b=PDL2] -> null
+249 Tumor.[C15c=CD80] + Tumor.[T15a=PDL1] <-> Tumor.[T15a=PDL1:CD80=C15c]
+250 Tumor.[C15c=CD80] -> null
+251 Tumor.[C16a=PD1] + Tumor.[T16a=PDL1] <-> Tumor.[T16a=PDL1:PD1=C16a]
+252 Tumor.[C16a=PD1] + Tumor.PD1_mabt <-> Tumor.[C16a=PD1:aPD1]
+253 Tumor.[C16a=PD1] -> null
+254 Tumor.[C16b=PDL1] + Tumor.PDL1_mabt <-> Tumor.[C16b=PDL1:aPDL1]
+255 Tumor.[C16b=PDL1] -> null
+256 Tumor.[C16c=PDL2] + Tumor.[T16b=PD1] <-> Tumor.[T16b=PD1:PDL2=C16c]
+257 Tumor.[C16c=PDL2] -> null
+258 Tumor.[C16d=CD80] -> null
+259 Tumor.[C2=PD1] -> null
+260 Tumor.[C3=PDL1] -> null
+261 Tumor.[C4=PDL2] -> null
+262 Tumor.[C5=CD80] -> null
+263 Tumor.[C6a=PD1] + Tumor.PD1_mabt <-> Tumor.[C6a=PD1:aPD1]
+264 Tumor.[C6a=PD1] -> null
+265 Tumor.[C6b=PDL1] + Tumor.[T6b=PD1] <-> Tumor.[T6b=PD1:PDL1=C6b]
+266 Tumor.[C6b=PDL1] + Tumor.[T6c=CD80] <-> Tumor.[T6c=CD80:PDL1=C6b]
+267 Tumor.[C6b=PDL1] + Tumor.PDL1_mabt <-> Tumor.[C6b=PDL1:aPDL1]
+268 Tumor.[C6b=PDL1] -> null
+269 Tumor.[C7a=PD1] -> null
+270 Tumor.[C7b=PDL2] -> null
+271 Tumor.[C8a=PDL1] + Tumor.[T8b=CD80] <-> Tumor.[T8b=CD80:PDL1=C8a]
+272 Tumor.[C8a=PDL1] + Tumor.PDL1_mabt <-> Tumor.[C8a=PDL1:aPDL1]
+273 Tumor.[C8a=PDL1] -> null
+274 Tumor.[C8b=PDL2] -> null
+275 Tumor.[C9a=PD1] + Tumor.[T9=PDL1] <-> Tumor.[T9=PDL1-PD1=C9a]
+276 Tumor.[C9a=PD1] -> null
+277 Tumor.[C9b=CD80] -> null
+278 Tumor.[CTLA4:CD80_TrAT] -> null
+279 Tumor.[CTLA4:CD86_TrAT] -> null
+280 Tumor.[CTLA4_CTLA4-Trt] -> null
+281 Tumor.[T{PD1}{80}-{PDL1}{PDL2}C] -> Tumor.[T{PD1}{80}-{PDL1}{PDL2}C] + Tumor.[T8a=PD1]
+282 Tumor.[T{PD1}{80}-{PDL1}{PDL2}C] -> Tumor.[T{PD1}{80}-{PDL1}{PDL2}C] + Tumor.[T8b=CD80]
+283 Tumor.[T{PD1}{CD80}-{PDL1}C] -> Tumor.[T{PD1}{CD80}-{PDL1}C] + Tumor.[T3a=PD1]
+284 Tumor.[T{PD1}{CD80}-{PDL1}C] -> Tumor.[T{PD1}{CD80}-{PDL1}C] + Tumor.[T3b=CD80]
+285 Tumor.[T{PD1}{L1}{80}-{PD1}{80}{L1}{L2}C] -> Tumor.[T{PD1}{L1}{80}-{PD1}{80}{L1}{L2}C] +
+Tumor.[T16a=PDL1]
+286 Tumor.[T{PD1}{L1}{80}-{PD1}{80}{L1}{L2}C] -> Tumor.[T{PD1}{L1}{80}-{PD1}{80}{L1}{L2}C] +
+Tumor.[T16b=PD1]
+287 Tumor.[T{PD1}{L1}{80}-{PD1}{80}{L1}{L2}C] -> Tumor.[T{PD1}{L1}{80}-{PD1}{80}{L1}{L2}C] +
+Tumor.[T16c=CD80]
+288 Tumor.[T{PD1}{L1}{80}-{PD1}{80}{L1}C] -> Tumor.[T{PD1}{L1}{80}-{PD1}{80}{L1}C] + Tumor.[T14a=PDL1]
+289 Tumor.[T{PD1}{L1}{80}-{PD1}{80}{L1}C] -> Tumor.[T{PD1}{L1}{80}-{PD1}{80}{L1}C] + Tumor.[T14b=PD1]
+290 Tumor.[T{PD1}{L1}{80}-{PD1}{80}{L1}C] -> Tumor.[T{PD1}{L1}{80}-{PD1}{80}{L1}C] + Tumor.[T14c=CD80]
+291 Tumor.[T{PD1}{L1}{80}-{PD1}{L1}{L2}C] -> Tumor.[T{PD1}{L1}{80}-{PD1}{L1}{L2}C] + Tumor.[T10a=PDL1]
+292 Tumor.[T{PD1}{L1}{80}-{PD1}{L1}{L2}C] -> Tumor.[T{PD1}{L1}{80}-{PD1}{L1}{L2}C] + Tumor.[T10b=PD1]
+293 Tumor.[T{PD1}{L1}{80}-{PD1}{L1}{L2}C] -> Tumor.[T{PD1}{L1}{80}-{PD1}{L1}{L2}C] + Tumor.[T10c=CD80]
+294 Tumor.[T{PD1}{L1}{80}-{PD1}{L1}C] -> Tumor.[T{PD1}{L1}{80}-{PD1}{L1}C] + Tumor.[T6a=PDL1]
+295 Tumor.[T{PD1}{L1}{80}-{PD1}{L1}C] -> Tumor.[T{PD1}{L1}{80}-{PD1}{L1}C] + Tumor.[T6b=PD1]
+296 Tumor.[T{PD1}{L1}{80}-{PD1}{L1}C] -> Tumor.[T{PD1}{L1}{80}-{PD1}{L1}C] + Tumor.[T6c=CD80]
+297 Tumor.[T{PD1}{L1}-{PD1}{80}{PDL2}C] -> Tumor.[T{PD1}{L1}-{PD1}{80}{PDL2}C] + Tumor.[T15a=PDL1]
+298 Tumor.[T{PD1}{L1}-{PD1}{80}{PDL2}C] -> Tumor.[T{PD1}{L1}-{PD1}{80}{PDL2}C] + Tumor.[T15b=PD1]
+299 Tumor.[T{PD1}{L1}-{PD1}{L2}C] -> Tumor.[T{PD1}{L1}-{PD1}{L2}C] + Tumor.[T7a=PDL1]
+300 Tumor.[T{PD1}{L1}-{PD1}{L2}C] -> Tumor.[T{PD1}{L1}-{PD1}{L2}C] + Tumor.[T7b=PD1]
+301 Tumor.[T{PD1}{L1}-{PDL1}{80}{L2}C] -> Tumor.[T{PD1}{L1}-{PDL1}{80}{L2}C] + Tumor.[T13a=PDL1]
+302 Tumor.[T{PD1}{L1}-{PDL1}{80}{L2}C] -> Tumor.[T{PD1}{L1}-{PDL1}{80}{L2}C] + Tumor.[T13b=PD1]
+303 Tumor.[T{PD1}{L1}-{PDL1}{80}C] -> Tumor.[T{PD1}{L1}-{PDL1}{80}C] + Tumor.[T11a=PDL1]
+304 Tumor.[T{PD1}{L1}-{PDL1}{80}C] -> Tumor.[T{PD1}{L1}-{PDL1}{80}C] + Tumor.[T11b=PD1]
+305 Tumor.[T{PD1}{L1}-{PDL2}{80}C] -> Tumor.[T{PD1}{L1}-{PDL2}{80}C] + Tumor.[T12a=PDL1]
+306 Tumor.[T{PD1}{L1}-{PDL2}{80}C] -> Tumor.[T{PD1}{L1}-{PDL2}{80}C] + Tumor.[T12b=PD1]
+307 Tumor.[T{PD1}-{PDL2}C] -> Tumor.[T{PD1}-{PDL2}C] + Tumor.[T4=PD1]
+308 Tumor.[T{PDL1}-{CD80}{PD1}C] -> Tumor.[T{PDL1}-{CD80}{PD1}C] + Tumor.[T9=PDL1]
+309 Tumor.[T{PDL1}-{CD80}C] -> Tumor.[T{PDL1}-{CD80}C] + Tumor.[T5=PDL1]
+310 Tumor.[T{PDL1}-{PD1}C] -> Tumor.[T{PDL1}-{PD1}C] + Tumor.[T2=PDL1]
+311 Tumor.[T10a=PDL1] + Tumor.[C10a=PD1] <-> Tumor.[T10a=PDL1:PD1=C10a]
+312 Tumor.[T10a=PDL1] + Tumor.PDL1_mabt <-> Tumor.[T10a=PDL1:aPDL1]
+313 Tumor.[T10a=PDL1] -> null
+314 Tumor.[T10b=PD1] + Tumor.[C10b=PDL1] <-> Tumor.[T10b=PD1:PDL1=C10b]
+315 Tumor.[T10b=PD1] + Tumor.[C10c=PDL2] <-> Tumor.[T10b=PD1:PDL2=C10c]
+316 Tumor.[T10b=PD1] -> null
+317 Tumor.[T10c=CD80] + Tumor.[C10b=PDL1] <-> Tumor.[T10c=CD80:PDL1=C10b]
+318 Tumor.[T10c=CD80] -> null
+319 Tumor.[T11a=PDL1] + Tumor.[C11b=CD80] <-> Tumor.[T11a=PDL1:CD80=C11b]
+320 Tumor.[T11a=PDL1] + Tumor.PDL1_mabt <-> Tumor.[T11a=PDL1:aPDL1]
+321 Tumor.[T11a=PDL1] -> null
+322 Tumor.[T11b=PD1] + Tumor.[C11a=PDL1] <-> Tumor.[T11b=PD1:PDL1=C11a]
+323 Tumor.[T11b=PD1] -> null
+324 Tumor.[T12a=PDL1] + Tumor.[C12b=CD80] <-> Tumor.[T12a=PDL1:CD80=C12b]
+325 Tumor.[T12a=PDL1] + Tumor.PDL1_mabt <-> Tumor.[T12a=PDL1:aPDL1]
+326 Tumor.[T12a=PDL1] -> null
+327 Tumor.[T12b=PD1] + Tumor.[C12a=PDL2] <-> Tumor.[T12b=PD1:PDL2=C12a]
+328 Tumor.[T12b=PD1] -> null
+329 Tumor.[T13a=PDL1] + Tumor.[C13c=CD80] <-> Tumor.[T13a=PDL1:CD80=C13c]
+330 Tumor.[T13a=PDL1] -> null
+331 Tumor.[T13b=PD1] + Tumor.[C13a=PDL1] <-> Tumor.[T13b=PD1:PDL1=C13a]
+332 Tumor.[T13b=PD1] + Tumor.[C13b=PDL2] <-> Tumor.[T13b=PD1:PDL2=C13b]
+333 Tumor.[T13b=PD1] + Tumor.PD1_mabt <-> Tumor.[T13b=PD1:aPD1]
+334 Tumor.[T13b=PD1] -> null
+335 Tumor.[T14a=PDL1] + Tumor.PDL1_mabt <-> Tumor.[T14a=PDL1:aPDL1]
+336 Tumor.[T14a=PDL1] -> null
+337 Tumor.[T14b=PD1] + Tumor.[C14b=PDL1] <-> Tumor.[T14b=PD1:PDL1=C14b]
+338 Tumor.[T14b=PD1] -> null
+339 Tumor.[T14c=CD80] -> null
+340 Tumor.[T15a=PDL1] + Tumor.[C15a=PD1] <-> Tumor.[T15a=PDL1:PD1=C15a]
+341 Tumor.[T15a=PDL1] + Tumor.PDL1_mabt <-> Tumor.[T15a=PDL1:aPDL1]
+342 Tumor.[T15a=PDL1] -> null
+343 Tumor.[T15b=PD1] + Tumor.PD1_mabt <-> Tumor.[T15b=PD1:aPD1]
+344 Tumor.[T15b=PD1] -> null
+345 Tumor.[T16a=PDL1] + Tumor.[C16d=CD80] <-> Tumor.[T16a=PDL1:CD80=C16d]
+346 Tumor.[T16a=PDL1] + Tumor.PDL1_mabt <-> Tumor.[T16a=PDL1:aPDL1]
+347 Tumor.[T16a=PDL1] -> null
+348 Tumor.[T16b=PD1] + Tumor.[C16b=PDL1] <-> Tumor.[T16b=PD1:PDL1=C16b]
+349 Tumor.[T16b=PD1] + Tumor.PD1_mabt <-> Tumor.[T16b=PD1:aPD1]
+350 Tumor.[T16b=PD1] -> null
+351 Tumor.[T16c=CD80] + Tumor.[C16b=PDL1] <-> Tumor.[T16c=CD80:PDL1=C16b]
+352 Tumor.[T16c=CD80] -> null
+353 Tumor.[T2=PDL1] + Tumor.[C2=PD1] <-> Tumor.[T2=PDL1:PD1=C2]
+354 Tumor.[T2=PDL1] -> null
+355 Tumor.[T3a=PD1] + Tumor.[C3=PDL1] <-> Tumor.[T3a=PD1:PDL1=C3]
+356 Tumor.[T3a=PD1] + Tumor.PD1_mabt <-> Tumor.[T3a=PD1:aPD1]
+357 Tumor.[T3a=PD1] -> null
+358 Tumor.[T3b=CD80] + Tumor.[C3=PDL1] <-> Tumor.[T3b=CD80:PDL1=C3]
+359 Tumor.[T3b=CD80] -> null
+360 Tumor.[T4=PD1] + Tumor.[C4=PDL2] <-> Tumor.[T4=PD1:PDL2=C4]
+361 Tumor.[T4=PD1] + Tumor.PD1_mabt <-> Tumor.[T4=PD1:aPD1]
+362 Tumor.[T4=PD1] -> null
+363 Tumor.[T5=PDL1] + Tumor.[C5=CD80] <-> Tumor.[T5=PDL1:CD80=C5]
+364 Tumor.[T5=PDL1] + Tumor.PDL1_mabt <-> Tumor.[T5=PDL1:aPDL1]
+365 Tumor.[T5=PDL1] -> null
+366 Tumor.[T6a=PDL1] + Tumor.[C6a=PD1] <-> Tumor.[T6a=PDL1:PD1=C6a]
+367 Tumor.[T6a=PDL1] + Tumor.PDL1_mabt <-> Tumor.[T6a=PDL1:aPDL1]
+368 Tumor.[T6a=PDL1] -> null
+369 Tumor.[T6b=PD1] + Tumor.PD1_mabt <-> Tumor.[T6b=PD1:aPD1]
+370 Tumor.[T6b=PD1] -> null
+371 Tumor.[T6c=CD80] -> null
+372 Tumor.[T7a=PDL1] + Tumor.[C7a=PD1] <-> Tumor.[T7a=PDL1:PD1=C7a]
+373 Tumor.[T7a=PDL1] -> null
+374 Tumor.[T7b=PD1] + Tumor.[C7b=PDL2] <-> Tumor.[T7b=PD1:PDL2=C7b]
+375 Tumor.[T7b=PD1] -> null
+376 Tumor.[T8a=PD1] + Tumor.[C8a=PDL1] <-> Tumor.[T8a=PD1:PDL1=C8a]
+377 Tumor.[T8a=PD1] + Tumor.[C8b=PDL2] <-> Tumor.[T8a=PD1:PDL2=C8b]
+378 Tumor.[T8a=PD1] -> null
+379 Tumor.[T8b=CD80] -> null
+380 Tumor.[T9=PDL1] + Tumor.[C9b=CD80] <-> Tumor.[T9=PDL1-CD80=C9b]
+381 Tumor.[T9=PDL1] + Tumor.PDL1_mabt <-> Tumor.[T9=PDL1:aPDL1]
+382 Tumor.[T9=PDL1] -> null
+383 Tumor.APC_T -> null
+384 Tumor.C_DebrisT + Tumor.APC_T -> Tumor.mAPC_T
+385 Tumor.C_DebrisT -> Lymph_Node.C_DebrisLN
+386 Tumor.C_DebrisT -> null
+387 Tumor.C_DebrisT -> null
+388 Tumor.C_DebrisT -> null
+389 Tumor.Cancer -> (AntSpread) Tumor.C_DebrisT
+390 Tumor.CD80_mAPCT -> null
+391 Tumor.CD80_TeffT + Tumor.PDL1_TregT <-> Tumor.[PDL1:CD80_TrTeff]
+392 Tumor.CD80_TeffT -> null
+393 Tumor.CD80_TeffT1 -> null
+394 Tumor.CD86_mAPCT -> null
+395 Tumor.CTLA4_mabt <-> Lymph_Node.CTLA4_mab
+396 Tumor.CTLA4_TregT + Tumor.CD80_mAPCT <-> Tumor.[CTLA4:CD80_TrAT]
+397 Tumor.CTLA4_TregT + Tumor.CD86_mAPCT <-> Tumor.[CTLA4:CD86_TrAT]
+398 Tumor.CTLA4_TregT + Tumor.CTLA4_mabt <-> Tumor.[CTLA4_CTLA4-Trt]
+399 Tumor.CTLA4_TregT -> null
+400 Tumor.Effector_TT -> null
+401 Tumor.Effector_TT -> null
+402 Tumor.Effector_TT -> Tumor.Effector_TT_Res
+403 Tumor.Effector_TT_C_Eng + Tumor.Cancer1 -> Tumor.Effector_TT_C_Eng + Tumor.TC1 + Tumor.Cancer1
+404 Tumor.EffT_AR_Vasc -> null
+405 Tumor.EffT_AR_Vasc -> Tumor.Effector_TT
+406 Tumor.EffT_b_Vasc -> null
+407 Tumor.EffT_b_Vasc -> Tumor.EffT_AR_Vasc
+408 Tumor.EffT_b_Vasc -> Tumor.EffT_f_Vasc
+409 Tumor.EffT_f_Vasc + Tumor.Tmr_Free_Sites -> Tumor.EffT_b_Vasc + Tumor.Tmr_Free_Sites
+410 Tumor.EffT_f_Vasc -> Lungs.EffT_f_LungsVasc
+411 Tumor.EffT_f_Vasc -> null
+412 Tumor.mAPC_T -> Lymph_Node.mAPC
+413 Tumor.mAPC_T -> null
+414 Tumor.mAPC_T -> null
+415 Tumor.mAPCT_EngTregT -> Tumor.CD80_mAPCT + Tumor.mAPCT_EngTregT
+416 Tumor.mAPCT_EngTregT -> Tumor.CD86_mAPCT + Tumor.mAPCT_EngTregT
+417 Tumor.MDSC_T + Tumor.Effector_TT_MDSCs -> Tumor.MDSCsT_Teff + Tumor.Effector_TT_MDSCs +
+Tumor.MDSC_T
+418 Tumor.MDSCsT_EngTeff -> Tumor.PD1_MDSCsT + Tumor.MDSCsT_EngTeff
+419 Tumor.MDSCsT_EngTeff -> Tumor.PDL1_MDSCsT + Tumor.MDSCsT_EngTeff
+420 Tumor.MDSCsT_Teff + Tumor.Effector_TT -> null
+421 Tumor.MDSCsT_Teff -> null
+422 Tumor.PD1_mabt <-> Lymph_Node.PD1_mab
+423 Tumor.PD1_mabt + Tumor.[C14a=PD1] <-> Tumor.[C14a=PD1:aPD1]
+424 Tumor.PD1_mabt + Tumor.[C2=PD1] <-> Tumor.[C2=PD1:aPD1]
+425 Tumor.PD1_mabt + Tumor.[C7a=PD1] <-> Tumor.[C7a=PD1:aPD1]
+426 Tumor.PD1_mabt + Tumor.[C9a=PD1] <-> Tumor.[C9a=PD1:aPD1]
+427 Tumor.PD1_mabt + Tumor.[T10b=PD1] <-> Tumor.[T10b=PD1:aPD1]
+428 Tumor.PD1_mabt + Tumor.[T11b=PD1] <-> Tumor.[T11b=PD1:aPD1]
+429 Tumor.PD1_mabt + Tumor.[T12b=PD1] <-> Tumor.[T12b=PD1:aPD1]
+430 Tumor.PD1_mabt + Tumor.[T14b=PD1] <-> Tumor.[T14b=PD1:aPD1]
+431 Tumor.PD1_mabt + Tumor.[T7b=PD1] <-> Tumor.[T7b=PD1:aPD1]
+432 Tumor.PD1_mabt + Tumor.[T8a=PD1] <-> Tumor.[T8a=PD1:aPD1]
+433 Tumor.PD1_mabt + Tumor.PD1_TeffT <-> Tumor.[PD1:aPD1_Teff]
+434 Tumor.PD1_MDSCsT + Tumor.PD1_mabt <-> Tumor.[PD1:aPD1_MDSCs]
+435 Tumor.PD1_MDSCsT + Tumor.PDL1_TeffT1 <-> Tumor.[PD1:PDL1_MDSCT]
+436 Tumor.PD1_MDSCsT -> null
+437 Tumor.PD1_TeffT + Tumor.PDL1_TregT <-> Tumor.[PDL1:PD1_TrTeff]
+438 Tumor.PD1_TeffT -> null
+439 Tumor.PD1_TeffT1 + Tumor.PD1_mabt <-> Tumor.[PD1:aPD1_Teff1]
+440 Tumor.PD1_TeffT1 -> null
+441 Tumor.PD1_TregT + Tumor.PD1_mabt <-> Tumor.[PD1:aPD1_Treg]
+442 Tumor.PD1_TregT -> null
+443 Tumor.PDL1_mabt <-> Lymph_Node.PDL1_mab
+444 Tumor.PDL1_mabt + Tumor.[C3=PDL1] <-> Tumor.[C3=PDL1:aPDL1]
+445 Tumor.PDL1_mabt + Tumor.[T13a=PDL1] <-> Tumor.[T13a=PDL1:aPDL1]
+446 Tumor.PDL1_mabt + Tumor.[T2=PDL1] <-> Tumor.[T2=PDL1:aPDL1]
+447 Tumor.PDL1_mabt + Tumor.[T7a=PDL1] <-> Tumor.[T7a=PDL1:aPDL1]
+448 Tumor.PDL1_mabt + Tumor.PDL1_TeffT <-> Tumor.[PDL1:aPDL1_Teff]
+417 Tumor.PDL1_mabt + Tumor.PDL1_TeffT1 <-> Tumor.[PDL1:aPDL1_Teff1]
+418 Tumor.PDL1_MDSCsT + Tumor.CD80_TeffT1 <-> Tumor.[PDL1:CD80_MDSCT]
+419 Tumor.PDL1_MDSCsT + Tumor.PD1_TeffT1 <-> Tumor.[PDL1:PD1_MDSCT]
+420 Tumor.PDL1_MDSCsT + Tumor.PDL1_mabt <-> Tumor.[PDL1:aPDL1_MDSCs]
+421 Tumor.PDL1_MDSCsT -> null
+422 Tumor.PDL1_TeffT + Tumor.PD1_TregT <-> Tumor.[PD1:PDL1_TrTeff]
+423 Tumor.PDL1_TeffT -> null
+424 Tumor.PDL1_TeffT1 -> null
+425 Tumor.PDL1_TregT + Tumor.PDL1_mabt <-> Tumor.[PDL1:aPDL1_Treg]
+426 Tumor.PDL1_TregT -> null
+427 Tumor.T_Recover_Can_Dead -> null
+428 Tumor.TC1 + Tumor.Cancer -> (AntSpread) Tumor.C_DebrisT
+429 Tumor.TC1 -> Tumor.T_Recover_Can_Dead
+430 Tumor.TC2 + Tumor.Effector_TT -> Tumor.TC2
+431 Tumor.Teff_EngMDSC -> Tumor.Teff_EngMDSC + Tumor.CD80_TeffT1
+432 Tumor.Teff_EngMDSC -> Tumor.Teff_EngMDSC + Tumor.PD1_TeffT1
+433 Tumor.Teff_EngMDSC -> Tumor.Teff_EngMDSC + Tumor.PDL1_TeffT1
+434 Tumor.Teff_EngTregT -> Tumor.CD80_TeffT + Tumor.Teff_EngTregT
+435 Tumor.Teff_EngTregT -> Tumor.PD1_TeffT + Tumor.Teff_EngTregT
+436 Tumor.Teff_EngTregT -> Tumor.PDL1_TeffT + Tumor.Teff_EngTregT
+437 Tumor.TregT + Tumor.Effector_TT_TregT -> Tumor.TregT_Teff + Tumor.Effector_TT_TregT + Tumor.TregT
+438 Tumor.TregT_EngAPC -> Tumor.CTLA4_TregT + Tumor.TregT_EngAPC
+439 Tumor.TregT_EngTeff -> Tumor.PD1_TregT + Tumor.TregT_EngTeff
+440 Tumor.TregT_EngTeff -> Tumor.PDL1_TregT + Tumor.TregT_EngTeff
+441 Tumor.TregT_Teff + Tumor.Effector_TT -> null
+442 Tumor.TregT_Teff -> null
