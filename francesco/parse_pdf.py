@@ -5,7 +5,14 @@ import ndjson
 openai.api_key = ''
 
 table_to_read = 1
+batch_size = 10
 n_batches_to_test = None ## set to None if you want to process the whole file
+
+print(f"parsing table {table_to_read} with batch size = {batch_size}")
+if n_batches_to_test is not None:
+    print(f" .. testing on only {n_batches_to_test} batches")
+else:
+    print(" .. parsing all the file!!!")
 
 table_to_input_example = {
     1: """
@@ -73,10 +80,10 @@ def split_table_in_batches(data, n):
             
 
 # Define the input data (this could be a large text table)
-with open(f'/home/jovyan/work/dufourspitze_16/francesco/table_{table_to_read}.txt', 'r') as f:
+with open(f'/home/jovyan/work/dufourspitze_16/data/table_{table_to_read}.txt', 'r') as f:
     table_data = f.read()
 
-batches = split_table_in_batches(table_data, 5)
+batches = split_table_in_batches(table_data, batch_size)
 
 json_data = []
 if n_batches_to_test is not None:
