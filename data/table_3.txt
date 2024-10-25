@@ -3,9 +3,7 @@
 3 Distribution of Anti-CTLA-4 mAb between the central and tight tissues
 4 Distribution of Anti-CTLA-4 mAb between the central and tumor compartments
 5 Clearance of Anti-CTLA-4 mAb from the central compartment
-6
-The generation of Effector T cells and their migration into the blood/plasma from the designated number of lymph nodes as a
-multiple of that from a single lymph node
+6 The generation of Effector T cells and their migration into the blood/plasma from the designated number of lymph nodes as a multiple of that from a single lymph node
 7 Trafficking of free Effector T cells from blood to GI vasculature
 8 Trafficking of free Effector T cells from blood to Liver vasculature
 9 Trafficking of free Effector T cells from blood to Spleen vasculature
@@ -58,11 +56,9 @@ multiple of that from a single lymph node
 56 Detachment of bound Effector T cells in the Lungs vasculature
 57 Turnover of bound Effector T cells in the Lungs vasculature
 58 Depletion of bound Effector T cells in the Lungs vasculature
-59 Interaction at the immunological synapse between CD80 on Primed Naive T cells and PD-L1 on T Regulatory cells in the
-lymph node
+59 Interaction at the immunological synapse between CD80 on Primed Naive T cells and PD-L1 on T Regulatory cells in the lymph node
 60 CD80 expression threshold on Primed Naive T cells for interaction with T Regulatory cells in the lymph node
-61 Interaction at the immunological synapse between PD-1 on Primed Naive T cells and PD-L1 on T Regulatory cells in the
-lymph node
+61 Interaction at the immunological synapse between PD-1 on Primed Naive T cells and PD-L1 on T Regulatory cells in the lymph node
 62 Interaction at the immunological synapse between PD-1 on Primed Naive T cells and Anti-PD-1 mAb in the lymph node
 63 PD-1 expression threshold on Primed Naive T cells for interaction with T Regulatory cells in the lymph node
 64 Interaction at the immunological synapse between PD-L1 on Primed Naive T cells and Anti-PD-L1 mAb in the lymph node
@@ -82,8 +78,7 @@ lymph node
 78 Interaction at the immunological synapse between CD86 on mAPCs and CTLA-4 on T Regulatory cells in the lymph node
 79 Interaction at the immunological synapse between CTLA-4 on T Regulatory cells and Anti-CTLA-4 mAb in the lymph node
 80 CTLA-4 expression threshold on T Regulatory cells for interaction with mAPCs in the lymph node
-81 Interaction at the immunological synapse between PD-L1 on Primed Naive T cells and PD-1 on T Regulatory cells in the
-lymph node
+81 Interaction at the immunological synapse between PD-L1 on Primed Naive T cells and PD-1 on T Regulatory cells in the lymph node
 82 Interaction at the immunological synapse between PD-1 on T Regulatory cells and Anti-PD-1 mAb in the lymph node
 83 PD-1 expression threshold on Regulatory cells for interaction with Primed Naive T cells in the lymph node
 84 Interaction at the immunological synapse between PD-L1 on T Regulatory cells and Anti-PD-L1 mAb in the lymph node
@@ -91,8 +86,7 @@ lymph node
 86 Phagocytosis of tumor debris by resident APCs in the lymph node
 87 Decay of tumor debris in the lymph nodes
 88 Lymph return of Anti-CTLA-4 to the blood
-89 Interaction at the immunological synapse between CTLA-4 on Primed Naïve T cells during priming interactions with mAPCS
-and Anti-CTLA-4 mAb in the lymph node
+89 Interaction at the immunological synapse between CTLA-4 on Primed Naïve T cells during priming interactions with mAPCS and Anti-CTLA-4 mAb in the lymph node
 90 Internalization of the CTLA-4 receptor on Primed Naïve T cells following its binding to Anti-CTLA-4 mAb
 91 Migration of Effector T cells from the lymph node into the blood (removal linked to regeneration by algebraic equation below)
 92 Return of Effector T cells from lymph node extravascular space to the Lungs vascular space
@@ -105,8 +99,7 @@ and Anti-CTLA-4 mAb in the lymph node
 99 PD-L1 expression by total mAPCs in the lymph node
 100 PD-L2 expression by total mAPCs in the lymph node
 101 Natural turnover of mAPCs in the lymph node
-102 Inactivation of mAPCs in the lymph node as a result of CTLA-4 secreted from T Regulatory cells in the lymph nodes binding
-to CD80 and CD86
+102 Inactivation of mAPCs in the lymph node as a result of CTLA-4 secreted from T Regulatory cells in the lymph nodes binding to CD80 and CD86
 103 CD80 expression threshold on mAPCs in the lymph node
 104 CD86 expression threshold on mAPCs in the lymph node
 105 CD80 expression by mAPCs that interact with Naive T cells in the lymph node
@@ -124,8 +117,7 @@ to CD80 and CD86
 117 Interaction at the immunological synapse between CD86 on mAPCs and CTLA-4 on Primed Naïve T cells in the lymph node
 118 Interaction at the immunological synapse between CD86 on mAPCs and CD28 on Primed Naïve T cells in the lymph node
 119 CD86 expression threshold on mAPCs for interaction with Primed Naive T cells in the lymph node
-120 Interaction at the immunological synapse between PD-1 on mAPCs cells during priming interactions with Primed Naïve T
-cells and Anti-PD-1 mAb in the lymph node
+120 Interaction at the immunological synapse between PD-1 on mAPCs cells during priming interactions with Primed Naïve T cells and Anti-PD-1 mAb in the lymph node
 121 PD-1 expression threshold on mAPCs for interaction with Primed Naive T cells in the lymph node
 122 PD-L1 expression threshold on mAPCs for interaction with Primed Naive T cells in the lymph node
 123 Interaction at the immunological synapse between PD-L2 on mAPCs and PD-1 on Primed Naïve T cells in the lymph node
@@ -137,28 +129,23 @@ cells and Anti-PD-1 mAb in the lymph node
 129 Naïve T cells cycling out of the lymph node
 130 Naïve T cells being disengaged in the first priming phase without undergoing successful priming in the lymph node
 131 Naïve T cells successfully undergoing the first priming phase in the lymph node
-132 Transendocytosis of the CD80 receptors on mAPCs through CTLA-4 binding and internalization on Primed Naïve T cells in
-the lymph node
-133 Transendocytosis of the CD86 receptors on mAPCs through CTLA-4 binding and internalization on Primed Naïve T cells in
-the lymph node
+132 Transendocytosis of the CD80 receptors on mAPCs through CTLA-4 binding and internalization on Primed Naïve T cells in the lymph node
+133 Transendocytosis of the CD86 receptors on mAPCs through CTLA-4 binding and internalization on Primed Naïve T cells in the lymph node
 134 Interaction at the immunological synapse between CD80 on mAPCs cells and CD28 on Naïve T cells in the lymph node
 135 Interaction at the immunological synapse between CD86 on mAPCs cells and CD28 on Naïve T cells in the lymph node
 136 CD28 expression threshold on Naïve T cells in the lymph node
 137 Naïve T cells expressing CD28 in the lymph node
 138 Lymph return of Anti-PD-1 to the blood
 139 Lymph return of Anti-PD-L1 to the blood
-140 Interaction at the immunological synapse between PD-L1 on mAPCs involved in the second priming phase and Anti-PD-L1
-mAb in the lymph node
-141 Interaction at the immunological synapse between PD-L1 on Primed Naïve T cells involved in the second priming phase with
-mAPCs and Anti-PD-L1 mAb in the lymph node
+140 Interaction at the immunological synapse between PD-L1 on mAPCs involved in the second priming phase and Anti-PD-L1 mAb in the lymph node
+141 Interaction at the immunological synapse between PD-L1 on Primed Naïve T cells involved in the second priming phase with mAPCs and Anti-PD-L1 mAb in the lymph node
 142 CTLA-4 expression threshold on Primed Naïve T cells for interaction with mAPCs in the lymph node
 143 Interaction at the immunological synapse between CD80 on mAPCs and CD28 on Primed Naïve T cells in the lymph node
 144 CD28 expression threshold on Primed Naïve T cells for interaction with mAPCs in the lymph node
 145 Interaction at the immunological synapse between PD-L1 on mAPCs and CD80 on Primed Naïve T cells in the lymph node
 146 CD80 expression threshold on Primed Naïve T cells for interaction with mAPCs in the lymph node
 147 Interaction at the immunological synapse between PD-L1 on mAPCs and PD-1 on Primed Naïve T cells in the lymph node
-148 Interaction at the immunological synapse between PD-1 on Primed Naïve T cells involved in the second priming phase with
-mAPCs and Anti-PD-1 mAb in the lymph node
+148 Interaction at the immunological synapse between PD-1 on Primed Naïve T cells involved in the second priming phase with mAPCs and Anti-PD-1 mAb in the lymph node
 149 PD-1 expression threshold on Primed Naïve T cells for interaction with mAPCs in the lymph node
 150 Interaction at the immunological synapse between PD-1 on mAPCs and PD-L1 on Primed Naïve T cells in the lymph node
 151 PD-L1 expression threshold on Primed Naïve T cells for interaction with mAPCs in the lymph node
@@ -170,15 +157,12 @@ mAPCs and Anti-PD-1 mAb in the lymph node
 157 Primed Naïve T cells engaging in the second priming phase in the lymph node
 158 Primed Naïve T cells unsuccessfully undergoing the second priming phase to become anergic T cells in the lymph node
 159 Primed Naïve T cells engaged in the second priming phase disengaging form being primed in the lymph node
-160 Primed Naïve T cells engaged in the second priming phase successfully undergoing priming to become Proliferating T cells in
-the lymph node
+160 Primed Naïve T cells engaged in the second priming phase successfully undergoing priming to become Proliferating T cells in the lymph node
 161 Proliferating T cells becoming fully activated Effector T cells in the lymph node
 162 Sets the proliferation threshold for Proliferating T cells in the lymph node
 163 Internalization of the Anti-CTLA-4 antibodies bound to CTLA-4 receptors on T Regulatory cells in the lymph node
-164 Transendocytosis of the CD80 receptors on mAPCs through CTLA-4 binding and internalization on T Regulatory cells in the
-lymph node
-165 Transendocytosis of the CD86 receptors on mAPCs through CTLA-4 binding and internalization on T Regulatory cells in the
-lymph node
+164 Transendocytosis of the CD80 receptors on mAPCs through CTLA-4 binding and internalization on T Regulatory cells in the lymph node
+165 Transendocytosis of the CD86 receptors on mAPCs through CTLA-4 binding and internalization on T Regulatory cells in the lymph node
 166 CTLA-4 expression on the surface of non-interacting T Regulatory cells in the lymph node
 167 Interaction between T Regulatory cells and mAPCs in lymph node
 168 Interaction between T Regulatory cells and Naïve T cells in lymph node
@@ -237,86 +221,62 @@ lymph node
 221 PD-L2 expression by the T4 subtype of cancer cells in the tumor
 222 PD-L2 expression by the T12 subtype of cancer cells in the tumor
 223 CD80 expression by the T12 subtype of cancer cells in the tumor
-224 Interaction at the immunological synapse between PD-1 expressed by the T10 subtype of cancer cells and Anti-PD-1 in the
-tumor
+224 Interaction at the immunological synapse between PD-1 expressed by the T10 subtype of cancer cells and Anti-PD-1 in the tumor
 225 PD-1 expression threshold by the T10 subtype of cancer cells in the tumor
-226 Interaction at the immunological synapse between PD-L1 expressed by the T10 subtype of cancer cells and Anti-PD-L1 in the
-tumor
+226 Interaction at the immunological synapse between PD-L1 expressed by the T10 subtype of cancer cells and Anti-PD-L1 in the tumor
 227 PD-L1 expression threshold by the T10 subtype of cancer cells in the tumor
 228 PD-L2 expression threshold by the T10 subtype of cancer cells in the tumor
-229 Interaction at the immunological synapse between PD-L1 expressed by the T11 subtype of cancer cells and Anti-PD-L1 in the
-tumor
+229 Interaction at the immunological synapse between PD-L1 expressed by the T11 subtype of cancer cells and Anti-PD-L1 in the tumor
 230 PD-L1 expression threshold by the T11 subtype of cancer cells in the tumor
 231 CD80 expression threshold by the T11 subtype of cancer cells in the tumor
 232 PD-L2 expression threshold by the T12 subtype of cancer cells in the tumor
 233 CD80 expression threshold by the T12 subtype of cancer cells in the tumor
-234 Interaction at the immunological synapse between PD-L1 expressed by the T13 subtype of cancer cells and Anti-PD-L1 in the
-tumor
+234 Interaction at the immunological synapse between PD-L1 expressed by the T13 subtype of cancer cells and Anti-PD-L1 in the tumor
 235 PD-L1 expression threshold by the T13 subtype of cancer cells in the tumor
 236 PD-L2 expression threshold by the T13 subtype of cancer cells in the tumor
 237 CD80 expression by the T13 subtype of cancer cells in the tumor
-238 Interaction at the immunological synapse between PD-1 expressed by the T14 subtype of cancer cells and PD-L1 on the
-complementary Effector T cells in the tumor
+238 Interaction at the immunological synapse between PD-1 expressed by the T14 subtype of cancer cells and PD-L1 on the complementary Effector T cells in the tumor
 239 PD-1 expression threshold by the T14 subtype of cancer cells in the tumor
-240 Interaction at the immunological synapse between PD-L1 expressed by the T14 subtype of cancer cells and CD80 on the
-complementary Effector T cells in the tumor
-241 Interaction at the immunological synapse between PD-L1 expressed by the T14 subtype of cancer cells and Anti-PD-L1 in the
-tumor
+240 Interaction at the immunological synapse between PD-L1 expressed by the T14 subtype of cancer cells and CD80 on the complementary Effector T cells in the tumor
+241 Interaction at the immunological synapse between PD-L1 expressed by the T14 subtype of cancer cells and Anti-PD-L1 in the tumor
 242 PD-L1 expression threshold by the T14 subtype of cancer cells in the tumor
-243 Interaction at the immunological synapse between CD80 expressed by the T14 subtype of cancer cells and PD-L1 on the
-complementary Effector T cells in the tumor
+243 Interaction at the immunological synapse between CD80 expressed by the T14 subtype of cancer cells and PD-L1 on the complementary Effector T cells in the tumor
 244 CD80 expression threshold by the T14 subtype of cancer cells in the tumor
-245 Interaction at the immunological synapse between PD-1 expressed by the T15 subtype of cancer cells and Anti-PD-1 in the
-tumor
+245 Interaction at the immunological synapse between PD-1 expressed by the T15 subtype of cancer cells and Anti-PD-1 in the tumor
 246 PD-1 expression threshold by the T15 subtype of cancer cells in the tumor
-247 Interaction at the immunological synapse between PD-L2 expressed by the T15 subtype of cancer cells and PD-1 on the
-complementary Effector T cells in the tumor
+247 Interaction at the immunological synapse between PD-L2 expressed by the T15 subtype of cancer cells and PD-1 on the complementary Effector T cells in the tumor
 248 PD-L2 expression threshold by the T15 subtype of cancer cells in the tumor
-249 Interaction at the immunological synapse between CD80 expressed by the T15 subtype of cancer cells and PD-L1 on the
-complementary Effector T cells in the tumor
+249 Interaction at the immunological synapse between CD80 expressed by the T15 subtype of cancer cells and PD-L1 on the complementary Effector T cells in the tumor
 250 CD80 expression threshold by the T15 subtype of cancer cells in the tumor
-251 Interaction at the immunological synapse between PD-1 expressed by the T16 subtype of cancer cells and PD-L1 on the
-complementary Effector T cells in the tumor
-252 Interaction at the immunological synapse between PD-1 expressed by the T16 subtype of cancer cells and Anti-PD-1 in the
-tumor
+251 Interaction at the immunological synapse between PD-1 expressed by the T16 subtype of cancer cells and PD-L1 on the complementary Effector T cells in the tumor
+252 Interaction at the immunological synapse between PD-1 expressed by the T16 subtype of cancer cells and Anti-PD-1 in the tumor
 253 PD-1 expression threshold by the T16 subtype of cancer cells in the tumor
-254 Interaction at the immunological synapse between PD-L1 expressed by the T16 subtype of cancer cells and Anti-PD-L1 in the
-tumor
+254 Interaction at the immunological synapse between PD-L1 expressed by the T16 subtype of cancer cells and Anti-PD-L1 in the tumor
 255 PD-L1 expression threshold by the T16 subtype of cancer cells in the tumor
-256 Interaction at the immunological synapse between PD-L2 expressed by the T16 subtype of cancer cells and PD-1 on the
-complementary Effector T cells in the tumor
+256 Interaction at the immunological synapse between PD-L2 expressed by the T16 subtype of cancer cells and PD-1 on the complementary Effector T cells in the tumor
 257 PD-L2 expression threshold by the T16 subtype of cancer cells in the tumor
 258 CD80 expression threshold by the T16 subtype of cancer cells in the tumor
 259 PD-1 expression threshold by the T2 subtype of cancer cells in the tumor
 260 PD-L1 expression threshold by the T3 subtype of cancer cells in the tumor
 261 PD-L2 expression threshold by the T4 subtype of cancer cells in the tumor
 262 CD80 expression threshold by the T5 subtype of cancer cells in the tumor
-263 Interaction at the immunological synapse between PD-L2 expressed by the T6 subtype of cancer cells and PD-1 on the
-complementary Effector T cells in the tumor
+263 Interaction at the immunological synapse between PD-L2 expressed by the T6 subtype of cancer cells and PD-1 on the complementary Effector T cells in the tumor
 264 PD-1 expression threshold by the T6 subtype of cancer cells in the tumor
-265 Interaction at the immunological synapse between PD-L1 expressed by the T6 subtype of cancer cells and PD-1 on the
-complementary Effector T cells in the tumor
-266 Interaction at the immunological synapse between PD-L1 expressed by the T6 subtype of cancer cells and CD80 on the
-complementary Effector T cells in the tumor
-267 Interaction at the immunological synapse between PD-L1 expressed by the T6 subtype of cancer cells and Anti-PD-L1 in the
-tumor
+265 Interaction at the immunological synapse between PD-L1 expressed by the T6 subtype of cancer cells and PD-1 on the complementary Effector T cells in the tumor
+266 Interaction at the immunological synapse between PD-L1 expressed by the T6 subtype of cancer cells and CD80 on the complementary Effector T cells in the tumor
+267 Interaction at the immunological synapse between PD-L1 expressed by the T6 subtype of cancer cells and Anti-PD-L1 in the tumor
 268 PD-L1 expression threshold by the T6 subtype of cancer cells in the tumor
 269 PD-1 expression threshold by the T7 subtype of cancer cells in the tumor
 270 PD-L2 expression threshold by the T7 subtype of cancer cells in the tumor
-271 Interaction at the immunological synapse between PD-L1 expressed by the T8 subtype of cancer cells and CD80 on Effector T
-cells in the tumor
-272 Interaction at the immunological synapse between PD-L1 expressed by the T8 subtype of cancer cells and Anti-PD-L1 in the
-tumor
+271 Interaction at the immunological synapse between PD-L1 expressed by the T8 subtype of cancer cells and CD80 on Effector T cells in the tumor
+272 Interaction at the immunological synapse between PD-L1 expressed by the T8 subtype of cancer cells and Anti-PD-L1 in the tumor
 273 PD-L1 expression threshold by the T8 subtype of cancer cells in the tumor
 274 PD-L2 expression threshold by the T8 subtype of cancer cells in the tumor
-275 Interaction at the immunological synapse between PD-1 expressed by the T9 subtype of cancer cells and PD-L1 on the
-complementary Effector T cells in the tumor
+275 Interaction at the immunological synapse between PD-1 expressed by the T9 subtype of cancer cells and PD-L1 on the complementary Effector T cells in the tumor
 276 PD-1 expression threshold by the T9 subtype of cancer cells in the tumor
 277 CD80 expression threshold by the T9 subtype of cancer cells in the tumor
-278 Transendocytosis of the CD80 receptors on mAPCs through CTLA-4 binding and internalization on T Regulatory cells in the
-tumor
-279 Transendocytosis of the CD86 receptors on mAPCs through CTLA-4 binding and internalization on T Regulatory cells in the
-tumor
+278 Transendocytosis of the CD80 receptors on mAPCs through CTLA-4 binding and internalization on T Regulatory cells in the tumor
+279 Transendocytosis of the CD86 receptors on mAPCs through CTLA-4 binding and internalization on T Regulatory cells in the tumor
 280 Internalization of the Anti-CTLA-4 antibodies bound to CTLA-4 receptors on T Regulatory cells in the tumor
 281 PD-1 expression by Effector T cells interacting with the T8 subtype of cancer cells in the tumor
 282 CD80 expression by Effector T cells interacting with the T8 subtype of cancer cells in the tumor
@@ -348,141 +308,94 @@ tumor
 308 PD-L1 expression by Effector T cells interacting with the T9 subtype of cancer cells in the tumor
 309 PD-L1 expression by Effector T cells interacting with the T5 subtype of cancer cells in the tumor
 310 PD-L1 expression by Effector T cells interacting with the T2 subtype of cancer cells in the tumor
-311 Interaction at the immunological synapse between PD-1 expressed by the T10 subtype of cancer cells and PD-L1 on the
-complementary Effector T cells in the tumor
-312 Interaction at the immunological synapse between PD-L1 expressed by the Effector T cells interacting with the T10 subtype of
-cancer cells and Anti-PD-L1 in the tumor
+311 Interaction at the immunological synapse between PD-1 expressed by the T10 subtype of cancer cells and PD-L1 on the complementary Effector T cells in the tumor
+312 Interaction at the immunological synapse between PD-L1 expressed by the Effector T cells interacting with the T10 subtype of cancer cells and Anti-PD-L1 in the tumor
 313 PD-L1 expression threshold by the Effector T cells interacting with the T10 subtype of cancer cells in the tumor
-314 Interaction at the immunological synapse between PD-L1 expressed by the T10 subtype of cancer cells and PD-1 on the
-complementary Effector T cells in the tumor
-315 Interaction at the immunological synapse between PD-L2 expressed by the T10 subtype of cancer cells and PD-1 on the
-complementary Effector T cells in the tumor
+314 Interaction at the immunological synapse between PD-L1 expressed by the T10 subtype of cancer cells and PD-1 on the complementary Effector T cells in the tumor
+315 Interaction at the immunological synapse between PD-L2 expressed by the T10 subtype of cancer cells and PD-1 on the complementary Effector T cells in the tumor
 316 PD-1 expression threshold by the Effector T cells interacting with the T10 subtype of cancer cells in the tumor
-317 Interaction at the immunological synapse between PD-L1 expressed by the T10 subtype of cancer cells and CD80 on the
-complementary Effector T cells in the tumor
+317 Interaction at the immunological synapse between PD-L1 expressed by the T10 subtype of cancer cells and CD80 on the complementary Effector T cells in the tumor
 318 CD80 expression threshold by the Effector T cells interacting with the T10 subtype of cancer cells in the tumor
-319 Interaction at the immunological synapse between PD-L1 expressed by the T11 subtype of cancer cells and CD80 on the
-complementary Effector T cells in the tumor
-320 Interaction at the immunological synapse between PD-L1 expressed by the Effector T cells interacting with the T11 subtype of
-cancer cells and Anti-PD-L1 in the tumor
+319 Interaction at the immunological synapse between PD-L1 expressed by the T11 subtype of cancer cells and CD80 on the complementary Effector T cells in the tumor
+320 Interaction at the immunological synapse between PD-L1 expressed by the Effector T cells interacting with the T11 subtype of cancer cells and Anti-PD-L1 in the tumor
 321 PD-L1 expression threshold by the Effector T cells interacting with the T11 subtype of cancer cells in the tumor
-322 Interaction at the immunological synapse between PD-L1 expressed by the T11 subtype of cancer cells and PD-1 on the
-complementary Effector T cells in the tumor
+322 Interaction at the immunological synapse between PD-L1 expressed by the T11 subtype of cancer cells and PD-1 on the complementary Effector T cells in the tumor
 323 PD-1 expression threshold by the Effector T cells interacting with the T11 subtype of cancer cells in the tumor
-324 Interaction at the immunological synapse between CD80 expressed by the T12 subtype of cancer cells and PD-L1 on the
-complementary Effector T cells in the tumor
-325 Interaction at the immunological synapse between PD-L1 expressed by the Effector T cells interacting with the T12 subtype of
-cancer cells and Anti-PD-L1 in the tumor
+324 Interaction at the immunological synapse between CD80 expressed by the T12 subtype of cancer cells and PD-L1 on the complementary Effector T cells in the tumor
+325 Interaction at the immunological synapse between PD-L1 expressed by the Effector T cells interacting with the T12 subtype of cancer cells and Anti-PD-L1 in the tumor
 326 PD-L1 expression threshold by the Effector T cells interacting with the T12 subtype of cancer cells in the tumor
-327 Interaction at the immunological synapse between PD-L2 expressed by the T12 subtype of cancer cells and PD-1 on the
-complementary Effector T cells in the tumor
+327 Interaction at the immunological synapse between PD-L2 expressed by the T12 subtype of cancer cells and PD-1 on the complementary Effector T cells in the tumor
 328 PD-1 expression threshold by the Effector T cells interacting with the T12 subtype of cancer cells in the tumor
-329 Interaction at the immunological synapse between CD80 expressed by the T13 subtype of cancer cells and PD-L1 on the
-complementary Effector T cells in the tumor
+329 Interaction at the immunological synapse between CD80 expressed by the T13 subtype of cancer cells and PD-L1 on the complementary Effector T cells in the tumor
 330 PD-L1 expression threshold by the Effector T cells interacting with the T13 subtype of cancer cells in the tumor
-331 Interaction at the immunological synapse between PD-L1 expressed by the T13 subtype of cancer cells and PD-1 on the
-complementary Effector T cells in the tumor
-332 Interaction at the immunological synapse between PD-L2 expressed by the T13 subtype of cancer cells and PD-1 on the
-complementary Effector T cells in the tumor
-333 Interaction at the immunological synapse between PD-1 expressed by the Effector T cells interacting with the T13 subtype of
-cancer cells and Anti-PD-1 in the tumor
+331 Interaction at the immunological synapse between PD-L1 expressed by the T13 subtype of cancer cells and PD-1 on the complementary Effector T cells in the tumor
+332 Interaction at the immunological synapse between PD-L2 expressed by the T13 subtype of cancer cells and PD-1 on the complementary Effector T cells in the tumor
+333 Interaction at the immunological synapse between PD-1 expressed by the Effector T cells interacting with the T13 subtype of cancer cells and Anti-PD-1 in the tumor
 334 PD-1 expression threshold by the Effector T cells interacting with the T13 subtype of cancer cells in the tumor
-335 Interaction at the immunological synapse between PD-L1 expressed by the Effector T cells interacting with the T14 subtype of
-cancer cells and Anti-PD-L1 in the tumor
+335 Interaction at the immunological synapse between PD-L1 expressed by the Effector T cells interacting with the T14 subtype of cancer cells and Anti-PD-L1 in the tumor
 336 PD-L1 expression threshold by the Effector T cells interacting with the T14 subtype of cancer cells in the tumor
-337 Interaction at the immunological synapse between PD-L1 expressed by the T14 subtype of cancer cells and PD-1 on the
-complementary Effector T cells in the tumor
+337 Interaction at the immunological synapse between PD-L1 expressed by the T14 subtype of cancer cells and PD-1 on the complementary Effector T cells in the tumor
 338 PD-1 expression threshold by the Effector T cells interacting with the T14 subtype of cancer cells in the tumor
 339 CD80 expression threshold by the Effector T cells interacting with the T14 subtype of cancer cells in the tumor
-340 Interaction at the immunological synapse between PD-1 expressed by the T15 subtype of cancer cells and PD-L1 on the
-complementary Effector T cells in the tumor
-341 Interaction at the immunological synapse between PD-L1 expressed by the Effector T cells interacting with the T15 subtype of
-cancer cells and Anti-PD-L1 in the tumor
+340 Interaction at the immunological synapse between PD-1 expressed by the T15 subtype of cancer cells and PD-L1 on the complementary Effector T cells in the tumor
+341 Interaction at the immunological synapse between PD-L1 expressed by the Effector T cells interacting with the T15 subtype of cancer cells and Anti-PD-L1 in the tumor
 342 PD-L1 expression threshold by the Effector T cells interacting with the T15 subtype of cancer cells in the tumor
-343 Interaction at the immunological synapse between PD-1 expressed by the Effector T cells interacting with the T15 subtype of
-cancer cells and Anti-PD-1 in the tumor
+343 Interaction at the immunological synapse between PD-1 expressed by the Effector T cells interacting with the T15 subtype of cancer cells and Anti-PD-1 in the tumor
 344 PD-1 expression threshold by the Effector T cells interacting with the T15 subtype of cancer cells in the tumor
-345 Interaction at the immunological synapse between CD80 expressed by the T16 subtype of cancer cells and PD-L1 on the
-complementary Effector T cells in the tumor
-346 Interaction at the immunological synapse between PD-L1 expressed by the Effector T cells interacting with the T16 subtype of
-cancer cells and Anti-PD-L1 in the tumor
+345 Interaction at the immunological synapse between CD80 expressed by the T16 subtype of cancer cells and PD-L1 on the complementary Effector T cells in the tumor
+346 Interaction at the immunological synapse between PD-L1 expressed by the Effector T cells interacting with the T16 subtype of cancer cells and Anti-PD-L1 in the tumor
 347 PD-L1 expression threshold by the Effector T cells interacting with the T16 subtype of cancer cells in the tumor
-348 Interaction at the immunological synapse between PD-L1 expressed by the T16 subtype of cancer cells and PD-1 on the
-complementary Effector T cells in the tumor
-349 Interaction at the immunological synapse between PD-1 expressed by the Effector T cells interacting with the T16 subtype of
-cancer cells and Anti-PD-1 in the tumor
+348 Interaction at the immunological synapse between PD-L1 expressed by the T16 subtype of cancer cells and PD-1 on the complementary Effector T cells in the tumor
+349 Interaction at the immunological synapse between PD-1 expressed by the Effector T cells interacting with the T16 subtype of cancer cells and Anti-PD-1 in the tumor
 350 PD-1 expression threshold by the Effector T cells interacting with the T16 subtype of cancer cells in the tumor
-351 Interaction at the immunological synapse between PD-L1 expressed by the T16 subtype of cancer cells and CD80 on the
-complementary Effector T cells in the tumor
+351 Interaction at the immunological synapse between PD-L1 expressed by the T16 subtype of cancer cells and CD80 on the complementary Effector T cells in the tumor
 352 CD80 expression threshold by the Effector T cells interacting with the T16 subtype of cancer cells in the tumor
-353 Interaction at the immunological synapse between PD-1 expressed by the T2 subtype of cancer cells and PD-L1 on the
-complementary Effector T cells in the tumor
+353 Interaction at the immunological synapse between PD-1 expressed by the T2 subtype of cancer cells and PD-L1 on the complementary Effector T cells in the tumor
 354 PD-L1 expression threshold by the Effector T cells interacting with the T2 subtype of cancer cells in the tumor
-355 Interaction at the immunological synapse between PD-L1 expressed by the T3 subtype of cancer cells and PD-1 on the
-complementary Effector T cells in the tumor
-356 Interaction at the immunological synapse between PD-1 expressed by the Effector T cells interacting with the T3 subtype of
-cancer cells and Anti-PD-1 in the tumor
+355 Interaction at the immunological synapse between PD-L1 expressed by the T3 subtype of cancer cells and PD-1 on the complementary Effector T cells in the tumor
+356 Interaction at the immunological synapse between PD-1 expressed by the Effector T cells interacting with the T3 subtype of cancer cells and Anti-PD-1 in the tumor
 357 PD-1 expression threshold by the Effector T cells interacting with the T3 subtype of cancer cells in the tumor
-358 Interaction at the immunological synapse between PD-L1 expressed by the T3 subtype of cancer cells and CD80 on the
-complementary Effector T cells in the tumor
+358 Interaction at the immunological synapse between PD-L1 expressed by the T3 subtype of cancer cells and CD80 on the complementary Effector T cells in the tumor
 359 CD80 expression threshold by the Effector T cells interacting with the T3 subtype of cancer cells in the tumor
-360 Interaction at the immunological synapse between PD-L2 expressed by the T4 subtype of cancer cells and PD-1 on the
-complementary Effector T cells in the tumor
-361 Interaction at the immunological synapse between PD-1 expressed by the Effector T cells interacting with the T4 subtype of
-cancer cells and Anti-PD-1 in the tumor
+360 Interaction at the immunological synapse between PD-L2 expressed by the T4 subtype of cancer cells and PD-1 on the complementary Effector T cells in the tumor
+361 Interaction at the immunological synapse between PD-1 expressed by the Effector T cells interacting with the T4 subtype of cancer cells and Anti-PD-1 in the tumor
 362 PD-1 expression threshold by the Effector T cells interacting with the T4 subtype of cancer cells in the tumor
-363 Interaction at the immunological synapse between CD80 expressed by the T5 subtype of cancer cells and PD-L1 on the
-complementary Effector T cells in the tumor
-364 Interaction at the immunological synapse between PD-L1 expressed by the Effector T cells interacting with the T5 subtype of
-cancer cells and Anti-PD-L1 in the tumor
+363 Interaction at the immunological synapse between CD80 expressed by the T5 subtype of cancer cells and PD-L1 on the complementary Effector T cells in the tumor
+364 Interaction at the immunological synapse between PD-L1 expressed by the Effector T cells interacting with the T5 subtype of cancer cells and Anti-PD-L1 in the tumor
 365 PD-L1 expression threshold by the Effector T cells interacting with the T5 subtype of cancer cells in the tumor
-366 Interaction at the immunological synapse between PD-1 expressed by the T6 subtype of cancer cells and PD-L1 on the
-complementary Effector T cells in the tumor
-367 Interaction at the immunological synapse between PD-L1 expressed by the Effector T cells interacting with the T6 subtype of
-cancer cells and Anti-PD-L1 in the tumor
+366 Interaction at the immunological synapse between PD-1 expressed by the T6 subtype of cancer cells and PD-L1 on the complementary Effector T cells in the tumor
+367 Interaction at the immunological synapse between PD-L1 expressed by the Effector T cells interacting with the T6 subtype of cancer cells and Anti-PD-L1 in the tumor
 368 PD-L1 expression threshold by the Effector T cells interacting with the T6 subtype of cancer cells in the tumor
-369 Interaction at the immunological synapse between PD-1 expressed by the Effector T cells interacting with the T6 subtype of
-cancer cells and Anti-PD-1 in the tumor
+369 Interaction at the immunological synapse between PD-1 expressed by the Effector T cells interacting with the T6 subtype of cancer cells and Anti-PD-1 in the tumor
 370 PD-1 expression threshold by the Effector T cells interacting with the T6 subtype of cancer cells in the tumor
 371 CD80 expression threshold by the Effector T cells interacting with the T6 subtype of cancer cells in the tumor
-372 Interaction at the immunological synapse between PD-1 expressed by the T7 subtype of cancer cells and PD-L1 on the
-complementary Effector T cells in the tumor
+372 Interaction at the immunological synapse between PD-1 expressed by the T7 subtype of cancer cells and PD-L1 on the complementary Effector T cells in the tumor
 373 PD-L1 expression threshold by the Effector T cells interacting with the T7 subtype of cancer cells in the tumor
-374 Interaction at the immunological synapse between PD-L2 expressed by the T7 subtype of cancer cells and PD-1 on the
-complementary Effector T cells in the tumor
+374 Interaction at the immunological synapse between PD-L2 expressed by the T7 subtype of cancer cells and PD-1 on the complementary Effector T cells in the tumor
 375 PD-1 expression threshold by the Effector T cells interacting with the T7 subtype of cancer cells in the tumor
-376 Interaction at the immunological synapse between PD-L1 expressed by the T8 subtype of cancer cells and PD-1 on the
-complementary Effector T cells in the tumor
-377 Interaction at the immunological synapse between PD-L2 expressed by the T8 subtype of cancer cells and PD-1 on the
-complementary Effector T cells in the tumor
+376 Interaction at the immunological synapse between PD-L1 expressed by the T8 subtype of cancer cells and PD-1 on the complementary Effector T cells in the tumor
+377 Interaction at the immunological synapse between PD-L2 expressed by the T8 subtype of cancer cells and PD-1 on the complementary Effector T cells in the tumor
 378 PD-1 expression threshold by the Effector T cells interacting with the T8 subtype of cancer cells in the tumor
 379 CD80 expression threshold by the Effector T cells interacting with the T8 subtype of cancer cells in the tumor
-380 Interaction at the immunological synapse between CD80 expressed by the T9 subtype of cancer cells and PD-L1 on the
-complementary Effector T cells in the tumor
-381 Interaction at the immunological synapse between PD-L1 expressed by the Effector T cells interacting with the T9 subtype of
-cancer cells and Anti-PD-L1 in the tumor
+380 Interaction at the immunological synapse between CD80 expressed by the T9 subtype of cancer cells and PD-L1 on the complementary Effector T cells in the tumor
+381 Interaction at the immunological synapse between PD-L1 expressed by the Effector T cells interacting with the T9 subtype of cancer cells and Anti-PD-L1 in the tumor
 382 PD-L1 expression threshold by the Effector T cells interacting with the T9 subtype of cancer cells in the tumor
 383 Turnover of resting macrophages
 384 Phagocytosis of tumor debris by resting APCs in the lymph node
 385 Transport of tumor debris from the tumor to the lymph node
 386 Decay of tumor debris in the tumor
 387 The distribution of tumor debris away from any of the considered lymph nodes
-388 Accounting for the distribution of tumor debris from the tumor to the lymph nodes other than the lymph node compartment in
-the model
+388 Accounting for the distribution of tumor debris from the tumor to the lymph nodes other than the lymph node compartment in the model
 389 Natural turnover of cancer cells in the tumor
 390 CD80 expression threshold by the mAPCs interacting with the T Regulatory cells in the tumor
-391 Interaction at the immunological synapse between CD80 expressed by the Effector T cells and PD-L1 on the T Regulatory
-cells in the tumor
+391 Interaction at the immunological synapse between CD80 expressed by the Effector T cells and PD-L1 on the T Regulatory cells in the tumor
 392 CD80 expression threshold by the Effector T cells interacting with the T Regulatory cells in the tumor
 393 CD80 expression threshold by the Effector T cells interacting with the MDSCs in the tumor
 394 CD86 expression threshold by the mAPCs interacting with the T Regulatory cells in the tumor
 395 Flow of Anti-CTLA-4 mAb between the tumor and lymph node
-396 Interaction at the immunological synapse between CD80 expressed by the mAPCs and CTLA-4 on the T Regulatory cells in
-the tumor
-397 Interaction at the immunological synapse between CD86 expressed by the mAPCs and CTLA-4 on the T Regulatory cells in
-the tumor
-398 Interaction at the immunological synapse between CTLA-4 expressed by the T Regulatory cells and Anti-CTLA-4 in the
-tumor
+396 Interaction at the immunological synapse between CD80 expressed by the mAPCs and CTLA-4 on the T Regulatory cells in the tumor
+397 Interaction at the immunological synapse between CD86 expressed by the mAPCs and CTLA-4 on the T Regulatory cells in the tumor
+398 Interaction at the immunological synapse between CTLA-4 expressed by the T Regulatory cells and Anti-CTLA-4 in the tumor
 399 CTLA-4 expression threshold by the T Regulatory cells interacting with the mAPCs in the tumor
 400 Turnover of Effector T cells in the tumor
 401 Apoptosis of Effector T cells following complete cancer cell death in the tumor
@@ -497,8 +410,7 @@ tumor
 410 Trafficking of free Effector T cells from the Tumor vasculature to the Lungs vasculature
 411 Turnover of free Effector T cells in Tumor vasculature
 412 Transport of mAPCs from the tumor to the lymph node
-413 Accounting for the distribution of mAPCs from the tumor to the lymph nodes other than the lymph node compartment in the
-model
+413 Accounting for the distribution of mAPCs from the tumor to the lymph nodes other than the lymph node compartment in the model
 414 The distribution of mAPCs away from any of the considered lymph nodes
 415 CD80 expression by mAPCs interacting with the T Regulatory cells in the tumor
 416 CD86 expression by mAPCs interacting with the T Regulatory cells in the tumor
@@ -508,68 +420,41 @@ model
 420 Dissociation of MDSCs from Effector T cells with inactivation of the latter in the tumor
 421 Dissociation of MDSCs from Effector T cells without inactivation of the latter in the tumor
 422 Distribution of Anti-PD-1 mAb between Tumor and Lymph Node
-423 Interaction at the immunological synapse between PD-1 expressed by the T14 subtype of cancer cells and Anti-PD-1 in the
-tumor
-424 Interaction at the immunological synapse between PD-1 expressed by the T2 subtype of cancer cells and Anti-PD-1 in the
-tumor
-425 Interaction at the immunological synapse between PD-1 expressed by the T7 subtype of cancer cells and Anti-PD-1 in the
-tumor
-426 Interaction at the immunological synapse between PD-1 expressed by the T9 subtype of cancer cells and Anti-PD-1 in the
-tumor
-427 Interaction at the immunological synapse between PD-1 expressed by the Effector T cells interacting with the T10 subtype of
-cancer cells and Anti-PD-1 in the tumor
-428 Interaction at the immunological synapse between PD-1 expressed by the Effector T cells interacting with the T11 subtype of
-cancer cells and Anti-PD-1 in the tumor
-429 Interaction at the immunological synapse between PD-1 expressed by the Effector T cells interacting with the T12 subtype of
-cancer cells and Anti-PD-1 in the tumor
-430 Interaction at the immunological synapse between PD-1 expressed by the Effector T cells interacting with the T14 subtype of
-cancer cells and Anti-PD-1 in the tumor
-431 Interaction at the immunological synapse between PD-1 expressed by the Effector T cells interacting with the T7 subtype of
-cancer cells and Anti-PD-1 in the tumor
-432 Interaction at the immunological synapse between PD-1 expressed by the Effector T cells interacting with the T8 subtype of
-cancer cells and Anti-PD-1 in the tumor
-433 Interaction at the immunological synapse between PD-1 expressed by the Effector T cells interacting with the T Regulatory
-cells and Anti-PD-1 in the tumor
-434 Interaction at the immunological synapse between PD-1 expressed by the MDSCs interacting with Effector T cells and Anti-
-PD-1 in the tumor
-435 Interaction at the immunological synapse between PD-L1 expressed by the Effector T cells and PD-1 on the MDSCs in the
-tumor
+423 Interaction at the immunological synapse between PD-1 expressed by the T14 subtype of cancer cells and Anti-PD-1 in the tumor
+424 Interaction at the immunological synapse between PD-1 expressed by the T2 subtype of cancer cells and Anti-PD-1 in the tumor
+425 Interaction at the immunological synapse between PD-1 expressed by the T7 subtype of cancer cells and Anti-PD-1 in the tumor
+426 Interaction at the immunological synapse between PD-1 expressed by the T9 subtype of cancer cells and Anti-PD-1 in the tumor
+427 Interaction at the immunological synapse between PD-1 expressed by the Effector T cells interacting with the T10 subtype of cancer cells and Anti-PD-1 in the tumor
+428 Interaction at the immunological synapse between PD-1 expressed by the Effector T cells interacting with the T11 subtype of cancer cells and Anti-PD-1 in the tumor
+429 Interaction at the immunological synapse between PD-1 expressed by the Effector T cells interacting with the T12 subtype of cancer cells and Anti-PD-1 in the tumor
+430 Interaction at the immunological synapse between PD-1 expressed by the Effector T cells interacting with the T14 subtype of cancer cells and Anti-PD-1 in the tumor
+431 Interaction at the immunological synapse between PD-1 expressed by the Effector T cells interacting with the T7 subtype of cancer cells and Anti-PD-1 in the tumor
+432 Interaction at the immunological synapse between PD-1 expressed by the Effector T cells interacting with the T8 subtype of cancer cells and Anti-PD-1 in the tumor
+433 Interaction at the immunological synapse between PD-1 expressed by the Effector T cells interacting with the T Regulatory cells and Anti-PD-1 in the tumor
+434 Interaction at the immunological synapse between PD-1 expressed by the MDSCs interacting with Effector T cells and Anti- PD-1 in the tumor
+435 Interaction at the immunological synapse between PD-L1 expressed by the Effector T cells and PD-1 on the MDSCs in the tumor
 436 PD-1 expression threshold by the MDSCs interacting with the Effector T cells in the tumor
-437 Interaction at the immunological synapse between PD-1 expressed by the Effector T cells and PD-L1 on the T Regulatory cells
-in the tumor
+437 Interaction at the immunological synapse between PD-1 expressed by the Effector T cells and PD-L1 on the T Regulatory cells in the tumor
 438 PD-1 expression threshold by the Effector T cells interacting with the T Regulatory cells in the tumor
-439 Interaction at the immunological synapse between PD-1 expressed by the Effector T cells interacting with the MDSCs and
-Anti-PD-1 in the tumor
+439 Interaction at the immunological synapse between PD-1 expressed by the Effector T cells interacting with the MDSCs and Anti-PD-1 in the tumor
 440 PD-1 expression threshold by the Effector T cells interacting with the MDSCs in the tumor
-441 Interaction at the immunological synapse between PD-1 expressed by the T Regulatory cells interacting with the Effector T
-cells and Anti-PD-1 in the tumor
+441 Interaction at the immunological synapse between PD-1 expressed by the T Regulatory cells interacting with the Effector T cells and Anti-PD-1 in the tumor
 442 PD-1 expression threshold by the T Regulatory cells interacting with the Effector T cells in the tumor
 443 Distribution of Anti-PD-L1 mAb between Tumor and Lymph Node
-444 Interaction at the immunological synapse between PD-L1 expressed by the T3 subtype of cancer cells and Anti-PD-L1 in the
-tumor
-445 Interaction at the immunological synapse between PD-L1 expressed by the Effector T cells interacting with the T13 subtype of
-cancer cells and Anti-PD-L1 in the tumor
-446 Interaction at the immunological synapse between PD-L1 expressed by the Effector T cells interacting with the T2 subtype of
-cancer cells and Anti-PD-L1 in the tumor
-447 Interaction at the immunological synapse between PD-L1 expressed by the Effector T cells interacting with the T7 subtype of
-cancer cells and Anti-PD-L1 in the tumor
-448 Interaction at the immunological synapse between PD-L1 expressed by the Effector T cells interacting with the T Regulatory
-cells and Anti-PD-L1 in the tumor
-417 Interaction at the immunological synapse between PD-L1 expressed by the Effector T cells interacting with the MDSCs and
-Anti-PD-L1 in the tumor
-418 Interaction at the immunological synapse between CD80 expressed by the Effector T cells and PD-L1 on the MDSCs in the
-tumor
-419 Interaction at the immunological synapse between PD-1 expressed by the Effector T cells and PD-L1 on the MDSCs in the
-tumor
-420 Interaction at the immunological synapse between PD-L1 expressed by the MDSCs interacting with the Effector T cells and
-Anti-PD-L1 in the tumor
+444 Interaction at the immunological synapse between PD-L1 expressed by the T3 subtype of cancer cells and Anti-PD-L1 in the tumor
+445 Interaction at the immunological synapse between PD-L1 expressed by the Effector T cells interacting with the T13 subtype of cancer cells and Anti-PD-L1 in the tumor
+446 Interaction at the immunological synapse between PD-L1 expressed by the Effector T cells interacting with the T2 subtype of cancer cells and Anti-PD-L1 in the tumor
+447 Interaction at the immunological synapse between PD-L1 expressed by the Effector T cells interacting with the T7 subtype of cancer cells and Anti-PD-L1 in the tumor
+448 Interaction at the immunological synapse between PD-L1 expressed by the Effector T cells interacting with the T Regulatory cells and Anti-PD-L1 in the tumor
+417 Interaction at the immunological synapse between PD-L1 expressed by the Effector T cells interacting with the MDSCs and Anti-PD-L1 in the tumor
+418 Interaction at the immunological synapse between CD80 expressed by the Effector T cells and PD-L1 on the MDSCs in the tumor
+419 Interaction at the immunological synapse between PD-1 expressed by the Effector T cells and PD-L1 on the MDSCs in the tumor
+420 Interaction at the immunological synapse between PD-L1 expressed by the MDSCs interacting with the Effector T cells and Anti-PD-L1 in the tumor
 421 PD-L1 expression threshold by the MDSCs interacting with the Effector T cells in the tumor
-422 Interaction at the immunological synapse between PD-L1 expressed by the Effector T cells and PD-1 on the T Regulatory cells
-in the tumor
+422 Interaction at the immunological synapse between PD-L1 expressed by the Effector T cells and PD-1 on the T Regulatory cells in the tumor
 423 PD-L1 expression threshold by the Effector T cells interacting with the T Regulatory cells in the tumor
 424 PD-1 expression threshold by the Effector T cells interacting with the MDSCs in the tumor
-425 Interaction at the immunological synapse between PD-L1 expressed by the T Regulatory cells interacting with the Effector T
-cells and Anti-PD-L1 in the tumor
+425 Interaction at the immunological synapse between PD-L1 expressed by the T Regulatory cells interacting with the Effector T cells and Anti-PD-L1 in the tumor
 426 PD-1 expression threshold by the T Regulatory cells interacting with the Effector T cells in the tumor
 427 Recovery of Effector T cells from the delay state following interaction with cancer cells in the tumor
 428 Generation of cancer debris by killing of the cancer cells by the Effector T cells in the tumor
