@@ -1,0 +1,1255 @@
+Blood-Lymph CTLA4_mabB mole Anti-CTLA-4 antibody in the blood
+Blood-Lymph CTLA4_mabB_ugml µg/ml Serum concentration of Anti-CTLA-4
+Blood-Lymph PD1_mabb mole Anti-PD-1 antibody in the blood
+Blood-Lymph PDL1_mabb mole Anti-PD-L1 antibody in the blood
+Blood-Lymph PDL1_mabB_ugml µg/ml Serum concentration of Anti-PD-L1
+Blood-Lymph PD1_mabB_ugml µg/ml Serum concentration of Anti-PD-1
+Blood-Lymph Effector_TB cell
+Effector T cells that have been generated from all the
+lymph nodes considered that have migrated into the blood
+Blood-Lymph Effector_T_TOTAL cell
+The total number of Effector T cells present that have
+exited the lymph nodes
+Blood-Lymph Effector_T_TB cell
+Effector T cells that have been generated from all the
+lymph nodes considered that are in the process of migrating
+into the blood
+Lungs EffT_f_LungsVasc cell Free effector T cells in the Lung vasculature
+Lungs EffT_r_LungsVasc cell Bound effector T cells in the Lung vasculature
+Lungs EffT_AR_LungsVasc cell Arrested effector T cells in the Lung vasculature
+Lungs EffT_LungsEx cell Effector T cells in the Lung interstitium
+Lungs Lung_Free_Sites cell Available binding sites for cells in the Lung vasculature
+Liv_Spln_GI EffT_Liver_f_Vasc cell Free effector T cells in the Liver vasculature
+Liv_Spln_GI EffT_LiverEx cell Effector T cells in the Liver interstitium
+Liv_Spln_GI EffT_Liver_b_Vasc cell Bound effector T cells in the Liver vasculature
+Liv_Spln_GI EffT_Liver_AR_Vasc cell Arrested effector T cells in the Liver vasculature
+Liv_Spln_GI Liver_Free_Sites cell Available binding sites for cells in the Liver vasculature
+Liv_Spln_GI EffT_Spleen_f_Vasc cell Free effector T cells in the Spleen vasculature
+Liv_Spln_GI EffT_GI_f_Vasc cell Free effector T cells in the GI vasculature
+Liv_Spln_GI EffT_SpleenEx cell Effector T cells in the Spleen interstitium
+Liv_Spln_GI EffT_Spleen_b_Vasc cell Bound effector T cells in the Spleen vasculature
+Liv_Spln_GI EffT_Spleen_AR_Vasc cell Arrested effector T cells in the Spleen vasculature
+Liv_Spln_GI Spleen_Free_Sites cell Available binding sites for cells in the Spleen vasculature
+Lymph_Node Naive_T cell
+Naïve T cells that undergo the first phase of priming in the
+Lymph Nodes
+Lymph_Node Primed_Naive_T cell
+Primed Naive T cells that undergo the second phase of
+priming in the Lymph Nodes
+Lymph_Node PNT_Int_CD28 mole
+CD28 expressed by interacting Primed Naive T cells
+engaged in the second priming phase
+Lymph_Node mAPC cell
+Total number of mature antigen presenting cells (mAPCs)
+in the lymph node compartment
+Lymph_Node Effector_T cell
+Effector T cells that are generate in the lymph node
+compartment (considering one lymph node)
+Lymph_Node CTLA4_mab mole Anti-CTLA-4 antibody in the lymph node
+Lymph_Node Naive_T0 cell Naive T cells that can undergo priming in the lymph node
+Lymph_Node Prolif_Naive_T cell
+Proliferating Naive T cells that have undergone the second
+phase of priming in the lymph node
+Lymph_Node Anergic_Naive_T cell
+Primed Naive T cells that do not undergo proliferation
+following the second phase of priming and are deemed to
+be anergic T cells in the lymph node
+Lymph_Node PD1_mabLN_ugml µg/ml Concentration of anti-PD-1 antibody in the lymph node
+Lymph_Node CTLA4_mab_ugml µg/ml Concentration of anti-CTLA-4 antibody in the lymph node
+Lymph_Node PDL1_mabLN_ugml µg/ml Concentration of anti-PD-L1 antibody in the lymph node
+Lymph_Node EffT_LN_ExRec cell Effector T cells in the lymph node interstitium
+Lymph_Node EffT_LN_f_Vasc cell Free effector T cells in the lymph node vasculature
+Lymph_Node mAPC1 cell mAPCs in lymph node interacting with T regulatory cells
+Lymph_Node
+Naive_T2
+cell
+Naïve T cells in the lymph node interacting with T
+regulatory cells
+Lymph_Node
+Primed_Naive_T2
+cell
+Primed naïve T cells in the lymph node interacting with T
+regulatory cells
+Lymph_Node mAPC_cells_per_ml cell/ml Calculation of mAPC in the lymph node
+Lymph_Node PD1_mab mole Anti-PD-1 antibody in the lymph node
+Lymph_Node PDL1_mab mole Anti-PD-L1 antibody in the lymph node
+Lymph_Node Naive_T1 cell
+Naive T cells engaged in the first priming phase in the
+lymph node
+Lymph_Node Primed_Naive_T1 cell
+Primed Naive T cells engaged in the second priming phase
+in the lymph node
+Lymph_Node mAPC_Total_Calc_Pr cell mAPCs in the lymph node that are not engaged in priming
+Lymph_Node Total_T_CD8-CD4 cell Total number of all T cells in the lymph node
+Lymph_Node PNT1_Int cell
+Primed Naive T cells engaged in the second priming phase
+in the lymph node that are accounting for the expression of
+immune checkpoints
+Lymph_Node PNT_CTLA4 mole
+CTLA-4 expressed by interacting Primed Naive T cells
+engaged in the second priming phase
+Lymph_Node mAPC_Int_P1 cell
+mAPCs interacting with Naive T cells in the first phase of
+priming
+Lymph_Node mAPC_Int_P2 cell
+mAPCs interacting with Primed Naive T cells in the second
+phase of priming
+Lymph_Node mAPC_Int_P2_CD80 mole
+CD80 receptors expressed by mAPCs that are involved in
+the second priming phase interactions
+Lymph_Node mAPC_Int_P2_CD86 mole
+CD86 receptors expressed by mAPCs that are involved in
+the second priming phase interactions
+Lymph_Node POS_Sig_PNT_CD80 mole
+Receptor-receptor interactions at the immunological
+synapse between CD28 expressed on Primed Naive T cells
+and CD80 expressed on mAPCs during the second phase of
+priming
+Lymph_Node POS_Sig_PNT_CD86 mole
+Receptor-receptor interactions at the immunological
+synapse between CD28 expressed on Primed Naive T cells
+and CD86 expressed on mAPCs during the second phase of
+priming
+Lymph_Node NEG_Sig_PNT_CD80 mole
+Receptor-receptor interactions at the immunological
+synapse between CTLA-4 expressed on Primed Naive T
+cells and CD80 expressed on mAPCs during the second
+phase of priming
+Lymph_Node NEG_Sig_PNT_CD86 mole
+Receptor-receptor interactions at the immunological
+synapse between CTLA-4 expressed on Primed Naive T
+cells and CD80 expressed on mAPCs during the second
+phase of priming
+Lymph_Node CTLA4_mAb_CTLA4 mole
+Heterogeneous receptor-antibody interactions at the
+immunological synapse between CTLA-4 expressed on
+Primed Naive T cells during the second priming phase and
+Anti-CTLA-4 mAb delivered to the lymph node by way of
+IV injection into the blood
+Lymph_Node mAPC_Int_P2_PDL1 mole
+PD-L1 receptors expressed by mAPCs that are involved in
+the second priming phase interactions
+Lymph_Node mAPC_Int_P2_PDL2 mole
+PD-L2 receptors expressed by mAPCs that are involved in
+the second priming phase interactions
+Lymph_Node mAPC_Int_P2_PD1 mole
+PD-1 receptors expressed by mAPCs that are involved in
+the second priming phase interactions
+Lymph_Node PNT_Int_CD80 mole
+CD80 expressed by interacting Primed Naive T cells
+engaged in the second priming phase
+Lymph_Node PNT_Int_PD1 mole
+PD-1 expressed by interacting Primed Naive T cells
+engaged in the second priming phase
+Lymph_Node PNT_Int_PDL1 mole
+PD-L1 expressed by interacting Primed Naive T cells
+engaged in the second priming phase
+Lymph_Node PNT_CD80-PDL1 mole
+Receptor-receptor interactions at the immunological
+synapse between CD80 expressed on Primed Naive T cells
+and PD-L1 expressed on mAPCs during the second phase
+of priming
+Lymph_Node PNT_PD1-PDL2 mole
+Receptor-receptor interactions at the immunological
+synapse between PD-1 expressed on Primed Naive T cells
+and PD-L2 expressed on mAPCs during the second phase
+of priming
+Lymph_Node PNT_PD1-PDL1 mole
+Receptor-receptor interactions at the immunological
+synapse between PD-1 expressed on Primed Naive T cells
+and PD-L1 expressed on mAPCs during the second phase
+of priming
+Lymph_Node PNT_PDL1-CD80 mole
+Receptor-receptor interactions at the immunological
+synapse between PD-L1 expressed on Primed Naive T cells
+and CD80 expressed on mAPCs during the second phase of
+priming
+Lymph_Node PNT_PDL1-PD1 mole
+Receptor-receptor interactions at the immunological
+synapse between PD-L1 expressed on Primed Naive T cells
+and PD-1 expressed on mAPCs during the second phase of
+priming
+Lymph_Node PDL1mAb-PNT_PDL1 mole
+Heterogenous receptor-antibody interactions at the
+immunological synapse between PD-L1 expressed on
+Primed Naive T cells during the second priming phase and
+Anti-PD-L1 mAb delivered to the lymph node by way of
+IV injection into the blood
+Lymph_Node PDL1mAb-mAPC_PDL1 mole
+Heterogeneous receptor-antibody interactions at the
+immunological synapse between PD-L1 expressed on
+mAPCs during the second priming phase and Anti-PD-L1
+mAb delivered to the lymph node by way of IV injection
+into the blood
+Lymph_Node PD1mAb_mAPC_PD1 mole
+Heterogeneous receptor-antibody interactions at the
+immunological synapse between PD-1 expressed on
+mAPCs during the second priming phase and Anti-PD-1
+mAb delivered to the lymph node by way of IV injection
+into the blood
+Lymph_Node PD1mAb_PNT_PD1 mole
+Heterogeneous receptor-antibody interactions at the
+immunological synapse between PD-1 expressed on
+Primed Naive T cells during the second priming phase and
+Anti-PD-1 mAb delivered to the lymph node by way of IV
+injection into the blood
+Lymph_Node mAPC_PD1 mole Total PD-1 expression by all mAPCs in the lymph node
+Lymph_Node mAPC_PDL2 mole Total PD-L2 expression by all mAPCs in the lymph node
+Lymph_Node mAPC_PDL1 mole Total PD-L1 expression by all mAPCs in the lymph node
+Lymph_Node mAPC_CD86 mole Total CD86 expression by all mAPCs in the lymph node
+Lymph_Node mAPC_CD80 mole Total CD80 expression by all mAPCs in the lymph node
+Lymph_Node TregLN-NT cell
+T Regulatory cells in the lymph node that have engaged in
+interacting with Naïve T cells
+Lymph_Node TregLN-PNT cell
+T Regulatory cells in the lymph node that have engaged in
+interacting with Primed Naïve T cells
+Lymph_Node TregLN_mAPC cell
+T Regulatory cells in the lymph node that have engaged in
+interacting with mAPCs
+Lymph_Node TregLN cell
+Total number of T Regulatory cells that able to engage
+with other cell types in the lymph node
+Lymph_Node Tr-mAPC_CTLA4 mole
+CTLA-4 receptors expressed by T Regulatory cells in the
+lymph node
+Lymph_Node Tr-PNT_PD1 mole
+PD-1 receptors expressed by T Regulatory cells in the
+lymph node
+Lymph_Node Tr-PNT_PDL1 mole
+PD-L1 receptors expressed by T Regulatory cells in the
+lymph node
+Lymph_Node PNT-Tr_PDL1 mole
+PD-L1 receptors expressed by Primed Naïve T cells in the
+lymph node during engagement with T Regulatory cells
+Lymph_Node PNT-Tr_PD1 mole
+PD-1 receptors expressed by Primed Naïve T cells in the
+lymph node during engagement with T Regulatory cells
+Lymph_Node PNT-Tr_CD80 mole
+CD80 receptors expressed by Primed Naïve T cells in the
+lymph node during engagement with T Regulatory cells
+Lymph_Node TrALN_CT_CD80 mole
+Receptor-receptor interactions at the immunological
+synapse between CTLA-4 expressed on T Regulatory cells
+and CD80 expressed on mAPCs in the lymph node
+Lymph_Node TrALN_CT_CD86 mole
+Receptor-receptor interactions at the immunological
+synapse between CTLA-4 expressed on T Regulatory cells
+and CD86 expressed on mAPCs in the lymph node
+Lymph_Node TrPNT_PD1-L1 mole
+Receptor-receptor interactions at the immunological
+synapse between PD-1 expressed on T Regulatory cells and
+PD-L1 expressed on Primed Naïve T cells in the lymph
+node
+Lymph_Node TrPNT_PDL1-PD1 mole
+Receptor-receptor interactions at the immunological
+synapse between PD-L1 expressed on T Regulatory cells
+and PD-1 expressed on Primed Naïve T cells in the lymph
+node
+Lymph_Node TrPNT_PDL1-CD80 mole
+Receptor-receptor interactions at the immunological
+synapse between PD-L1 expressed on T Regulatory cells
+and CD80 expressed on Primed Naïve T cells in the lymph
+node
+Lymph_Node TrALN_CT_aCT mole
+Heterogeneous receptor-antibody interactions at the
+immunological synapse between CTLA-4 expressed on T
+Regulatory cells and Anti-CTLA-4 mAb delivered to the
+lymph node by way of IV injection into the blood
+Lymph_Node TrPNT_PD1_aPD1 mole
+Heterogeneous receptor-antibody interactions at the
+immunological synapse between PD-1 expressed on T
+Regulatory cells and Anti-PD-1 mAb delivered to the
+lymph node by way of IV injection into the blood
+Lymph_Node PNTTr_PDL1_aPDL1 mole
+Heterogeneous receptor-antibody interactions at the
+immunological synapse between PD-L1 expressed on
+Primed Naïve T cells and Anti-PD-L1 mAb delivered to
+the lymph node by way of IV injection into the blood
+Lymph_Node TrPNT_PDL1_aPDL1 mole
+Heterogeneous receptor-antibody interactions at the
+immunological synapse between PD-L1 expressed on T
+Regulatory cells and Anti-PD-L1 mAb delivered to the
+lymph node by way of IV injection into the blood
+Lymph_Node PNTTr_PD1_aPD1 mole
+Heterogeneous receptor-antibody interactions at the
+immunological synapse between PD-1 expressed on
+Primed Naïve T cells and Anti-PD-1 mAb delivered to the
+lymph node by way of IV injection into the blood
+Lymph_Node Tr-mAPC_CD80 mole
+CD80 receptors expressed by mACPs that are interacting
+with T Regulatory cells in the lymph node
+Lymph_Node Tr-mAPC_CD86 mole
+CD86 receptors expressed by mACPs that are interacting
+with T Regulatory cells in the lymph node
+Lymph_Node TregLN_mAPC1 cell
+T Regulatory cells in the lymph node that have engaged in
+interacting with mAPCs in the lymph node that are
+accounting for the expression of immune checkpoints
+Lymph_Node TregLN-PNT1 cell
+T Regulatory cells in the lymph node that have engaged in
+interacting with Primed Naïve T cells in the lymph node
+that are accounting for the expression of immune
+checkpoints
+Lymph_Node C_DebrisLN cell Cancer debris that has been transported to the lymph node
+Lymph_Node APCLN cell
+Resident antigen presenting cells in the lymph node that
+have not yet phagocytosed tumor debris
+Lymph_Node TrLN_CTLA4 mole
+CTLA-4 expressed on the surface of non-interacting T
+Regulatory cells
+Lymph_Node TrLN_CT_aCT mole
+Receptor-antibody interactions between CTLA-4 expressed
+on T Regulatory cells and Anti-CTLA-4 mAb delivered to
+the lymph node by way of IV injection into the blood
+Lymph_Node PNT1_Int1 cell
+Naive T cells undergoing the first priming phase in the
+lymph node that are accounting for the expression of
+immune checkpoints
+Lymph_Node NT1_Int1 cell
+Naive T cells undergoing the first priming phase in the
+lymph node that are accounting for the expression of CD28
+Lymph_Node NT_Int_CD28 mole
+CD28 expressed to the immunological synapse of Naive T
+cells that are undergoing the first phase of priming
+Lymph_Node mAPC_Int_P1_CD86 mole
+CD86 receptors expressed by mAPCs that are involved in
+the first priming phase interactions with Naïve T cells
+Lymph_Node mAPC_Int_P1_CD80 mole
+CD80 receptors expressed by mAPCs that are involved in
+the first priming phase interactions with Naïve T cells
+Lymph_Node POS_Sig_NT_CD86 mole
+Receptor-receptor interactions at the immunological
+synapse between CD28 expressed on Naive T cells and
+CD86 expressed on mAPCs during the first phase of
+priming
+Lymph_Node POS_Sig_NT_CD80 mole
+Receptor-receptor interactions at the immunological
+synapse between CD28 expressed on Naive T cells and
+CD86 expressed on mAPCs during the first phase of
+priming
+Peripheral CTLA4_leaky_ugml µg/ml Concentration of anti-CTLA-4 in leaky tissue
+Peripheral CTLA4_mabP_leaky mole Amount of anti-CTLA-4 in leaky tissue
+Peripheral CTLA4_mabP_tight mole Amount of anti-CTLA-4 in tight tissue
+Peripheral CTLA4_tight_ugml µg/ml Concentration of anti-CTLA-4 in tight tissue
+Peripheral EffT_P_f_Vasc cell Free effector T cells in the peripheral vasculature
+Peripheral PD1_leaky_ugml µg/ml Concentration of anti-PD-1 in leaky tissue
+Peripheral PD1_mabP_leaky mole Amount of anti-PD-1 in leaky tissue
+Peripheral PD1_mabP_tight mole Amount of anti-PD-1 in tight tissue
+Peripheral PD1_tight_ugml µg/ml Concentration of anti-PD-1 in tight tissue
+Peripheral PDL1_leaky_ugml µg/ml Concentration of anti-PD-L1 in leaky tissue
+Peripheral PDL1_mabP_leaky mole Amount of anti-PD-L1 in leaky tissue
+Peripheral PDL1_mabP_tight mole Amount of anti-PD-L1 in tight tissue
+Peripheral PDL1_tight_ugml µg/ml Concentration of anti-PD-L1 in tight tissue
+Tumor PD1_mabt mole Anti-PD-1 antibody in the tumor compartment
+Tumor PDL1_mabt mole Anti-PD-L1 antibody in the tumor compartment
+Tumor CTLA4_mabt mole Anti-CTLA-4 antibody in the tumor compartment
+Tumor Effector_TT cell Effector T cells in the tumor microenvironment
+Tumor Cancer cell Cancer cells in the tumor
+Tumor Effector_TT_C_Eng cell
+Effector T cells that can engage with cancer cells in the
+tumor microenvironment
+Tumor TC1 cell
+Cancer cells that are engaged with Effector T cells in the
+tumor microenvironment
+Tumor T_Recover_Can_Dead cell
+Effector T cells that have disengaged from the cancer cells
+in the tumor and are in delay state prior to being able to
+bind other cancer cells
+Tumor C_DebrisT cell
+Cancer debris in the tumor that has resulted from cancer
+death
+Tumor TC2 cell
+Effector T cells that are engaged with cancer cells in the
+tumor microenvironment
+Tumor Monocytes cell
+Monocytes that migrate into the tumor and differentiate
+into APCs
+Tumor APC_T cell
+Antigen Presenting Cells (APCs) in the tumor that can
+phagocytose tumor debris (tumor antigens) and become
+mature APCs
+Tumor mAPC_T cell
+Mature Antigen Presenting Cells (mAPCs) in the tumor
+that resulted from APCs that have phagocytosed tumor
+debris
+Tumor PD1_mabt mole Moles of anti-PD-1 antibody in the tumor interstitium
+Tumor
+PD1_mabT_ugml
+µg/ml
+Concentration of anti-PD-1 antibody in the tumor
+interstitium
+Tumor
+CTLA4_mabt_ugml
+µg/ml
+Concentration of anti-CTLA-4 antibody in the tumor
+interstitium
+Tumor
+PDL1_mabT_ugml
+µg/ml
+Concentration of anti-PD-L1 antibody in the tumor
+interstitium
+Tumor EffT_f_Vasc cell Free effector T cells in the tumor vasculature
+Tumor Tmr_Free_Sites cell Available binding sites for cells in the tumor vasculature
+Tumor EffT_b_Vasc cell Bound effector T cells in the tumor vasculature
+Tumor EffT_AR_Vasc cell Arrested effector T cells in the tumor vasculature
+Tumor Cancer1 cell
+Cancer cells that can engage with Effector T cells in the
+tumor
+Tumor T{PD1}{CD80}-{PDL1}C cell
+Effector T cells in the tumor that interact with the T3
+subgroup of cancer cells expressing PD-L1 only, and other
+unknown factors
+Tumor T{PD1}-{PDL2}C cell
+Effector T cells in the tumor that interact with the T4
+subgroup of cancer cells expressing PD-L2 only, and other
+unknown factors
+Tumor T{PDL1}-{PD1}C cell
+Effector T cells in the tumor that interact with the T2
+subgroup of cancer cells expressing PD-1 only, and other
+unknown factors
+Tumor T{PDL1}-{CD80}C cell
+Effector T cells in the tumor that interact with the T5
+subgroup of cancer cells expressing CD80 only, and other
+unknown factors
+Tumor T{PD1}{L1}{80}-{PD1}{L1}C cell
+Effector T cells in the tumor that interact with the T6
+subgroup of cancer cells expressing PD-1 and PD-L1 only,
+and other unknown factors
+Tumor T{PD1}{80}-{PDL1}{PDL2}C cell
+Effector T cells in the tumor that interact with the T8
+subgroup of cancer cells expressing PD-L1 and PD-L2
+only, and other unknown factors
+Tumor T{PD1}{L1}-{PD1}{L2}C cell
+Effector T cells in the tumor that interact with the T7
+subgroup of cancer cells expressing PD-1 and PD-L2 only,
+and other unknown factors
+Tumor T{PD1}{L1}{80}-{PD1}{L1}{L2}C cell
+Effector T cells in the tumor that interact with the T10
+subgroup of cancer cells expressing PD-1, PD-L1 and PD-
+L2 only, and other unknown factors
+Tumor T{PDL1}-{CD80}{PD1}C cell
+Effector T cells in the tumor that interact with the T9
+subgroup of cancer cells expressing CD80 and PD-1 only,
+and other unknown factors
+Tumor T{PD1}{L1}-{PDL1}{80}C cell
+Effector T cells in the tumor that interact with the T11
+subgroup of cancer cells expressing PD-L1 and CD80 only,
+and other unknown factors
+Tumor T{PD1}{L1}-{PDL2}{80}C cell
+Effector T cells in the tumor that interact with the T12
+subgroup of cancer cells expressing PD-L2 and CD80 only,
+and other unknown factors
+Tumor T{PD1}{L1}-{PDL1}{80}{L2}C cell
+Effector T cells in the tumor that interact with the T13
+subgroup of cancer cells expressing PD-L1, CD80 and PD-
+L2 only, and other unknown factors
+Tumor T{PD1}{L1}{80}-{PD1}{80}{L1}C cell
+Effector T cells in the tumor that interact with the T14
+subgroup of cancer cells expressing PD-1, CD80 and PD-
+L1 only, and other unknown factors
+Tumor T{PD1}{L1}-{PD1}{80}{PDL2}C cell
+Effector T cells in the tumor that interact with the T15
+subgroup of cancer cells expressing PD-1, CD80 and PD-
+L2 only, and other unknown factors
+Tumor
+T{PD1}{L1}{80}-
+{PD1}{80}{L1}{L2}C cell
+Effector T cells in the tumor that interact with the T16
+subgroup of cancer cells expressing PD-1, CD80, PD-L1
+and PD-L2 only, and other unknown factors
+Tumor T2=PDL1 mole
+PD-L1 expressed by Effector T cells that interact with T2
+subgroup of cancer cells
+Tumor T3a=PD1 mole
+PD-1 expressed by Effector T cells that interact with T3
+subgroup of cancer cells
+Tumor T4=PD1 mole
+PD-1 expressed by Effector T cells that interact with T4
+subgroup of cancer cells
+Tumor T5=PDL1 mole
+PD-L1 expressed by Effector T cells that interact with T5
+subgroup of cancer cells
+Tumor T3b=CD80 mole
+CD80 expressed by Effector T cells that interact with T3
+subgroup of cancer cells
+Tumor T7a=PDL1 mole
+PD-L1 expressed by Effector T cells that interact with T7
+subgroup of cancer cells
+Tumor T10b=PD1 mole
+PD-1 expressed by Effector T cells that interact with T10
+subgroup of cancer cells
+Tumor T7b=PD1 mole
+PD-1 expressed by Effector T cells that interact with T7
+subgroup of cancer cells
+Tumor T6a=PDL1 mole
+PD-L1 expressed by Effector T cells that interact with T6
+subgroup of cancer cells
+Tumor T6c=CD80 mole
+CD80 expressed by Effector T cells that interact with T6
+subgroup of cancer cells
+Tumor T6b=PD1 mole
+PD-1 expressed by Effector T cells that interact with T6
+subgroup of cancer cells
+Tumor T11a=PDL1 mole
+PD-L1 expressed by Effector T cells that interact with T11
+subgroup of cancer cells
+Tumor T11b=PD1 mole
+PD-1 expressed by Effector T cells that interact with T11
+subgroup of cancer cells
+Tumor T10c=CD80 mole
+CD80 expressed by Effector T cells that interact with T10
+subgroup of cancer cells
+Tumor T12b=PD1 mole
+PD-1 expressed by Effector T cells that interact with T12
+subgroup of cancer cells
+Tumor T13a=PDL1 mole
+PD-L1 expressed by Effector T cells that interact with T13
+subgroup of cancer cells
+Tumor T12a=PDL1 mole
+PD-L1 expressed by Effector T cells that interact with T12
+subgroup of cancer cells
+Tumor T14c=CD80 mole
+CD80 expressed by Effector T cells that interact with T14
+subgroup of cancer cells
+Tumor T15b=PD1 mole
+PD-1 expressed by Effector T cells that interact with T15
+subgroup of cancer cells
+Tumor T15a=PDL1 mole
+PD-L1 expressed by Effector T cells that interact with T15
+subgroup of cancer cells
+Tumor T13b=PD1 mole
+PD-1 expressed by Effector T cells that interact with T13
+subgroup of cancer cells
+Tumor T14b=PD1 mole
+PD-1 expressed by Effector T cells that interact with T14
+subgroup of cancer cells
+Tumor T14a=PDL1 mole
+PD-L1 expressed by Effector T cells that interact with T14
+subgroup of cancer cells
+Tumor T16b=PD1 mole
+PD-1 expressed by Effector T cells that interact with T16
+subgroup of cancer cells
+Tumor T16c=CD80 mole
+CD80 expressed by Effector T cells that interact with T16
+subgroup of cancer cells
+Tumor T16a=PDL1 mole
+PD-L1 expressed by Effector T cells that interact with T16
+subgroup of cancer cells
+Tumor T8a=PD1 mole
+PD-1 expressed by Effector T cells that interact with T8
+subgroup of cancer cells
+Tumor T8b=CD80 mole
+CD80 expressed by Effector T cells that interact with T8
+subgroup of cancer cells
+Tumor T9=PDL1 mole
+PD-L1 expressed by Effector T cells that interact with T9
+subgroup of cancer cells
+Tumor T10a=PDL1 mole
+PD-L1 expressed by Effector T cells that interact with T10
+subgroup of cancer cells
+Tumor C10a=PD1 mole
+PD-1 expressed by the T10 subtype of cancer cells that
+interact with Effector T cells in the tumor
+Tumor C9b=CD80 mole
+CD80 expressed by the T9 subtype of cancer cells that
+interact with Effector T cells in the tumor
+Tumor C9a=PD1 mole
+PD-1 expressed by the T9 subtype of cancer cells that
+interact with Effector T cells in the tumor
+Tumor C8b=PDL2 mole
+PD-L2 expressed by the T8 subtype of cancer cells that
+interact with Effector T cells in the tumor
+Tumor C16a=PD1 mole
+PD-1 expressed by the T16 subtype of cancer cells that
+interact with Effector T cells in the tumor
+Tumor C16c=PDL2 mole
+PD-L2 expressed by the T16 subtype of cancer cells that
+interact with Effector T cells in the tumor
+Tumor C16b=PDL1 mole
+PD-L1 expressed by the T16 subtype of cancer cells that
+interact with Effector T cells in the tumor
+Tumor C14a=PD1 mole
+PD-1 expressed by the T14 subtype of cancer cells that
+interact with Effector T cells in the tumor
+Tumor C14b=PDL1 mole
+PD-L1 expressed by the T14 subtype of cancer cells that
+interact with Effector T cells in the tumor
+Tumor C13b=PDL2 mole
+PD-L2 expressed by the T13 subtype of cancer cells that
+interact with Effector T cells in the tumor
+Tumor C15a=PD1 mole
+PD-1 expressed by the T15 subtype of cancer cells that
+interact with Effector T cells in the tumor
+Tumor C15b=PDL2 mole
+PD-L2 expressed by the T15 subtype of cancer cells that
+interact with Effector T cells in the tumor
+Tumor C14c=CD80 mole
+CD80 expressed by the T14 subtype of cancer cells that
+interact with Effector T cells in the tumor
+Tumor C12a=PDL2 mole
+PD-L2 expressed by the T12 subtype of cancer cells that
+interact with Effector T cells in the tumor
+Tumor C13a=PDL1 mole
+PD-L1 expressed by the T13 subtype of cancer cells that
+interact with Effector T cells in the tumor
+Tumor C12b=CD80 mole
+CD80 expressed by the T12 subtype of cancer cells that
+interact with Effector T cells in the tumor
+Tumor C10c=PDL2 mole
+PD-L2 expressed by the T10 subtype of cancer cells that
+interact with Effector T cells in the tumor
+Tumor C11b=CD80 mole
+CD80 expressed by the T11 subtype of cancer cells that
+interact with Effector T cells in the tumor
+Tumor C11a=PDL1 mole
+PD-L1 expressed by the T11 subtype of cancer cells that
+interact with Effector T cells in the tumor
+Tumor C6b=PDL1 mole
+PD-L1 expressed by the T6 subtype of cancer cells that
+interact with Effector T cells in the tumor
+Tumor C7a=PD1 mole
+PD-1 expressed by the T7 subtype of cancer cells that
+interact with Effector T cells in the tumor
+Tumor C6a=PD1 mole
+PD-1 expressed by the T6 subtype of cancer cells that
+interact with Effector T cells in the tumor
+Tumor C8a=PDL1 mole
+PD-L1 expressed by the T8 subtype of cancer cells that
+interact with Effector T cells in the tumor
+Tumor C10b=PDL1 mole
+PD-L1 expressed by the T10 subtype of cancer cells that
+interact with Effector T cells in the tumor
+Tumor C7b=PDL2 mole
+PD-L2 expressed by the T7 subtype of cancer cells that
+interact with Effector T cells in the tumor
+Tumor C5=CD80 mole
+CD80 expressed by the T5 subtype of cancer cells that
+interact with Effector T cells in the tumor
+Tumor C4=PDL2 mole
+PD-L2 expressed by the T4 subtype of cancer cells that
+interact with Effector T cells in the tumor
+Tumor C3=PDL1 mole
+PD-L1 expressed by the T3 subtype of cancer cells that
+interact with Effector T cells in the tumor
+Tumor C2=PD1 mole
+PD-1 expressed by the T2 subtype of cancer cells that
+interact with Effector T cells in the tumor
+Tumor C{PD1} cell
+T2 subgroup of cancer cells expressing PD-1 only, and
+other unknown factors
+Tumor C{PDL1} cell
+T3 subgroup of cancer cells expressing PD-L1 only, and
+other unknown factors
+Tumor C{PDL2} cell
+T4 subgroup of cancer cells expressing PD-L2 only, and
+other unknown factors
+Tumor C{CD80} cell
+T5 subgroup of cancer cells expressing CD80 only, and
+other unknown factors
+Tumor C{PD1}{PDL1} cell
+T6 subgroup of cancer cells expressing PD-1 and PD-L1
+only, and other unknown factors
+Tumor C{PD1}{PDL2} cell
+T7 subgroup of cancer cells expressing PD-1 and PD-L2
+only, and other unknown factors
+Tumor C{PDL1}{PDL2} cell
+T8 subgroup of cancer cells expressing PD-L1 and PD-L2
+only, and other unknown factors
+Tumor C{PD1}{CD80} cell
+T9 subgroup of cancer cells expressing PD-1 and CD80
+only, and other unknown factors
+Tumor C{PD1}{PDL1}{PDL2} cell
+T10 subgroup of cancer cells expressing PD-1, PD-L1 and
+PD-L2 only, and other unknown factors
+Tumor C{PDL1}{CD80} cell
+T11 subgroup of cancer cells expressing PD-L1 and CD80
+only, and other unknown factors
+Tumor C{PDL2}{CD80} cell
+T12 subgroup of cancer cells expressing PD-L2 and CD80
+only, and other unknown factors
+Tumor C{PDL1}{PDL2}{CD80} cell
+T13 subgroup of cancer cells expressing PD-L1, PDL-L2
+and CD80 only, and other unknown factors
+Tumor C{PD1}{PDL1}{CD80} cell
+T14 subgroup of cancer cells expressing PD-1, PD-L1 and
+CD80 only, and other unknown factors
+Tumor C{PD1}{PDL2}{CD80} cell
+T15 subgroup of cancer cells expressing PD-1, PD-L2 and
+CD80 only, and other unknown factors
+Tumor C{PD1}{PDL1}{PDL2}{CD80} cell
+T16 subgroup of cancer cells expressing PD-1, PD-L1, PD-
+L2 and CD80 only, and other unknown factors
+Tumor C13c=CD80 mole
+CD80 expressed by the T13 subtype of cancer cells that
+interact with Effector T cells in the tumor
+Tumor C15c=CD80 mole
+CD80 expressed by the T15 subtype of cancer cells that
+interact with Effector T cells in the tumor
+Tumor C16d=CD80 mole
+CD80 expressed by the T16 subtype of cancer cells that
+interact with Effector T cells in the tumor
+Tumor T2=PDL1:PD1=C2 mole
+Receptor-receptor interactions at the immunological
+synapse between PD-1 expressed by the T2 subtype of
+cancer cells and PD-L1 expressed on Effector T cells
+Tumor T3a=PD1:PDL1=C3 mole
+Receptor-receptor interactions at the immunological
+synapse between PD-L1 expressed by the T3 subtype of
+cancer cells and PD-1 expressed on Effector T cells
+Tumor T3b=CD80:PDL1=C3 mole
+Receptor-receptor interactions at the immunological
+synapse between PD-L1 expressed by the T3 subtype of
+cancer cells and CD80 expressed on Effector T cells
+Tumor T4=PD1:PDL2=C4 mole
+Receptor-receptor interactions at the immunological
+synapse between PD-L2 expressed by the T4 subtype of
+cancer cells and PD-1 expressed on Effector T cells
+Tumor T5=PDL1:CD80=C5 mole
+Receptor-receptor interactions at the immunological
+synapse between CD80 expressed by the T5 subtype of
+cancer cells and PD-L1 expressed on Effector T cells
+Tumor T6a=PDL1:PD1=C6a mole
+Receptor-receptor interactions at the immunological
+synapse between PD-1 expressed by the T6 subtype of
+cancer cells and PD-L1 expressed on Effector T cells
+Tumor T6c=CD80:PDL1=C6b mole
+Receptor-receptor interactions at the immunological
+synapse between PD-L1 expressed by the T6 subtype of
+cancer cells and CD80 expressed on Effector T cells
+Tumor T6b=PD1:PDL1=C6b mole
+Receptor-receptor interactions at the immunological
+synapse between PD-L1 expressed by the T6 subtype of
+cancer cells and PD-1 expressed on Effector T cells
+Tumor T7a=PDL1:PD1=C7a mole
+Receptor-receptor interactions at the immunological
+synapse between PD-1 expressed by the T7 subtype of
+cancer cells and PD-L1 expressed on Effector T cells
+Tumor T7b=PD1:PDL2=C7b mole
+Receptor-receptor interactions at the immunological
+synapse between PD-L2 expressed by the T7 subtype of
+cancer cells and PD-1 expressed on Effector T cells
+Tumor T8a=PD1:PDL2=C8b mole
+Receptor-receptor interactions at the immunological
+synapse between PD-L2 expressed by the T8 subtype of
+cancer cells and PD-1 expressed on Effector T cells
+Tumor T8a=PD1:PDL1=C8a mole
+Receptor-receptor interactions at the immunological
+synapse between PD-L1 expressed by the T8 subtype of
+cancer cells and PD-1 expressed on Effector T cells
+Tumor T8b=CD80:PDL1=C8a mole
+Receptor-receptor interactions at the immunological
+synapse between PD-L1 expressed by the T8 subtype of
+cancer cells and CD80 expressed on Effector T cells
+Tumor T9=PDL1-PD1=C9a mole
+Receptor-receptor interactions at the immunological
+synapse between PD-1 expressed by the T9 subtype of
+cancer cells and PD-L1 expressed on Effector T cells
+Tumor T9=PDL1-CD80=C9b mole
+Receptor-receptor interactions at the immunological
+synapse between CD80 expressed by the T9 subtype of
+cancer cells and PD-L1 expressed on Effector T cells
+Tumor T10a=PDL1:PD1=C10a mole
+Receptor-receptor interactions at the immunological
+synapse between PD-1 expressed by the T10 subtype of
+cancer cells and PD-L1 expressed on Effector T cells
+Tumor T10b=PD1:PDL1=C10b mole
+Receptor-receptor interactions at the immunological
+synapse between PD-L1 expressed by the T10 subtype of
+cancer cells and PD-1 expressed on Effector T cells
+Tumor T10b=PD1:PDL2=C10c mole
+Receptor-receptor interactions at the immunological
+synapse between PD-L2 expressed by the T10 subtype of
+cancer cells and PD-1 expressed on Effector T cells
+Tumor T10c=CD80:PDL1=C10b mole
+Receptor-receptor interactions at the immunological
+synapse between PD-L1 expressed by the T10 subtype of
+cancer cells and CD80 expressed on Effector T cells
+Tumor T11b=PD1:PDL1=C11a mole
+Receptor-receptor interactions at the immunological
+synapse between PD-L1 expressed by the T11 subtype of
+cancer cells and PD-1 expressed on Effector T cells
+Tumor T11a=PDL1:CD80=C11b mole
+Receptor-receptor interactions at the immunological
+synapse between CD80 expressed by the T11 subtype of
+cancer cells and PD-L1 expressed on Effector T cells
+Tumor T12b=PD1:PDL2=C12a mole
+Receptor-receptor interactions at the immunological
+synapse between PD-L2 expressed by the T12 subtype of
+cancer cells and PD-1 expressed on Effector T cells
+Tumor T12a=PDL1:CD80=C12b mole
+Receptor-receptor interactions at the immunological
+synapse between CD80 expressed by the T12 subtype of
+cancer cells and PD-L1 expressed on Effector T cells
+Tumor T13b=PD1:PDL1=C13a mole
+Receptor-receptor interactions at the immunological
+synapse between PD-L1 expressed by the T13 subtype of
+cancer cells and PD-1 expressed on Effector T cells
+Tumor T13a=PDL1:CD80=C13c mole
+Receptor-receptor interactions at the immunological
+synapse between CD80 expressed by the T13 subtype of
+cancer cells and PD-L1 expressed on Effector T cells
+Tumor T13b=PD1:PDL2=C13b mole
+Receptor-receptor interactions at the immunological
+synapse between PD-L2 expressed by the T13 subtype of
+cancer cells and PD-1 expressed on Effector T cells
+Tumor T14a=PDL1:PD1=C14a mole
+Receptor-receptor interactions at the immunological
+synapse between PD-1 expressed by the T14 subtype of
+cancer cells and PD-L1 expressed on Effector T cells
+Tumor T14a=PDL1:CD80=C14c mole
+Receptor-receptor interactions at the immunological
+synapse between CD80 expressed by the T14 subtype of
+cancer cells and PD-L1 expressed on Effector T cells
+Tumor T14b=PD1:PDL1=C14b mole
+Receptor-receptor interactions at the immunological
+synapse between PD-L1 expressed by the T14 subtype of
+cancer cells and PD-1 expressed on Effector T cells
+Tumor T14c=CD80:PDL1=C14b mole
+Receptor-receptor interactions at the immunological
+synapse between CD80 expressed by the T14 subtype of
+cancer cells and PD-L1 expressed on Effector T cells
+Tumor T15a=PDL1:CD80=C15c mole
+Receptor-receptor interactions at the immunological
+synapse between CD80 expressed by the T15 subtype of
+cancer cells and PD-L1 expressed on Effector T cells
+Tumor T15a=PDL1:PD1=C15a mole
+Receptor-receptor interactions at the immunological
+synapse between PD-1 expressed by the T15 subtype of
+cancer cells and PD-L1 expressed on Effector T cells
+Tumor T15b=PD1:PDL2=C15b mole
+Receptor-receptor interactions at the immunological
+synapse between PD-L2 expressed by the T15 subtype of
+cancer cells and PD-1 expressed on Effector T cells
+Tumor T16b=PD1:PDL2=C16c mole
+Receptor-receptor interactions at the immunological
+synapse between PD-L2 expressed by the T15 subtype of
+cancer cells and PD-1 expressed on Effector T cells
+Tumor T16b=PD1:PDL1=C16b mole
+Receptor-receptor interactions at the immunological
+synapse between PD-L1 expressed by the T15 subtype of
+cancer cells and PD-1 expressed on Effector T cells
+Tumor T16c=CD80:PDL1=C16b mole
+Receptor-receptor interactions at the immunological
+synapse between PD-L1 expressed by the T15 subtype of
+cancer cells and CD80 expressed on Effector T cells
+Tumor T16a=PDL1:PD1=C16a mole
+Receptor-receptor interactions at the immunological
+synapse between PD-1 expressed by the T15 subtype of
+cancer cells and PD-L1 expressed on Effector T cells
+Tumor T16a=PDL1:CD80=C16d mole
+Receptor-receptor interactions at the immunological
+synapse between CD80 expressed by the T15 subtype of
+cancer cells and PD-L1 expressed on Effector T cells
+Tumor T2=PDL1:aPDL1 mole
+Heterogeneous receptor-antibody interactions at the
+immunological synapse between PD-L1 expressed by
+Effector T cells that interact with the T2 subtype of cancer
+cells and Anti-PD-L1 mAb delivered to the tumor by way
+of IV injection into the blood
+Tumor T3a=PD1:aPD1 mole
+Heterogeneous receptor-antibody interactions at the
+immunological synapse between PD-1 expressed by
+Effector T cells that interact with the T3 subtype of cancer
+cells and Anti-PD-L1 mAb delivered to the tumor by way
+of IV injection into the blood
+Tumor C3=PDL1:aPDL1 mole
+Heterogeneous receptor-antibody interactions at the
+immunological synapse between PD-L1 expressed by the
+T3 subtype of cancer cells and Anti-PD-L1 mAb delivered
+to the tumor by way of IV injection into the blood
+Tumor T5=PDL1:aPDL1 mole
+Heterogeneous receptor-antibody interactions at the
+immunological synapse between PD-L1 expressed by
+Effector T cells that interact with the T5 subtype of cancer
+cells and Anti-PD-L1 mAb delivered to the tumor by way
+of IV injection into the blood
+Tumor T6a=PDL1:aPDL1 mole
+Heterogeneous receptor-antibody interactions at the
+immunological synapse between PD-L1 expressed by
+Effector T cells that interact with the T6 subtype of cancer
+cells and Anti-PD-L1 mAb delivered to the tumor by way
+of IV injection into the blood
+Tumor C6b=PDL1:aPDL1 mole
+Heterogeneous receptor-antibody interactions at the
+immunological synapse between PD-L1 expressed by the
+T6 subtype of cancer cells and Anti-PD-L1 mAb delivered
+to the tumor by way of IV injection into the blood
+Tumor T10a=PDL1:aPDL1 mole
+Heterogeneous receptor-antibody interactions at the
+immunological synapse between PD-L1 expressed by
+Effector T cells that interact with the T10 subtype of cancer
+cells and Anti-PD-L1 mAb delivered to the tumor by way
+of IV injection into the blood
+Tumor C10b=PDL1:aPDL1 mole
+Heterogeneous receptor-antibody interactions at the
+immunological synapse between PD-L1 expressed by the
+T10 subtype of cancer cells and Anti-PD-L1 mAb
+delivered to the tumor by way of IV injection into the
+blood
+Tumor C11a=PDL1:aPDL1 mole
+Heterogeneous receptor-antibody interactions at the
+immunological synapse between PD-L1 expressed by the
+T11 subtype of cancer cells and Anti-PD-L1 mAb
+delivered to the tumor by way of IV injection into the
+blood
+Tumor T11a=PDL1:aPDL1 mole
+Heterogeneous receptor-antibody interactions at the
+immunological synapse between PD-L1 expressed by
+Effector T cells that interact with the T11 subtype of cancer
+cells and Anti-PD-L1 mAb delivered to the tumor by way
+of IV injection into the blood
+Tumor T12a=PDL1:aPDL1 mole
+Heterogeneous receptor-antibody interactions at the
+immunological synapse between PD-L1 expressed by
+Effector T cells that interact with the T12 subtype of cancer
+cells and Anti-PD-L1 mAb delivered to the tumor by way
+of IV injection into the blood
+Tumor T7a=PDL1:aPDL1 mole
+Heterogeneous receptor-antibody interactions at the
+immunological synapse between PD-L1 expressed by
+Effector T cells that interact with the T7 subtype of cancer
+cells and Anti-PD-L1 mAb delivered to the tumor by way
+of IV injection into the blood
+Tumor C8a=PDL1:aPDL1 mole
+Heterogeneous receptor-antibody interactions at the
+immunological synapse between PD-L1 expressed by the
+T8 subtype of cancer cells and Anti-PD-L1 mAb delivered
+to the tumor by way of IV injection into the blood
+Tumor T9=PDL1:aPDL1 mole
+Heterogeneous receptor-antibody interactions at the
+immunological synapse between PD-L1 expressed by
+Effector T cells that interact with the T9 subtype of cancer
+cells and Anti-PD-L1 mAb delivered to the tumor by way
+of IV injection into the blood
+Tumor C13a=PDL1:aPDL1 mole
+Heterogeneous receptor-antibody interactions at the
+immunological synapse between PD-L1 expressed by the
+T13 subtype of cancer cells and Anti-PD-L1 mAb
+delivered to the tumor by way of IV injection into the
+blood
+Tumor T13a=PDL1:aPDL1 mole
+Heterogeneous receptor-antibody interactions at the
+immunological synapse between PD-L1 expressed by
+Effector T cells that interact with the T13 subtype of cancer
+cells and Anti-PD-L1 mAb delivered to the tumor by way
+of IV injection into the blood
+Tumor T14a=PDL1:aPDL1 mole
+Heterogeneous receptor-antibody interactions at the
+immunological synapse between PD-L1 expressed by
+Effector T cells that interact with the T14 subtype of cancer
+cells and Anti-PD-L1 mAb delivered to the tumor by way
+of IV injection into the blood
+Tumor C14b=PDL1:aPDL1 mole
+Heterogeneous receptor-antibody interactions at the
+immunological synapse between PD-L1 expressed by the
+T14 subtype of cancer cells and Anti-PD-L1 mAb
+delivered to the tumor by way of IV injection into the
+blood
+Tumor T15a=PDL1:aPDL1 mole
+Heterogeneous receptor-antibody interactions at the
+immunological synapse between PD-L1 expressed by
+Effector T cells that interact with the T15 subtype of cancer
+cells and Anti-PD-L1 mAb delivered to the tumor by way
+of IV injection into the blood
+Tumor T16a=PDL1:aPDL1 mole
+Heterogeneous receptor-antibody interactions at the
+immunological synapse between PD-L1 expressed by
+Effector T cells that interact with the T16 subtype of cancer
+cells and Anti-PD-L1 mAb delivered to the tumor by way
+of IV injection into the blood
+Tumor C16b=PDL1:aPDL1 mole
+Heterogeneous receptor-antibody interactions at the
+immunological synapse between PD-L1 expressed by the
+T16 subtype of cancer cells and Anti-PD-L1 mAb
+delivered to the tumor by way of IV injection into the
+blood
+Tumor C2=PD1:aPD1 mole
+Heterogeneous receptor-antibody interactions at the
+immunological synapse between PD-1 expressed by the T2
+subtype of cancer cells and Anti-PD-1 mAb delivered to
+the tumor by way of IV injection into the blood
+Tumor T4=PD1:aPD1 mole
+Heterogeneous receptor-antibody interactions at the
+immunological synapse between PD-1 expressed by
+Effector T cells that interact with the T4 subtype of cancer
+cells and Anti-PD-L1 mAb delivered to the tumor by way
+of IV injection into the blood
+Tumor C6a=PD1:aPD1 mole
+Heterogeneous receptor-antibody interactions at the
+immunological synapse between PD-1 expressed by the T6
+subtype of cancer cells and Anti-PD-1 mAb delivered to
+the tumor by way of IV injection into the blood
+Tumor T6b=PD1:aPD1 mole
+Heterogeneous receptor-antibody interactions at the
+immunological synapse between PD-1 expressed by
+Effector T cells that interact with the T6 subtype of cancer
+cells and Anti-PD-L1 mAb delivered to the tumor by way
+of IV injection into the blood
+Tumor C7a=PD1:aPD1 mole
+Heterogeneous receptor-antibody interactions at the
+immunological synapse between PD-1 expressed by the T7
+subtype of cancer cells and Anti-PD-1 mAb delivered to
+the tumor by way of IV injection into the blood
+Tumor T7b=PD1:aPD1 mole
+Heterogeneous receptor-antibody interactions at the
+immunological synapse between PD-1 expressed by
+Effector T cells that interact with the T7 subtype of cancer
+cells and Anti-PD-L1 mAb delivered to the tumor by way
+of IV injection into the blood
+Tumor T8a=PD1:aPD1 mole
+Heterogeneous receptor-antibody interactions at the
+immunological synapse between PD-1 expressed by
+Effector T cells that interact with the T8 subtype of cancer
+cells and Anti-PD-L1 mAb delivered to the tumor by way
+of IV injection into the blood
+Tumor C9a=PD1:aPD1 mole
+Heterogeneous receptor-antibody interactions at the
+immunological synapse between PD-1 expressed by the T9
+subtype of cancer cells and Anti-PD-1 mAb delivered to
+the tumor by way of IV injection into the blood
+Tumor C10a=PD1:aPD1 mole
+Heterogeneous receptor-antibody interactions at the
+immunological synapse between PD-1 expressed by the
+T10 subtype of cancer cells and Anti-PD-1 mAb delivered
+to the tumor by way of IV injection into the blood
+Tumor T10b=PD1:aPD1 mole
+Heterogeneous receptor-antibody interactions at the
+immunological synapse between PD-1 expressed by
+Effector T cells that interact with the T10 subtype of cancer
+cells and Anti-PD-L1 mAb delivered to the tumor by way
+of IV injection into the blood
+Tumor T11b=PD1:aPD1 mole
+Heterogeneous receptor-antibody interactions at the
+immunological synapse between PD-1 expressed by
+Effector T cells that interact with the T11 subtype of cancer
+cells and Anti-PD-L1 mAb delivered to the tumor by way
+of IV injection into the blood
+Tumor T13b=PD1:aPD1 mole
+Heterogeneous receptor-antibody interactions at the
+immunological synapse between PD-1 expressed by
+Effector T cells that interact with the T13 subtype of cancer
+cells and Anti-PD-L1 mAb delivered to the tumor by way
+of IV injection into the blood
+Tumor C14a=PD1:aPD1 mole
+Heterogeneous receptor-antibody interactions at the
+immunological synapse between PD-1 expressed by the
+T14 subtype of cancer cells and Anti-PD-1 mAb delivered
+to the tumor by way of IV injection into the blood
+Tumor T14b=PD1:aPD1 mole
+Heterogeneous receptor-antibody interactions at the
+immunological synapse between PD-1 expressed by
+Effector T cells that interact with the T14 subtype of cancer
+cells and Anti-PD-L1 mAb delivered to the tumor by way
+of IV injection into the blood
+Tumor C15a=PD1:aPD1 mole
+Heterogeneous receptor-antibody interactions at the
+immunological synapse between PD-1 expressed by the
+T15 subtype of cancer cells and Anti-PD-1 mAb delivered
+to the tumor by way of IV injection into the blood
+Tumor T15b=PD1:aPD1 mole
+Heterogeneous receptor-antibody interactions at the
+immunological synapse between PD-1 expressed by
+Effector T cells that interact with the T15 subtype of cancer
+cells and Anti-PD-L1 mAb delivered to the tumor by way
+of IV injection into the blood
+Tumor C16a=PD1:aPD1 mole
+Heterogeneous receptor-antibody interactions at the
+immunological synapse between PD-1 expressed by the
+T16 subtype of cancer cells and Anti-PD-1 mAb delivered
+to the tumor by way of IV injection into the blood
+Tumor T16b=PD1:aPD1 mole
+Heterogeneous receptor-antibody interactions at the
+immunological synapse between PD-1 expressed by
+Effector T cells that interact with the T16 subtype of cancer
+cells and Anti-PD-L1 mAb delivered to the tumor by way
+of IV injection into the blood
+Tumor T12b=PD1:aPD1 mole
+Heterogeneous receptor-antibody interactions at the
+immunological synapse between PD-1 expressed by
+Effector T cells that interact with the T12 subtype of cancer
+cells and Anti-PD-L1 mAb delivered to the tumor by way
+of IV injection into the blood
+Tumor TregT cell
+Total number of T Regulatory cells that able to engage
+with Effector T cells and mAPCs in the tumor
+Tumor TregT_Teff cell
+T Regulatory cells in the tumor that have engaged in
+interacting with Effector T cells
+Tumor MDSC_T cell
+Total number of MDSCs that able to engage with Effector
+T cells in the tumor
+Tumor MDSCsT_Teff cell
+MDSCs in the tumor that have engaged in interacting with
+Effector T cells
+Tumor MDSCsT_EngTeff cell
+MDSCs in the tumor that have engaged in interacting with
+Effector T cells that are accounting for the expression of
+PD-1 and PD-L1
+Tumor TregT_EngAPC cell
+T Regulatory cells in the tumor that have engaged in
+interacting with mAPCs that are accounting for the
+expression of CTLA-4
+Tumor mAPCT_EngTregT cell
+mAPCs in the tumor that have engaged in interacting with
+T Regulatory cells that are accounting for the expression of
+CD80 and CD86
+Tumor Teff_EngTregT cell
+Effector T cells in the tumor that have engaged in
+interacting with T Regulatory cells that are accounting for
+the expression of CD80, PD-1 and PD-L1
+Tumor PD1_TeffT mole
+PD-1 expressed by Effector T cells that interact with T
+Regulatory cells in the tumor
+Tumor PDL1_TeffT mole
+PD-L1 expressed by Effector T cells that interact with T
+Regulatory cells in the tumor
+Tumor CD80_TeffT mole
+CD80 expressed by Effector T cells that interact with T
+Regulatory cells in the tumor
+Tumor CD80_mAPCT mole
+CD80 expressed by mAPCs that interact with T Regulatory
+cells in the tumor
+Tumor PDL1_MDSCsT mole
+PD-L1 expressed by MDSCs that interact with Effector T
+cells in the tumor
+Tumor PD1_MDSCsT mole
+PD-1 expressed by MDSCs that interact with Effector T
+cells in the tumor
+Tumor CD86_mAPCT mole
+CD86 expressed by mAPCs that interact with T Regulatory
+cells in the tumor
+Tumor PD1_TregT mole
+PD-1 expressed by T Regulatory cells that interact with
+Effector T cells in the tumor
+Tumor PDL1_TregT mole
+PD-L1 expressed by T Regulatory cells that interact with
+Effector T cells in the tumor
+Tumor CTLA4_TregT mole
+CTLA-4 expressed by T Regulatory cells that interact with
+mAPCs in the tumor
+Tumor CTLA4:CD80_TrAT mole
+Receptor-receptor interactions at the immunological
+synapse between CD80 expressed by mAPCs and CTLA-4
+expressed on T Regulatory cells in the tumor
+Tumor CTLA4:CD86_TrAT mole
+Receptor-receptor interactions at the immunological
+synapse between CD86 expressed by mAPCs and CTLA-4
+expressed on T Regulatory cells in the tumor
+Tumor CTLA4_CTLA4-Trt mole
+Heterogeneous receptor-antibody interactions at the
+immunological synapse between CTLA-4 expressed by T
+Regulatory cells that interact with the mAPCs and Anti-
+PD-L1 mAb delivered to the tumor by way of IV injection
+into the blood
+Tumor PDL1:PD1_TrTeff mole
+Receptor-receptor interactions at the immunological
+synapse between PD-1 expressed by the Effector T cells
+and PD-L1 expressed on T Regulatory cells in the tumor
+Tumor PDL1:CD80_TrTeff mole
+Receptor-receptor interactions at the immunological
+synapse between CD80 expressed by the Effector T cells
+and PD-L1 expressed on T Regulatory cells in the tumor
+Tumor PD1:PDL1_TrTeff mole
+Receptor-receptor interactions at the immunological
+synapse between PD-L1 expressed by the Effector T cells
+and PD-1 expressed on T Regulatory cells in the tumor
+Tumor PDL1:CD80_MDSCT mole
+Receptor-receptor interactions at the immunological
+synapse between CD80 expressed by the Effector T cells
+and PD-L1 expressed on MDSCs in the tumor
+Tumor PDL1:PD1_MDSCT mole
+Receptor-receptor interactions at the immunological
+synapse between PD-1 expressed by the Effector T cells
+and PD-L1 expressed on MDSCs cells in the tumor
+Tumor PD1:PDL1_MDSCT mole
+Receptor-receptor interactions at the immunological
+synapse between PD-L1 expressed by the Effector T cells
+and PD-1 expressed on MDSCs in the tumor
+Tumor PD1:aPD1_Teff mole
+Heterogeneous receptor-antibody interactions at the
+immunological synapse between PD-1 expressed by
+Effector T cells that interact with the T Regulatory cells
+and Anti-PD-1 mAb delivered to the tumor by way of IV
+injection into the blood
+Tumor PDL1:aPDL1_Teff mole
+Heterogeneous receptor-antibody interactions at the
+immunological synapse between PD-L1 expressed by
+Effector T cells that interact with the T Regulatory cells
+and Anti-PD-L1 mAb delivered to the tumor by way of IV
+injection into the blood
+Tumor PDL1:aPDL1_Treg mole
+Heterogeneous receptor-antibody interactions at the
+immunological synapse between PD-L1 expressed by T
+Regulatory cells that interact with Effector T cells and
+Anti-PD-L1 mAb delivered to the tumor by way of IV
+injection into the blood
+Tumor PD1:aPD1_Treg mole
+Heterogeneous receptor-antibody interactions at the
+immunological synapse between PD-1 expressed by T
+Regulatory cells that interact with Effector T cells and
+Anti-PD-1 mAb delivered to the tumor by way of IV
+injection into the blood
+Tumor PD1:aPD1_MDSCs mole
+Heterogeneous receptor-antibody interactions at the
+immunological synapse between PD-1 expressed by
+MDSCs that interact with Effector T cells and Anti-PD-1
+mAb delivered to the tumor by way of IV injection into the
+blood
+Tumor PDL1:aPDL1_MDSCs mole
+Heterogeneous receptor-antibody interactions at the
+immunological synapse between PD-L1 expressed by
+MDSCs that interact with Effector T cells and Anti-PD-L1
+mAb delivered to the tumor by way of IV injection into the
+blood
+Tumor TregT_EngTeff cell
+T Regulatory cells in the tumor that have engaged in
+interacting with Effector T cells that are accounting for the
+expression of PD-1 and PD-L1
+Tumor Teff_EngMDSC cell
+Effector T cells in the tumor that have engaged in
+interacting with MDSCs that are accounting for the
+expression of CD80, PD-1 and PD-L1
+Tumor CD80_TeffT1 mole
+CD80 expressed by Effector T cells that interact with
+MDSCs in the tumor
+Tumor PDL1_TeffT1 mole
+PD-L1 expressed by Effector T cells that interact with
+MDSCs in the tumor
+Tumor PD1_TeffT1 mole
+PD-1 expressed by Effector T cells that interact with
+MDSCs in the tumor
+Tumor PD1:aPD1_Teff1 mole
+Heterogeneous receptor-antibody interactions at the
+immunological synapse between PD-1 expressed by
+Effector T cells that interact with the MDSCs and Anti-PD-
+1 mAb delivered to the tumor by way of IV injection into
+the blood
+Tumor PDL1:aPDL1_Teff1 mole
+Heterogeneous receptor-antibody interactions at the
+immunological synapse between PD-L1 expressed by
+Effector T cells that interact with the MDSCs and Anti-PD-
+L1 mAb delivered to the tumor by way of IV injection into
+the blood
+Tumor Effector_TT_TregT cell
+Total number of Effector T cells that able to engage with T
+Regulatory cells in the tumor
+Tumor Effector_TT_MDSCs cell
+Total number of Effector T cells that able to engage with
+MDSCs in the tumor
+Tumor Effector_TT_Res cell
+Effector T cells that have become Resident Effector
+Memory cells after the tumor has died
+Tumor Effector_TT_Count cell
+The total number of Effector and Resident Effector
+Memory cells
+Tumor Effector_TT_per_Treg
+cell/
+cell
+The number of Effector T cells per T Regulatory cells in
+the tumor
+Tumor Effector_TT_per_mL
+cell/
+mm3
+The volumetric density of Effector T cells per milliliter in
+the tumor
