@@ -1,0 +1,56 @@
+,reactions,reaction_rates,desc
+1,[Blood-Lymph].CTLA4_mabB <-> Lymph_Node.CTLA4_mab,Kpa_LNB*S_LNB*VL*f_LN_CTLA4*([Blood-Lymph].CTLA4_mabB/Vc_CTLA4-Lymph_Node.CTLA4_mab/VL),Distribution of Anti-CTLA-4 mAb between the central and lymph node compartments
+2,[Blood-Lymph].CTLA4_mabB <-> Peripheral.CTLA4_mabP_leaky,0.67*Q_L*[Blood-Lymph].CTLA4_mabB*(1-Sigma1_CTLA4)/Vc_CTLA4 -(Peripheral.CTLA4_mabP_leaky/(0.35*ISF*KP_CTLA4))*0.33*Q_L*(1-Sigma1_CTLA4),Distribution of Anti-CTLA-4 mAb between the central and leaky tissues
+3,[Blood-Lymph].CTLA4_mabB <-> Peripheral.CTLA4_mabP_tight,0.33*Q_L*[Blood-Lymph].CTLA4_mabB*(1-Sigma2_CTLA4)/Vc_CTLA4-(Peripheral.CTLA4_mabP_tight/(0.65*ISF*KP_CTLA4))*0.33*Q_L*(1-Sigma2_CTLA4),Distribution of Anti-CTLA-4 mAb between the central and tight tissues
+4,[Blood-Lymph].CTLA4_mabB <-> Tumor.CTLA4_mabt,Kpa_TB*S_TB*Vt_avg_const*[Blood-Lymph].CTLA4_mabB/Vc_PD1-Kpa_TB*S_TB*Vt_avg_const*Tumor.CTLA4_mabt/(Vex_Tmr),Distribution of Anti-CTLA-4 mAb between the central and tumor compartments
+5,[Blood-Lymph].CTLA4_mabB -> null,Cl_CTLA4*[Blood-Lymph].CTLA4_mabB,Clearance of Anti-CTLA-4 mAb from the central compartment
+6,[Blood-Lymph].Effector_T_TB -> [Blood-Lymph].Effector_T_TB + [Blood-Lymph].Effector_TB,EffT_Migrate*[Blood-Lymph].Effector_T_TB,The generation of Effector T cells and their migration into the blood/plasma from the designated number of lymph nodes as amultiple of that from a single lymph node
+7,[Blood-Lymph].Effector_TB -> Liv_Spln_GI.EffT_GI_f_Vasc,QC_GI*[Blood-Lymph].Effector_TB/Vc_Teff,Trafficking of free Effector T cells from blood to GI vasculature
+8,[Blood-Lymph].Effector_TB -> Liv_Spln_GI.EffT_Liver_f_Vasc,(QC_Liver-QC_GI-QC_Spleen+LC_GI+LC_Spleen)*[Blood-Lymph].Effector_TB/Vc_Teff,Trafficking of free Effector T cells from blood to Liver vasculature
+9,[Blood-Lymph].Effector_TB -> Liv_Spln_GI.EffT_Spleen_f_Vasc,QC_Spleen * [Blood-Lymph].Effector_TB/Vc_Teff,Trafficking of free Effector T cells from blood to Spleen vasculature
+10,[Blood-Lymph].Effector_TB -> Lymph_Node.EffT_LN_f_Vasc,QC_LN*[Blood-Lymph].Effector_TB/Vc_Teff,Trafficking of free Effector T cells from blood to Lymph Node vasculature
+11,[Blood-Lymph].Effector_TB -> null,EffT_Turnover*[Blood-Lymph].Effector_TB,The natural turnover of Effector T cells in the blood
+12,[Blood-Lymph].Effector_TB -> Peripheral.EffT_P_f_Vasc,QC_Periph*[Blood-Lymph].Effector_TB/Vc_Teff,Trafficking of free Effector T cells from blood to Peripheral (other tissues not directly accounted for) vasculature
+13,[Blood-Lymph].Effector_TB -> Tumor.EffT_f_Vasc,QC_Tmr*TCytokineHoming*[Blood-Lymph].Effector_TB/Vc_Teff,Trafficking of free Effector T cells from blood to Tumor vasculature
+14,[Blood-Lymph].PD1_mabb <-> Lymph_Node.PD1_mab,Kpa_LNB*S_LNB*VL*f_LN_PD1*([Blood-Lymph].PD1_mabb/Vc_PD1-Lymph_Node.PD1_mab/VL),Distribution of Anti-PD-1 mAb between the central and lymph node compartments
+15,[Blood-Lymph].PD1_mabb <-> Peripheral.PD1_mabP_leaky,0.67*Q_L*PD1_mabb*(1-Sigma1_PD1)/Vc_PD1-(Peripheral.PD1_mabP_leaky/(0.35*ISF*KP_PD1))*0.33*Q_L*(1-Sigma1_PD1),Distribution of Anti-PD-1 mAb between the central and leaky tissues
+16,[Blood-Lymph].PD1_mabb <-> Peripheral.PD1_mabP_tight,0.33*Q_L*[Blood-Lymph].PD1_mabb*(1-Sigma2_PD1)/Vc_PD1-(Peripheral.PD1_mabP_tight/(0.65*ISF*KP_PD1))*0.33*Q_L*(1-Sigma2_PD1),Distribution of Anti-PD-1 mAb between the central and tight tissues
+17,[Blood-Lymph].PD1_mabb <-> Tumor.PD1_mabt,Kpa_TB*S_TB*Vt_avg_const*[Blood-Lymph].PD1_mabb/Vc_PD1-Kpa_TB*S_TB*Vt_avg_const*Tumor.PD1_mabt/(Vex_Tmr),Distribution of Anti-PD-1 mAb between the central and tumor compartments
+18,[Blood-Lymph].PD1_mabb -> null,(Cl_PD1/Vc_PD1)*[Blood-Lymph].PD1_mabb,Clearance of Anti-PD-1 mAb from the central compartment
+19,[Blood-Lymph].PDL1_mabb <-> Lymph_Node.PDL1_mab,Kpa_LNB*S_LNB*VL*f_LN_PD1*([Blood-Lymph].PDL1_mabb/Vc_PDL1-Lymph_Node.PDL1_mab/VL),Distribution of Anti-PD-L1 mAb between the central and lymph node compartments
+20,[Blood-Lymph].PDL1_mabb <-> Peripheral.PDL1_mabP_leaky,0.67*Q_L*PDL1_mabb*(1-Sigma1_PDL1)/Vc_PDL1-(Peripheral.PDL1_mabP_leaky/(0.35*ISF*KP_PDL1))*0.33*Q_L*(1-Sigma1_PDL1),Distribution of Anti-PD-L1 mAb between the central and leaky tissues
+21,[Blood-Lymph].PDL1_mabb <-> Peripheral.PDL1_mabP_tight,0.33*Q_L*[Blood-Lymph].PDL1_mabb*(1-Sigma2_PDL1)/Vc_PDL1-(Peripheral.PDL1_mabP_tight/(0.65*ISF*KP_PDL1))*0.33*Q_L*(1-Sigma2_PDL1),Distribution of Anti-PD-L1 mAb between the central and tight tissues
+22,[Blood-Lymph].PDL1_mabb <-> Tumor.PDL1_mabt,Kpa_TB*S_TB*Vt_avg_const*[Blood-Lymph].PDL1_mabb/Vc_PDL1-Kpa_TB*S_TB*Vt_avg_const*Tumor.PDL1_mabt/(Vex_Tmr),Distribution of Anti-PD-L1 mAb between the central and tumor compartments
+23,[Blood-Lymph].PDL1_mabb -> null,(Cl_PDL1/Vc_PDL1)*[Blood-Lymph].PDL1_mabb,Clearance of Anti-PD-L1 mAb from the central compartment
+24,[Blood-Lymph].PDL1_mabb -> null,(Vm/Durvalumab_MW)*[Blood-Lymph].PDL1_mabb/(Km*Vc_PDL1/Durvalumab_MW+[Blood-Lymph].PDL1_mabb),Saturation of Anti-PD-L1 mAb clearance from the central compartment
+25,Liv_Spln_GI.EffT_GI_f_Vasc -> Liv_Spln_GI.EffT_Liver_f_Vasc,(QC_GI - LC_GI)*Liv_Spln_GI.EffT_GI_f_Vasc/Vv_GI,Trafficking of Effector T cells from GI to Liver vasculature
+26,Liv_Spln_GI.EffT_GI_f_Vasc -> null,EffT_Turnover*Liv_Spln_GI.EffT_GI_f_Vasc,Turnover of free Effector T cells in the GI vasculature
+27,Liv_Spln_GI.EffT_Liver_AR_Vasc -> Liv_Spln_GI.EffT_LiverEx,J_Liver*Liv_Spln_GI.EffT_Liver_AR_Vasc,Extravasation of arrested Effector T cells from the Liver vasculature
+28,Liv_Spln_GI.EffT_Liver_AR_Vasc -> null,EffT_Turnover*Liv_Spln_GI.EffT_Liver_AR_Vasc,Turnover of arrested Effector T cells in the Liver vasculature
+29,Liv_Spln_GI.EffT_Liver_b_Vasc -> Liv_Spln_GI.EffT_Liver_AR_Vasc,AR_Liver*[Liv_Spln_GI].EffT_Liver_b_Vasc,Arrest of bound Effector T cells in the Liver vasculature
+30,Liv_Spln_GI.EffT_Liver_b_Vasc -> Liv_Spln_GI.EffT_Liver_f_Vasc,kr_Periph*Liv_Spln_GI.EffT_Liver_b_Vasc,Detachment of bound Effector T cells in the Liver vasculature
+31,Liv_Spln_GI.EffT_Liver_b_Vasc -> null,EffT_Turnover*Liv_Spln_GI.EffT_Liver_b_Vasc,Turnover of bound Effector T cells in the liver vasculature
+32,Liv_Spln_GI.EffT_Liver_f_Vasc -> Lungs.EffT_f_LungsVasc,(QC_Liver - LC_Liver)*Liv_Spln_GI.EffT_Liver_f_Vasc/Vv_Liver,Trafficking of free Effector T cells from Liver to Lung vasculature
+33,Liv_Spln_GI.EffT_Liver_f_Vasc -> null,EffT_Turnover*Liv_Spln_GI.EffT_Liver_f_Vasc,Turnover of free Effector T cells in the liver vasculature
+34,Liv_Spln_GI.EffT_LiverEx -> Lymph_Node.EffT_LN_ExRec,LC_Liver*Delta_Liver*Liv_Spln_GI.EffT_LiverEx/Vext_Liver,Trafficking of free Effector T cells from Liver to lymph node extravascular space
+35,Liv_Spln_GI.EffT_LiverEx -> null,EffT_Turnover*Liv_Spln_GI.EffT_LiverEx,Turnover of Effector T cells in the Liver extravascular space
+36,Liv_Spln_GI.EffT_Spleen_AR_Vasc -> Liv_Spln_GI.EffT_SpleenEx,J_Spleen*Liv_Spln_GI.EffT_Spleen_AR_Vasc,Extravasation of arrested Effector T cells from the Spleen vasculature
+37,Liv_Spln_GI.EffT_Spleen_AR_Vasc -> null,EffT_Turnover*Liv_Spln_GI.EffT_Spleen_AR_Vasc,Turnover of arrested Effector T cells in the Spleen vasculature
+38,Liv_Spln_GI.EffT_Spleen_b_Vasc -> Liv_Spln_GI.EffT_Spleen_AR_Vasc,AR_Spleen*[Liv_Spln_GI].EffT_Spleen_b_Vasc,Arrest of bound Effector T cells in the Spleen vasculature
+39,Liv_Spln_GI.EffT_Spleen_b_Vasc -> Liv_Spln_GI.EffT_Spleen_f_Vasc,kr_Periph*Liv_Spln_GI.EffT_Spleen_b_Vasc,Detachment of bound Effector T cells in the Spleen vasculature
+40,Liv_Spln_GI.EffT_Spleen_b_Vasc -> null,EffT_Turnover*Liv_Spln_GI.EffT_Spleen_b_Vasc,Turnover of bound Effector T cells in the Spleen vasculature
+41,Liv_Spln_GI.EffT_Spleen_f_Vasc + Liv_Spln_GI.Spleen_Free_Sites -> Liv_Spln_GI.EffT_Spleen_b_Vasc + Liv_Spln_GI.Spleen_Free_Sites,kf_Spleen*Liv_Spln_GI.Spleen_Free_Sites*[Liv_Spln_GI].EffT_Spleen_f_Vasc/Vv_Spleen,Binding or free Effector T cells to the Spleen vasculature
+42,Liv_Spln_GI.EffT_Spleen_f_Vasc -> Liv_Spln_GI.EffT_Liver_f_Vasc,(QC_Spleen - LC_Spleen)*Liv_Spln_GI.EffT_Spleen_f_Vasc/Vv_Spleen,Trafficking of free Effector T cells from Spleen to Liver vasculature
+43,Liv_Spln_GI.EffT_Spleen_f_Vasc -> null,EffT_Turnover*Liv_Spln_GI.EffT_Spleen_f_Vasc,Turnover of free Effector T cells in the Spleen vasculature
+44,Liv_Spln_GI.EffT_SpleenEx -> Lymph_Node.EffT_LN_ExRec,LC_Spleen*Delta_Spleen*Liv_Spln_GI.EffT_SpleenEx/Vext_Spleen,Trafficking of free Effector T cells from Spleen to lymph node extravascular space
+45,Liv_Spln_GI.EffT_SpleenEx -> null,EffT_Turnover*Liv_Spln_GI.EffT_SpleenEx,Turnover of Effector T cells in the Spleen extravascular space
+46,Liv_Spln_GI.Liver_Free_Sites + Liv_Spln_GI.EffT_Liver_f_Vasc -> Liv_Spln_GI.EffT_Liver_b_Vasc + Liv_Spln_GI.Liver_Free_Sites,kf_Liver*Liver_Free_Sites*[Liv_Spln_GI].EffT_Liver_f_Vasc/Vv_Liver,Binding or free Effector T cells to the Liver vasculature
+47,Lungs.EffT_AR_LungsVasc -> Lungs.EffT_LungsEx,J_Lungs*Lungs.EffT_AR_LungsVasc,Extravasation of arrested Effector T cells from the Lungs vasculature
+48,Lungs.EffT_AR_LungsVasc -> null,EffT_Turnover*Lungs.EffT_AR_LungsVasc,Turnover of arrested Effector T cells in the Lungs vasculature
+49,Lungs.EffT_AR_LungsVasc -> null,E_Lungs*Lungs.EffT_AR_LungsVasc,Depletion of arrested Effector T cells in the Lungs vasculature
+50,Lungs.EffT_f_LungsVasc + Lungs.Lung_Free_Sites -> Lungs.EffT_r_LungsVasc + Lungs.Lung_Free_Sites,kf_Lungs*Lung_Free_Sites*Lungs.EffT_f_LungsVasc/Vv_Lungs,Binding or free Effector T cells to the Lungs vasculature
+51,Lungs.EffT_f_LungsVasc -> [Blood-Lymph].Effector_TB,(QC_Lungs - LC_Lungs)*Lungs.EffT_f_LungsVasc/Vv_Lungs,Trafficking of free Effector T cells from Lungs to (arterial) Blood
+52,Lungs.EffT_f_LungsVasc -> null,EffT_Turnover*Lungs.EffT_f_LungsVasc,Turnover of free Effector T cells in the Lungs vasculature
+53,Lungs.EffT_LungsEx -> Lymph_Node.EffT_LN_ExRec,LC_Lungs*Delta_Lungs*Lungs.EffT_LungsEx/Vext_Lungs,Trafficking of free Effector T cells from Lungs to lymph node extravascular space
+54,Lungs.EffT_LungsEx -> null,EffT_Turnover*Lungs.EffT_LungsEx,Turnover of Effector T cells in the Lungs extravascular space
+55,Lungs.EffT_r_LungsVasc -> Lungs.EffT_AR_LungsVasc,AR_Lungs*Lungs.EffT_r_LungsVasc,Arrest of bound Effector T cells in the Lungs vasculature
