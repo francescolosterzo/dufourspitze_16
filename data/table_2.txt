@@ -1,10 +1,7 @@
 1 Kpa_LNB*S_LNB*VL*f_LN_CTLA4*([Blood-Lymph].CTLA4_mabB/Vc_CTLA4-Lymph_Node.CTLA4_mab/VL)
-2 0.67*Q_L*[Blood-Lymph].CTLA4_mabB*(1-Sigma1_CTLA4)/Vc_CTLA4 -
-(Peripheral.CTLA4_mabP_leaky/(0.35*ISF*KP_CTLA4))*0.33*Q_L*(1-Sigma1_CTLA4)
-3 0.33*Q_L*[Blood-Lymph].CTLA4_mabB*(1-Sigma2_CTLA4)/Vc_CTLA4-
-(Peripheral.CTLA4_mabP_tight/(0.65*ISF*KP_CTLA4))*0.33*Q_L*(1-Sigma2_CTLA4)
-4 Kpa_TB*S_TB*Vt_avg_const*[Blood-Lymph].CTLA4_mabB/Vc_PD1-
-Kpa_TB*S_TB*Vt_avg_const*Tumor.CTLA4_mabt/(Vex_Tmr)
+2 0.67*Q_L*[Blood-Lymph].CTLA4_mabB*(1-Sigma1_CTLA4)/Vc_CTLA4 - (Peripheral.CTLA4_mabP_leaky/(0.35*ISF*KP_CTLA4))*0.33*Q_L*(1-Sigma1_CTLA4)
+3 0.33*Q_L*[Blood-Lymph].CTLA4_mabB*(1-Sigma2_CTLA4)/Vc_CTLA4- (Peripheral.CTLA4_mabP_tight/(0.65*ISF*KP_CTLA4))*0.33*Q_L*(1-Sigma2_CTLA4)
+4 Kpa_TB*S_TB*Vt_avg_const*[Blood-Lymph].CTLA4_mabB/Vc_PD1-Kpa_TB*S_TB*Vt_avg_const*Tumor.CTLA4_mabt/(Vex_Tmr)
 5 Cl_CTLA4*[Blood-Lymph].CTLA4_mabB
 6 EffT_Migrate*[Blood-Lymph].Effector_T_TB
 7 QC_GI*[Blood-Lymph].Effector_TB/Vc_Teff
@@ -15,20 +12,14 @@ Kpa_TB*S_TB*Vt_avg_const*Tumor.CTLA4_mabt/(Vex_Tmr)
 12 QC_Periph*[Blood-Lymph].Effector_TB/Vc_Teff
 13 QC_Tmr*TCytokineHoming*[Blood-Lymph].Effector_TB/Vc_Teff
 14 Kpa_LNB*S_LNB*VL*f_LN_PD1*([Blood-Lymph].PD1_mabb/Vc_PD1-Lymph_Node.PD1_mab/VL)
-15 0.67*Q_L*PD1_mabb*(1-Sigma1_PD1)/Vc_PD1-(Peripheral.PD1_mabP_leaky/(0.35*ISF*KP_PD1))*0.33*Q_L*(1-
-Sigma1_PD1)
-16 0.33*Q_L*[Blood-Lymph].PD1_mabb*(1-Sigma2_PD1)/Vc_PD1-
-(Peripheral.PD1_mabP_tight/(0.65*ISF*KP_PD1))*0.33*Q_L*(1-Sigma2_PD1)
-17 Kpa_TB*S_TB*Vt_avg_const*[Blood-Lymph].PD1_mabb/Vc_PD1-
-Kpa_TB*S_TB*Vt_avg_const*Tumor.PD1_mabt/(Vex_Tmr)
+15 0.67*Q_L*PD1_mabb*(1-Sigma1_PD1)/Vc_PD1-(Peripheral.PD1_mabP_leaky/(0.35*ISF*KP_PD1))*0.33*Q_L*(1- Sigma1_PD1)
+16 0.33*Q_L*[Blood-Lymph].PD1_mabb*(1-Sigma2_PD1)/Vc_PD1-(Peripheral.PD1_mabP_tight/(0.65*ISF*KP_PD1))*0.33*Q_L*(1-Sigma2_PD1)
+17 Kpa_TB*S_TB*Vt_avg_const*[Blood-Lymph].PD1_mabb/Vc_PD1-Kpa_TB*S_TB*Vt_avg_const*Tumor.PD1_mabt/(Vex_Tmr)
 18 (Cl_PD1/Vc_PD1)*[Blood-Lymph].PD1_mabb
 19 Kpa_LNB*S_LNB*VL*f_LN_PD1*([Blood-Lymph].PDL1_mabb/Vc_PDL1-Lymph_Node.PDL1_mab/VL)
-20 0.67*Q_L*PDL1_mabb*(1-Sigma1_PDL1)/Vc_PDL1-(Peripheral.PDL1_mabP_leaky/(0.35*ISF*KP_PDL1))*0.33*Q_L*(1-
-Sigma1_PDL1)
-21 0.33*Q_L*[Blood-Lymph].PDL1_mabb*(1-Sigma2_PDL1)/Vc_PDL1-
-(Peripheral.PDL1_mabP_tight/(0.65*ISF*KP_PDL1))*0.33*Q_L*(1-Sigma2_PDL1)
-22 Kpa_TB*S_TB*Vt_avg_const*[Blood-Lymph].PDL1_mabb/Vc_PDL1-
-Kpa_TB*S_TB*Vt_avg_const*Tumor.PDL1_mabt/(Vex_Tmr)
+20 0.67*Q_L*PDL1_mabb*(1-Sigma1_PDL1)/Vc_PDL1-(Peripheral.PDL1_mabP_leaky/(0.35*ISF*KP_PDL1))*0.33*Q_L*(1-Sigma1_PDL1)
+21 0.33*Q_L*[Blood-Lymph].PDL1_mabb*(1-Sigma2_PDL1)/Vc_PDL1-(Peripheral.PDL1_mabP_tight/(0.65*ISF*KP_PDL1))*0.33*Q_L*(1-Sigma2_PDL1)
+22 Kpa_TB*S_TB*Vt_avg_const*[Blood-Lymph].PDL1_mabb/Vc_PDL1-Kpa_TB*S_TB*Vt_avg_const*Tumor.PDL1_mabt/(Vex_Tmr)
 23 (Cl_PDL1/Vc_PDL1)*[Blood-Lymph].PDL1_mabb
 24 (Vm/Durvalumab_MW)*[Blood-Lymph].PDL1_mabb/(Km*Vc_PDL1/Durvalumab_MW+[Blood-Lymph].PDL1_mabb)
 25 (QC_GI - LC_GI)*Liv_Spln_GI.EffT_GI_f_Vasc/Vv_GI
@@ -65,54 +56,37 @@ Kpa_TB*S_TB*Vt_avg_const*Tumor.PDL1_mabt/(Vex_Tmr)
 56 kr_Lungs*Lungs.EffT_r_LungsVasc
 57 EffT_Turnover*Lungs.EffT_r_LungsVasc
 58 E_Lungs*Lungs.EffT_r_LungsVasc
-59 [kon_PDL1_CD80]*Lymph_Node.[PNT-Tr_CD80]*Lymph_Node.[Tr-PNT_PDL1]/[Vol_Cell-Rec_Tr-PNT] -
-[koff_PDL1_CD80]*Lymph_Node.[TrPNT_PDL1-CD80]
+59 [kon_PDL1_CD80]*Lymph_Node.[PNT-Tr_CD80]*Lymph_Node.[Tr-PNT_PDL1]/[Vol_Cell-Rec_Tr-PNT] -[koff_PDL1_CD80]*Lymph_Node.[TrPNT_PDL1-CD80]
 60 [Exp_CD28/80/86/PD1/L1/L2]*(Lymph_Node.[PNT-Tr_CD80]+[TrPNT_PDL1-CD80])
-61 [kon_PD1_PDL1]*Lymph_Node.[PNT-Tr_PD1]*Lymph_Node.[Tr-PNT_PDL1]/[Vol_Cell-Rec_Tr-PNT] -
-[koff_PD1_PDL1]*Lymph_Node.[TrPNT_PDL1-PD1]
-62 [kon_PD1-PD1mAb]*Lymph_Node.[PNT-Tr_PD1]*Lymph_Node.PD1_mab/Vtdln - [koff_PD1-
-PD1mAb]*Lymph_Node.PNTTr_PD1_aPD1
+61 [kon_PD1_PDL1]*Lymph_Node.[PNT-Tr_PD1]*Lymph_Node.[Tr-PNT_PDL1]/[Vol_Cell-Rec_Tr-PNT] -[koff_PD1_PDL1]*Lymph_Node.[TrPNT_PDL1-PD1]
+62 [kon_PD1-PD1mAb]*Lymph_Node.[PNT-Tr_PD1]*Lymph_Node.PD1_mab/Vtdln - [koff_PD1-PD1mAb]*Lymph_Node.PNTTr_PD1_aPD1
 63 [Exp_CD28/80/86/PD1/L1/L2]*(Lymph_Node.[PNT-Tr_PD1]+PNTTr_PD1_aPD1+[TrPNT_PDL1-PD1])
-64 [kon_PDL1-PDL1mAb]*Lymph_Node.[PNT-Tr_PDL1]*Lymph_Node.PDL1_mab/Vtdln - [koff_PDL1-
-PDL1mAb]*Lymph_Node.PNTTr_PDL1_aPDL1
+64 [kon_PDL1-PDL1mAb]*Lymph_Node.[PNT-Tr_PDL1]*Lymph_Node.PDL1_mab/Vtdln - [koff_PDL1-PDL1mAb]*Lymph_Node.PNTTr_PDL1_aPDL1
 65 [Exp_CD28/80/86/PD1/L1/L2]*(Lymph_Node.[PNT-Tr_PDL1]+PNTTr_PDL1_aPDL1+[TrPNT_PD1-L1])
 66 [Treg:T_IntTime]*Lymph_Node.[TregLN-NT]
 67 [Treg:T_IntTime]*Lymph_Node.[TregLN-NT]
 68 [Treg:T_IntTime]*Lymph_Node.[TregLN-PNT]*[Sig_TrPNT=PD1/L1/CD80]
 69 [Treg:T_IntTime]*Lymph_Node.[TregLN-PNT]*(1-[Sig_TrPNT=PD1/L1/CD80])
-70 [Exp_CD28/80/86/PD1/L1/L2]*Lymph_Node.[TregLN-PNT1]*(([%CD80_receptor_level_PNT]*[CD80_receptors-per-
-Tcell])/[Avagadro's_Num])*(1/Tr_per_T_cell)
-71 [Exp_CD28/80/86/PD1/L1/L2]*Lymph_Node.[TregLN-PNT1]*(([%PD1_receptor_level_PNT]*[PD1_receptors-per-
-Tcell])/[Avagadro's_Num])*(1/Tr_per_T_cell)
-72 [Exp_CD28/80/86/PD1/L1/L2]*Lymph_Node.[TregLN-PNT1]*(([%PDL1_receptor_level_PNT]*[PDL1_receptors-per-
-Tcell])/[Avagadro's_Num])*(1/Tr_per_T_cell)
-73 [Exp_CD28/80/86/PD1/L1/L2]*Lymph_Node.[TregLN-PNT1]*([PD1_receptors-per-
-Tcell]/[Avagadro's_Num])*(1/T_per_Tr_cell)
-74 [Exp_CD28/80/86/PD1/L1/L2]*Lymph_Node.[TregLN-PNT1]*([PDL1_receptors-per-
-Tcell]/[Avagadro's_Num])*(1/T_per_Tr_cell)
+70 [Exp_CD28/80/86/PD1/L1/L2]*Lymph_Node.[TregLN-PNT1]*(([%CD80_receptor_level_PNT]*[CD80_receptors-per-Tcell])/[Avagadro's_Num])*(1/Tr_per_T_cell)
+71 [Exp_CD28/80/86/PD1/L1/L2]*Lymph_Node.[TregLN-PNT1]*(([%PD1_receptor_level_PNT]*[PD1_receptors-per-Tcell])/[Avagadro's_Num])*(1/Tr_per_T_cell)
+72 [Exp_CD28/80/86/PD1/L1/L2]*Lymph_Node.[TregLN-PNT1]*(([%PDL1_receptor_level_PNT]*[PDL1_receptors-per-Tcell])/[Avagadro's_Num])*(1/Tr_per_T_cell)
+73 [Exp_CD28/80/86/PD1/L1/L2]*Lymph_Node.[TregLN-PNT1]*([PD1_receptors-per-Tcell]/[Avagadro's_Num])*(1/T_per_Tr_cell)
+74 [Exp_CD28/80/86/PD1/L1/L2]*Lymph_Node.[TregLN-PNT1]*([PDL1_receptors-per-Tcell]/[Avagadro's_Num])*(1/T_per_Tr_cell)
 75 [Exp_CD28/80/86/PD1/L1/L2]*(Lymph_Node.[Tr-mAPC_CD80]+TrALN_CT_CD80)
 76 [Exp_CD28/80/86/PD1/L1/L2]*(Lymph_Node.[Tr-mAPC_CD86]+TrALN_CT_CD86)
-77 [kon_CTLA4_CD80]*Lymph_Node.[Tr-mAPC_CD80]*Lymph_Node.[Tr-mAPC_CTLA4]/[Vol_Cell-Rec_Tr-mAPC] -
-[koff_CTLA4_CD80]*Lymph_Node.TrALN_CT_CD80
-78 [kon_CTLA4_CD86]*Lymph_Node.[Tr-mAPC_CD86]*Lymph_Node.[Tr-mAPC_CTLA4]/[Vol_Cell-Rec_Tr-mAPC]-
-[koff_CTLA4_CD86]*Lymph_Node.TrALN_CT_CD86
-79 kon_CTLA4mAb_CTLA4*Lymph_Node.[Tr-mAPC_CTLA4]*Lymph_Node.CTLA4_mab/Vtdln -
-koff_CTLA4mAb_CTLA4*Lymph_Node.TrALN_CT_aCT
+77 [kon_CTLA4_CD80]*Lymph_Node.[Tr-mAPC_CD80]*Lymph_Node.[Tr-mAPC_CTLA4]/[Vol_Cell-Rec_Tr-mAPC] -[koff_CTLA4_CD80]*Lymph_Node.TrALN_CT_CD80
+78 [kon_CTLA4_CD86]*Lymph_Node.[Tr-mAPC_CD86]*Lymph_Node.[Tr-mAPC_CTLA4]/[Vol_Cell-Rec_Tr-mAPC]-[koff_CTLA4_CD86]*Lymph_Node.TrALN_CT_CD86
+79 kon_CTLA4mAb_CTLA4*Lymph_Node.[Tr-mAPC_CTLA4]*Lymph_Node.CTLA4_mab/Vtdln -koff_CTLA4mAb_CTLA4*Lymph_Node.TrALN_CT_aCT
 80 [Exp_CTLA4]*(Lymph_Node.[Tr-mAPC_CTLA4]+[TrALN_CT_aCT]+[TrALN_CT_CD80]+[TrALN_CT_CD86])
-81 [kon_PD1_PDL1]*Lymph_Node.[Tr-PNT_PD1]*Lymph_Node.[PNT-Tr_PDL1]/[Vol_Cell-Rec_Tr-PNT] -
-[koff_PD1_PDL1]*Lymph_Node.[TrPNT_PD1-L1]
-82 [kon_PD1-PD1mAb]*Lymph_Node.[Tr-PNT_PD1]*Lymph_Node.PD1_mab/Vtdln - [koff_PD1-
-PD1mAb]*Lymph_Node.TrPNT_PD1_aPD1
+81 [kon_PD1_PDL1]*Lymph_Node.[Tr-PNT_PD1]*Lymph_Node.[PNT-Tr_PDL1]/[Vol_Cell-Rec_Tr-PNT] -[koff_PD1_PDL1]*Lymph_Node.[TrPNT_PD1-L1]
+82 [kon_PD1-PD1mAb]*Lymph_Node.[Tr-PNT_PD1]*Lymph_Node.PD1_mab/Vtdln - [koff_PD1-PD1mAb]*Lymph_Node.TrPNT_PD1_aPD1
 83 [Exp_CD28/80/86/PD1/L1/L2]*(Lymph_Node.[Tr-PNT_PD1]+TrPNT_PD1_aPD1+[TrPNT_PD1-L1])
-84 [kon_PDL1-PDL1mAb]*Lymph_Node.[Tr-PNT_PDL1]*Lymph_Node.PDL1_mab/Vtdln - [koff_PDL1-
-PDL1mAb]*Lymph_Node.TrPNT_PDL1_aPDL1
-85 [Exp_CD28/80/86/PD1/L1/L2]*(Lymph_Node.[Tr-PNT_PDL1]+TrPNT_PDL1_aPDL1+[TrPNT_PDL1-
-PD1]+[TrPNT_PDL1-CD80])
+84 [kon_PDL1-PDL1mAb]*Lymph_Node.[Tr-PNT_PDL1]*Lymph_Node.PDL1_mab/Vtdln - [koff_PDL1-PDL1mAb]*Lymph_Node.TrPNT_PDL1_aPDL1
+85 [Exp_CD28/80/86/PD1/L1/L2]*(Lymph_Node.[Tr-PNT_PDL1]+TrPNT_PDL1_aPDL1+[TrPNT_PDL1-PD1]+[TrPNT_PDL1-CD80])
 86 Phago_Debris*Lymph_Node.APCLN*Lymph_Node.C_DebrisLN
 87 Debris_Decay*Lymph_Node.C_DebrisLN
 88 Q_L/VL*Lymph_Node.CTLA4_mab
-89 kon_CTLA4mAb_CTLA4*Lymph_Node.CTLA4_mab*Lymph_Node.PNT_CTLA4/Vtdln-
-koff_CTLA4mAb_CTLA4*Lymph_Node.CTLA4_mAb_CTLA4
+89 kon_CTLA4mAb_CTLA4*Lymph_Node.CTLA4_mab*Lymph_Node.PNT_CTLA4/Vtdln-koff_CTLA4mAb_CTLA4*Lymph_Node.CTLA4_mAb_CTLA4
 90 Endo_CTLA4*Lymph_Node.CTLA4_mAb_CTLA4
 91 EffT_Migrate*Lymph_Node.Effector_T
 92 LC_LN*Delta_LN*Lymph_Node.EffT_LN_ExRec/Vext_LN
@@ -128,119 +102,77 @@ koff_CTLA4mAb_CTLA4*Lymph_Node.CTLA4_mAb_CTLA4
 102 kf_TregLNS_Inact*Lymph_Node.mAPC*CTLA4Sig_Secrete
 103 Exp_All_mAPCLN*(Lymph_Node.mAPC_CD80)
 104 Exp_All_mAPCLN*(Lymph_Node.mAPC_CD86)
-105 [Exp_CD28/80/86/PD1/L1/L2]*((Lymph_Node.mAPC_CD80)*(Lymph_Node.mAPC_Int_P1/(Lymph_Node.mAPC+ 1E-
-100*mole)))*(1/T_cells_per_mAPC)
-106 [Exp_CD28/80/86/PD1/L1/L2]*(Lymph_Node.mAPC_CD86*(Lymph_Node.mAPC_Int_P1/(Lymph_Node.mAPC+ 1E-
-100*mole)))*(1/T_cells_per_mAPC)
+105 [Exp_CD28/80/86/PD1/L1/L2]*((Lymph_Node.mAPC_CD80)*(Lymph_Node.mAPC_Int_P1/(Lymph_Node.mAPC+ 1E-100*mole)))*(1/T_cells_per_mAPC)
+106 [Exp_CD28/80/86/PD1/L1/L2]*(Lymph_Node.mAPC_CD86*(Lymph_Node.mAPC_Int_P1/(Lymph_Node.mAPC+ 1E-100*mole)))*(1/T_cells_per_mAPC)
 107 [Exp_CD28/80/86/PD1/L1/L2]*(Lymph_Node.mAPC_Int_P1_CD80 + POS_Sig_NT_CD80)
 108 [Exp_CD28/80/86/PD1/L1/L2]*(Lymph_Node.mAPC_Int_P1_CD86 + POS_Sig_NT_CD86)
-109 [Exp_CD28/80/86/PD1/L1/L2]*((Lymph_Node.mAPC_CD80)*(Lymph_Node.mAPC_Int_P2/(Lymph_Node.mAPC+1E-
-100*mole)))*(1/T_cells_per_mAPC)
-110 [Exp_CD28/80/86/PD1/L1/L2]*(Lymph_Node.mAPC_CD86*(Lymph_Node.mAPC_Int_P2/(Lymph_Node.mAPC+1E-
-100*mole)))*(1/T_cells_per_mAPC)
-111 [Exp_CD28/80/86/PD1/L1/L2]*Lymph_Node.mAPC_PD1*(Lymph_Node.mAPC_Int_P2/(Lymph_Node.mAPC+1E-
-100*mole))*(1/T_cells_per_mAPC)
-112 [Exp_CD28/80/86/PD1/L1/L2]*Lymph_Node.mAPC_PDL1*(Lymph_Node.mAPC_Int_P2/(Lymph_Node.mAPC+1E-
-100*mole))*(1/T_cells_per_mAPC)
-113 [Exp_CD28/80/86/PD1/L1/L2]*Lymph_Node.mAPC_PDL2*(Lymph_Node.mAPC_Int_P2/(Lymph_Node.mAPC+1E-
-100*mole))*(1/T_cells_per_mAPC)
-114 [kon_CTLA4_CD80]*Lymph_Node.mAPC_Int_P2_CD80*Lymph_Node.PNT_CTLA4/([Volume_PNT-Receptor_Int])-
-[koff_CTLA4_CD80]*Lymph_Node.NEG_Sig_PNT_CD80
-115 [kon_PDL1_CD80]*Lymph_Node.mAPC_Int_P2_CD80*Lymph_Node.PNT_Int_PDL1/[Volume_PNT-Receptor_Int]-
-[koff_PDL1_CD80]*Lymph_Node.[PNT_PDL1-CD80]
-116 [Exp_CD28/80/86/PD1/L1/L2]*(Lymph_Node.mAPC_Int_P2_CD80+NEG_Sig_PNT_CD80+POS_Sig_PNT_CD80+[PNT_P
-DL1-CD80])
-117 [kon_CTLA4_CD86]*Lymph_Node.mAPC_Int_P2_CD86*Lymph_Node.PNT_CTLA4/([Volume_PNT-Receptor_Int])-
-[koff_CTLA4_CD86]*Lymph_Node.NEG_Sig_PNT_CD86
-118 [kon_CD28_CD86]*Lymph_Node.mAPC_Int_P2_CD86*Lymph_Node.PNT_Int_CD28/([Volume_PNT-Receptor_Int])-
-[koff_CD28_CD86]*Lymph_Node.POS_Sig_PNT_CD86
+109 [Exp_CD28/80/86/PD1/L1/L2]*((Lymph_Node.mAPC_CD80)*(Lymph_Node.mAPC_Int_P2/(Lymph_Node.mAPC+1E-100*mole)))*(1/T_cells_per_mAPC)
+110 [Exp_CD28/80/86/PD1/L1/L2]*(Lymph_Node.mAPC_CD86*(Lymph_Node.mAPC_Int_P2/(Lymph_Node.mAPC+1E-100*mole)))*(1/T_cells_per_mAPC)
+111 [Exp_CD28/80/86/PD1/L1/L2]*Lymph_Node.mAPC_PD1*(Lymph_Node.mAPC_Int_P2/(Lymph_Node.mAPC+1E-100*mole))*(1/T_cells_per_mAPC)
+112 [Exp_CD28/80/86/PD1/L1/L2]*Lymph_Node.mAPC_PDL1*(Lymph_Node.mAPC_Int_P2/(Lymph_Node.mAPC+1E-100*mole))*(1/T_cells_per_mAPC)
+113 [Exp_CD28/80/86/PD1/L1/L2]*Lymph_Node.mAPC_PDL2*(Lymph_Node.mAPC_Int_P2/(Lymph_Node.mAPC+1E-100*mole))*(1/T_cells_per_mAPC)
+114 [kon_CTLA4_CD80]*Lymph_Node.mAPC_Int_P2_CD80*Lymph_Node.PNT_CTLA4/([Volume_PNT-Receptor_Int])-[koff_CTLA4_CD80]*Lymph_Node.NEG_Sig_PNT_CD80
+115 [kon_PDL1_CD80]*Lymph_Node.mAPC_Int_P2_CD80*Lymph_Node.PNT_Int_PDL1/[Volume_PNT-Receptor_Int]-[koff_PDL1_CD80]*Lymph_Node.[PNT_PDL1-CD80]
+116 [Exp_CD28/80/86/PD1/L1/L2]*(Lymph_Node.mAPC_Int_P2_CD80+NEG_Sig_PNT_CD80+POS_Sig_PNT_CD80+[PNT_PDL1-CD80])
+117 [kon_CTLA4_CD86]*Lymph_Node.mAPC_Int_P2_CD86*Lymph_Node.PNT_CTLA4/([Volume_PNT-Receptor_Int])-[koff_CTLA4_CD86]*Lymph_Node.NEG_Sig_PNT_CD86
+118 [kon_CD28_CD86]*Lymph_Node.mAPC_Int_P2_CD86*Lymph_Node.PNT_Int_CD28/([Volume_PNT-Receptor_Int])-[koff_CD28_CD86]*Lymph_Node.POS_Sig_PNT_CD86
 119 [Exp_CD28/80/86/PD1/L1/L2]*(Lymph_Node.mAPC_Int_P2_CD86+NEG_Sig_PNT_CD86+POS_Sig_PNT_CD86)
-120 [kon_PD1-PD1mAb]*Lymph_Node.mAPC_Int_P2_PD1*Lymph_Node.PD1_mab/Vtdln-[koff_PD1-
-PD1mAb]*[PD1mAb_mAPC_PD1]
+120 [kon_PD1-PD1mAb]*Lymph_Node.mAPC_Int_P2_PD1*Lymph_Node.PD1_mab/Vtdln-[koff_PD1-PD1mAb]*[PD1mAb_mAPC_PD1]
 121 [Exp_CD28/80/86/PD1/L1/L2]*(Lymph_Node.mAPC_Int_P2_PD1+PD1mAb_mAPC_PD1+[PNT_PDL1-PD1])
-122 [Exp_CD28/80/86/PD1/L1/L2]*(Lymph_Node.mAPC_Int_P2_PDL1+[PDL1mAb-mAPC_PDL1]+[PNT_PD1-
-PDL1]+[PNT_CD80-PDL1])
-123 [kon_PD1_PDL2]*Lymph_Node.mAPC_Int_P2_PDL2*Lymph_Node.PNT_Int_PD1/[Volume_PNT-Receptor_Int]-
-[koff_PD1_PDL2]*Lymph_Node.[PNT_PD1-PDL2]
+122 [Exp_CD28/80/86/PD1/L1/L2]*(Lymph_Node.mAPC_Int_P2_PDL1+[PDL1mAb-mAPC_PDL1]+[PNT_PD1-PDL1]+[PNT_CD80-PDL1])
+123 [kon_PD1_PDL2]*Lymph_Node.mAPC_Int_P2_PDL2*Lymph_Node.PNT_Int_PD1/[Volume_PNT-Receptor_Int]-[koff_PD1_PDL2]*Lymph_Node.[PNT_PD1-PDL2]
 124 [Exp_CD28/80/86/PD1/L1/L2]*(Lymph_Node.mAPC_Int_P2_PDL2+[PNT_PD1-PDL2])
 125 Exp_All_mAPCLN*Lymph_Node.mAPC_PD1
 126 Exp_All_mAPCLN*Lymph_Node.mAPC_PDL1
 127 Exp_All_mAPCLN*Lymph_Node.mAPC_PDL2
 128 PrimeNT_rate*Lymph_Node.Naive_T*[Prob_NT-mAPC_Interact]*[Sig_NT=CD28]
 129 EffT_InOutLN*Lymph_Node.Naive_T
-130 PrimeNT1_rate*Lymph_Node.Naive_T1*(1/Antigen_Intensity)*((mAPC_Int_P1)/(mAPC_Int_P1+Naive_T1*mAPC50_per_T
-_cell+0.001*mole))
-131 PrimeNT1_rate*Lymph_Node.Naive_T1*Antigen_Intensity*((mAPC_Int_P1)/(mAPC_Int_P1+Naive_T1*mAPC50_per_T_cel
-l+0.001*mole))
+130 PrimeNT1_rate*Lymph_Node.Naive_T1*(1/Antigen_Intensity)*((mAPC_Int_P1)/(mAPC_Int_P1+Naive_T1*mAPC50_per_T_cell+0.001*mole))
+131 PrimeNT1_rate*Lymph_Node.Naive_T1*Antigen_Intensity*((mAPC_Int_P1)/(mAPC_Int_P1+Naive_T1*mAPC50_per_T_cell+0.001*mole))
 132 Endo_CTLA4*Lymph_Node.NEG_Sig_PNT_CD80
 133 Endo_CTLA4*Lymph_Node.NEG_Sig_PNT_CD86
-134 [kon_CD28_CD80]*Lymph_Node.NT_Int_CD28*Lymph_Node.mAPC_Int_P1_CD80/[Volume_NT-Receptor_Int] -
-[koff_CD28_CD80]*Lymph_Node.POS_Sig_NT_CD80
-135 [kon_CD28_CD86]*Lymph_Node.NT_Int_CD28*Lymph_Node.mAPC_Int_P1_CD86/[Volume_NT-Receptor_Int] -
-[koff_CD28_CD86]*Lymph_Node.POS_Sig_NT_CD86
+134 [kon_CD28_CD80]*Lymph_Node.NT_Int_CD28*Lymph_Node.mAPC_Int_P1_CD80/[Volume_NT-Receptor_Int] -[koff_CD28_CD80]*Lymph_Node.POS_Sig_NT_CD80
+135 [kon_CD28_CD86]*Lymph_Node.NT_Int_CD28*Lymph_Node.mAPC_Int_P1_CD86/[Volume_NT-Receptor_Int] -[koff_CD28_CD86]*Lymph_Node.POS_Sig_NT_CD86
 136 [Exp_CD28/80/86/PD1/L1/L2]*(Lymph_Node.NT_Int_CD28+POS_Sig_NT_CD80+POS_Sig_NT_CD86)
 137 [Exp_CD28/80/86/PD1/L1/L2]*(([CD28_receptors-per-Tcell]/[Avagadro's_Num]))*(mAPC_Int_P1/(mAPC_per_T_cell))
 138 Q_L/VL*Lymph_Node.PD1_mab
 139 Q_L/VL*Lymph_Node.PDL1_mab
-140 [kon_PDL1-PDL1mAb]*Lymph_Node.PDL1_mab*Lymph_Node.mAPC_Int_P2_PDL1/Vtdln - [koff_PDL1-
-PDL1mAb]*Lymph_Node.[PDL1mAb-mAPC_PDL1]
-141 [kon_PDL1-PDL1mAb]*Lymph_Node.PDL1_mab*Lymph_Node.PNT_Int_PDL1/Vtdln - [koff_PDL1-
-PDL1mAb]*Lymph_Node.[PDL1mAb-PNT_PDL1]
+140 [kon_PDL1-PDL1mAb]*Lymph_Node.PDL1_mab*Lymph_Node.mAPC_Int_P2_PDL1/Vtdln - [koff_PDL1-PDL1mAb]*Lymph_Node.[PDL1mAb-mAPC_PDL1]
+141 [kon_PDL1-PDL1mAb]*Lymph_Node.PDL1_mab*Lymph_Node.PNT_Int_PDL1/Vtdln - [koff_PDL1-PDL1mAb]*Lymph_Node.[PDL1mAb-PNT_PDL1]
 142 [Exp_CTLA4]*(Lymph_Node.PNT_CTLA4+NEG_Sig_PNT_CD80+[NEG_Sig_PNT_CD86]+[CTLA4_mAb_CTLA4])
-143 [kon_CD28_CD80]*Lymph_Node.PNT_Int_CD28*Lymph_Node.mAPC_Int_P2_CD80/([Volume_PNT-Receptor_Int])-
-[koff_CD28_CD80]*Lymph_Node.POS_Sig_PNT_CD80
+143 [kon_CD28_CD80]*Lymph_Node.PNT_Int_CD28*Lymph_Node.mAPC_Int_P2_CD80/([Volume_PNT-Receptor_Int])-[koff_CD28_CD80]*Lymph_Node.POS_Sig_PNT_CD80
 144 [Exp_CD28/80/86/PD1/L1/L2]*(Lymph_Node.PNT_Int_CD28+POS_Sig_PNT_CD80+POS_Sig_PNT_CD86)
-145 [kon_PDL1_CD80]*Lymph_Node.PNT_Int_CD80*Lymph_Node.mAPC_Int_P2_PDL1/[Volume_PNT-Receptor_Int]-
-[koff_PDL1_CD80]*Lymph_Node.[PNT_CD80-PDL1]
+145 [kon_PDL1_CD80]*Lymph_Node.PNT_Int_CD80*Lymph_Node.mAPC_Int_P2_PDL1/[Volume_PNT-Receptor_Int]-[koff_PDL1_CD80]*Lymph_Node.[PNT_CD80-PDL1]
 146 [Exp_CD28/80/86/PD1/L1/L2]*(Lymph_Node.PNT_Int_CD80+[PNT_CD80-PDL1])
-147 [kon_PD1_PDL1]*Lymph_Node.PNT_Int_PD1*Lymph_Node.mAPC_Int_P2_PDL1/[Volume_PNT-Receptor_Int]-
-[koff_PD1_PDL1]*Lymph_Node.[PNT_PD1-PDL1]
-148 [kon_PD1-PD1mAb]*Lymph_Node.PNT_Int_PD1*Lymph_Node.PD1_mab/Vtdln-[koff_PD1-
-PD1mAb]*[PD1mAb_PNT_PD1]
+147 [kon_PD1_PDL1]*Lymph_Node.PNT_Int_PD1*Lymph_Node.mAPC_Int_P2_PDL1/[Volume_PNT-Receptor_Int]-[koff_PD1_PDL1]*Lymph_Node.[PNT_PD1-PDL1]
+148 [kon_PD1-PD1mAb]*Lymph_Node.PNT_Int_PD1*Lymph_Node.PD1_mab/Vtdln-[koff_PD1-PD1mAb]*[PD1mAb_PNT_PD1]
 149 [Exp_CD28/80/86/PD1/L1/L2]*(Lymph_Node.PNT_Int_PD1+PD1mAb_PNT_PD1+[PNT_PD1-PDL2]+[PNT_PD1-PDL1])
-150 [kon_PD1_PDL1]*Lymph_Node.PNT_Int_PDL1*Lymph_Node.mAPC_Int_P2_PD1/[Volume_PNT-Receptor_Int]-
-[koff_PD1_PDL1]*Lymph_Node.[PNT_PDL1-PD1]
-151 [Exp_CD28/80/86/PD1/L1/L2]*(Lymph_Node.PNT_Int_PDL1+[PDL1mAb-PNT_PDL1]+[PNT_PDL1-CD80]+[PNT_PDL1-
-PD1])
+150 [kon_PD1_PDL1]*Lymph_Node.PNT_Int_PDL1*Lymph_Node.mAPC_Int_P2_PD1/[Volume_PNT-Receptor_Int]-[koff_PD1_PDL1]*Lymph_Node.[PNT_PDL1-PD1]
+151 [Exp_CD28/80/86/PD1/L1/L2]*(Lymph_Node.PNT_Int_PDL1+[PDL1mAb-PNT_PDL1]+[PNT_PDL1-CD80]+[PNT_PDL1-PD1])
 152 [Exp_CTLA4]*(([CTLA4_receptors-Int-PNT]/[Avagadro's_Num]))*(mAPC_Int_P2/(mAPC_per_T_cell))
 153 [Exp_CD28/80/86/PD1/L1/L2]*(([CD28_receptors-per-Tcell]/[Avagadro's_Num]))*(mAPC_Int_P2/(mAPC_per_T_cell))
-154 [Exp_CD28/80/86/PD1/L1/L2]*((([%CD80_receptor_level_PNT]*[CD80_receptors-per-
-Tcell])/[Avagadro's_Num]))*(mAPC_Int_P2/(mAPC_per_T_cell))
-155 [Exp_CD28/80/86/PD1/L1/L2]*((([%PD1_receptor_level_PNT]*[PD1_receptors-per-
-Tcell])/[Avagadro's_Num]))*(mAPC_Int_P2/(mAPC_per_T_cell))
-156 [Exp_CD28/80/86/PD1/L1/L2]*((([%PDL1_receptor_level_PNT]*[PDL1_receptors-per-
-Tcell])/[Avagadro's_Num]))*(mAPC_Int_P2/(mAPC_per_T_cell))
+154 [Exp_CD28/80/86/PD1/L1/L2]*((([%CD80_receptor_level_PNT]*[CD80_receptors-per-Tcell])/[Avagadro's_Num]))*(mAPC_Int_P2/(mAPC_per_T_cell))
+155 [Exp_CD28/80/86/PD1/L1/L2]*((([%PD1_receptor_level_PNT]*[PD1_receptors-per-Tcell])/[Avagadro's_Num]))*(mAPC_Int_P2/(mAPC_per_T_cell))
+156 [Exp_CD28/80/86/PD1/L1/L2]*((([%PDL1_receptor_level_PNT]*[PDL1_receptors-per-Tcell])/[Avagadro's_Num]))*(mAPC_Int_P2/(mAPC_per_T_cell))
 157 kf_Phase2P*Lymph_Node.Primed_Naive_T*[Prob_PNT-mAPC_Interact]
 158 kf_no_prolif*Lymph_Node.Primed_Naive_T1*[Sig_PNT=CTLA4/PD1/L1/CD80]
-159 PrimeTLN2_rate*Lymph_Node.Primed_Naive_T1*(1/Antigen_Intensity)*((mAPC_Int_P2)/(mAPC_Int_P2+Primed_Naive_T1
-*mAPC50_per_T_cell+0.001*mole))
-160 PrimeTLN2_rate*Lymph_Node.Primed_Naive_T1*(1-
-[Sig_PNT=CTLA4/PD1/L1/CD80])*Antigen_Intensity*((mAPC_Int_P2)/(mAPC_Int_P2 +Primed_Naive_T1*
-mAPC50_per_T_cell +0.001*mole))
+159 PrimeTLN2_rate*Lymph_Node.Primed_Naive_T1*(1/Antigen_Intensity)*((mAPC_Int_P2)/(mAPC_Int_P2+Primed_Naive_T1*mAPC50_per_T_cell+0.001*mole))
+160 PrimeTLN2_rate*Lymph_Node.Primed_Naive_T1*(1-[Sig_PNT=CTLA4/PD1/L1/CD80])*Antigen_Intensity*((mAPC_Int_P2)/(mAPC_Int_P2 +Primed_Naive_T1*mAPC50_per_T_cell +0.001*mole))
 161 kf_Prolif_end*Lymph_Node.Prolif_Naive_T
 162 Lymph_Node.Prolif_Naive_T*[Prolif_Thresh]
 163 Endo_CTLA4*Lymph_Node.TrALN_CT_aCT
 164 Endo_CTLA4*Lymph_Node.TrALN_CT_CD80
 165 Endo_CTLA4*Lymph_Node.TrALN_CT_CD86
 166 [Exp_CTLA4]*Lymph_Node.TregLN*([CTLA4_receptors-Tr]/[Avagadro's_Num])
-167 TregLN_Engage*Lymph_Node.mAPC1*(( Lymph_Node.TregLN /(Lymph_Node.mAPC1 + 1E-
-100*mole))^gamma_TC_Assoc)/( s_Assoc + (Lymph_Node.TregLN /(Lymph_Node.mAPC1 + 1E-
-100*mole))^gamma_TC_Assoc)
-168 TregLN_Engage*Lymph_Node.Naive_T2*(( Lymph_Node.TregLN /(Lymph_Node.Naive_T2 + 1E-
-100*mole))^gamma_TC_Assoc)/( s_Assoc + (Lymph_Node.TregLN /(Lymph_Node.Naive_T2 + 1E-
-100*mole))^gamma_TC_Assoc)
-169 TregLN_Engage* Lymph_Node.Primed_Naive_T2*((Lymph_Node.TregLN /(Lymph_Node.Primed_Naive_T2+ 1E-
-100*mole))^gamma_TC_Assoc)/( s_Assoc + (Lymph_Node.TregLN /(Lymph_Node.Primed_Naive_T2+ 1E-
-100*mole))^gamma_TC_Assoc)
+167 TregLN_Engage*Lymph_Node.mAPC1*(( Lymph_Node.TregLN /(Lymph_Node.mAPC1 + 1E-100*mole))^gamma_TC_Assoc)/( s_Assoc + (Lymph_Node.TregLN /(Lymph_Node.mAPC1 + 1E-100*mole))^gamma_TC_Assoc)
+168 TregLN_Engage*Lymph_Node.Naive_T2*(( Lymph_Node.TregLN /(Lymph_Node.Naive_T2 + 1E-100*mole))^gamma_TC_Assoc)/( s_Assoc + (Lymph_Node.TregLN /(Lymph_Node.Naive_T2 + 1E-100*mole))^gamma_TC_Assoc)
+169 TregLN_Engage* Lymph_Node.Primed_Naive_T2*((Lymph_Node.TregLN /(Lymph_Node.Primed_Naive_T2+ 1E-100*mole))^gamma_TC_Assoc)/( s_Assoc + (Lymph_Node.TregLN /(Lymph_Node.Primed_Naive_T2+ 1E-100*mole))^gamma_TC_Assoc)
 170 [Treg:mAPC_IntTime]*Lymph_Node.TregLN_mAPC*(1-[CTLA4Sig_TrLN-mAPC])
 171 [Treg:mAPC_IntTime]*Lymph_Node.TregLN_mAPC*([CTLA4Sig_TrLN-mAPC])
-172 [Exp_CD28/80/86/PD1/L1/L2]*Lymph_Node.TregLN_mAPC1*([CD80_receptors-per-
-mAPC]/[Avagadro's_Num])*(1/Tr_cells_per_mAPC)
-173 [Exp_CD28/80/86/PD1/L1/L2]*Lymph_Node.TregLN_mAPC1*([CD86_receptors-per-
-mAPC]/[Avagadro's_Num])*(1/Tr_cells_per_mAPC)
+172 [Exp_CD28/80/86/PD1/L1/L2]*Lymph_Node.TregLN_mAPC1*([CD80_receptors-per-mAPC]/[Avagadro's_Num])*(1/Tr_cells_per_mAPC)
+173 [Exp_CD28/80/86/PD1/L1/L2]*Lymph_Node.TregLN_mAPC1*([CD86_receptors-per-mAPC]/[Avagadro's_Num])*(1/Tr_cells_per_mAPC)
 174 [Exp_CTLA4]*Lymph_Node.TregLN_mAPC1*([CTLA4_receptors-Tr]/[Avagadro's_Num])*(1/mAPC_per_Tr_cell)
-175 kon_CTLA4mAb_CTLA4*Lymph_Node.TrLN_CTLA4*Lymph_Node.CTLA4_mab/Vtdln -
-koff_CTLA4mAb_CTLA4*Lymph_Node.TrLN_CT_aCT
+175 kon_CTLA4mAb_CTLA4*Lymph_Node.TrLN_CTLA4*Lymph_Node.CTLA4_mab/Vtdln -koff_CTLA4mAb_CTLA4*Lymph_Node.TrLN_CT_aCT
 176 [Exp_CTLA4]*(Lymph_Node.TrLN_CTLA4+[TrLN_CT_aCT])
 177 (k__DoseAdmin_AntiCTLA4*[BodyWeight (kg)]*CTLA4mAb)/(Ipilimumab_MW)
 178 ([BodyWeight (kg)]*PD1mAb)/(Nivolumab_MW)/T_IVinject
@@ -249,131 +181,79 @@ koff_CTLA4mAb_CTLA4*Lymph_Node.TrLN_CT_aCT
 181 Lymph_Node.Prolif_Naive_T*[Prolif_Fract]
 182 kf_Monocytes_intoT*Monocytes
 183 Rate_Tumor_Growth*Tumor.Cancer
-184 (Peripheral.CTLA4_mabP_leaky/(0.35*ISF*KP_PD1))*0.67*Q_L*(1-SigmaL)-Lymph_Node.CTLA4_mab*0.67*Q_L*(1-
-SigmaL)/VL
-185 (Peripheral.CTLA4_mabP_tight/(0.65*ISF*KP_PD1))*0.33*Q_L*(1-SigmaL)-Lymph_Node.CTLA4_mab*0.33*Q_L*(1-
-SigmaL)/VL
+184 (Peripheral.CTLA4_mabP_leaky/(0.35*ISF*KP_PD1))*0.67*Q_L*(1-SigmaL)-Lymph_Node.CTLA4_mab*0.67*Q_L*(1-SigmaL)/VL
+185 (Peripheral.CTLA4_mabP_tight/(0.65*ISF*KP_PD1))*0.33*Q_L*(1-SigmaL)-Lymph_Node.CTLA4_mab*0.33*Q_L*(1-SigmaL)/VL
 186 (QC_Periph - LC_Periph)*Peripheral.EffT_P_f_Vasc/Vv_Periph
 187 EffT_Turnover*Peripheral.EffT_P_f_Vasc
-188 (Peripheral.PD1_mabP_leaky/(0.35*ISF*KP_PD1))*0.67*Q_L*(1-SigmaL)-Lymph_Node.PD1_mab*0.67*Q_L*(1-
-SigmaL)/VL
-189 (Peripheral.PD1_mabP_tight/(0.65*ISF*KP_PD1))*0.33*Q_L*(1-SigmaL)-Lymph_Node.PD1_mab*0.33*Q_L*(1-
-SigmaL)/VL
-190 (Peripheral.PDL1_mabP_leaky/(0.35*ISF*KP_PDL1))*0.67*Q_L*(1-SigmaL)-Lymph_Node.PDL1_mab*0.67*Q_L*(1-
-SigmaL)/VL
-191 (Peripheral.PDL1_mabP_tight/(0.65*ISF*KP_PDL1))*0.33*Q_L*(1-SigmaL)-Lymph_Node.PDL1_mab*0.33*Q_L*(1-
-SigmaL)/VL
-192 [Exp_CD28/80/86/PD1/L1/L2]*Tumor.[C{CD80}]*([CD80_receptors_per_C_Cl]/[Avagadro's_Num])*([T_per_Cancer_Cell_I
-nt]/[T_per_Cancer_Cell_max])
-193 [Exp_CD28/80/86/PD1/L1/L2]*Tumor.[C{PD1}]*([PD1_receptors_per_C_Cl]/[Avagadro's_Num])*([T_per_Cancer_Cell_Int]/
-[T_per_Cancer_Cell_max])
-194 [Exp_CD28/80/86/PD1/L1/L2]*Tumor.[C{PD1}{CD80}]*([PD1_receptors_per_C_Cl]/[Avagadro's_Num])*([T_per_Cancer_
-Cell_Int]/[T_per_Cancer_Cell_max])
-195 [Exp_CD28/80/86/PD1/L1/L2]*Tumor.[C{PD1}{CD80}]*([CD80_receptors_per_C_Cl]/[Avagadro's_Num])*([T_per_Cancer
-_Cell_Int]/[T_per_Cancer_Cell_max])
-196 [Exp_CD28/80/86/PD1/L1/L2]*Tumor.[C{PD1}{PDL1}]*([PD1_receptors_per_C_Cl]/[Avagadro's_Num])*([T_per_Cancer_
-Cell_Int]/[T_per_Cancer_Cell_max])
-197 [Exp_CD28/80/86/PD1/L1/L2]*Tumor.[C{PD1}{PDL1}]*([PDL1_receptors_per_C_Cl]/[Avagadro's_Num])*([T_per_Cancer
-_Cell_Int]/[T_per_Cancer_Cell_max])
-198 [Exp_CD28/80/86/PD1/L1/L2]*Tumor.[C{PD1}{PDL1}{CD80}]*([PD1_receptors_per_C_Cl]/[Avagadro's_Num])*([T_per_
-Cancer_Cell_Int]/[T_per_Cancer_Cell_max])
-199 [Exp_CD28/80/86/PD1/L1/L2]*Tumor.[C{PD1}{PDL1}{CD80}]*([PDL1_receptors_per_C_Cl]/[Avagadro's_Num])*([T_per
-_Cancer_Cell_Int]/[T_per_Cancer_Cell_max])
-200 [Exp_CD28/80/86/PD1/L1/L2]*Tumor.[C{PD1}{PDL1}{CD80}]*([CD80_receptors_per_C_Cl]/[Avagadro's_Num])*([T_per
-_Cancer_Cell_Int]/[T_per_Cancer_Cell_max])
-201 [Exp_CD28/80/86/PD1/L1/L2]*Tumor.[C{PD1}{PDL1}{PDL2}]*([PD1_receptors_per_C_Cl]/[Avagadro's_Num])*([T_per_
-Cancer_Cell_Int]/[T_per_Cancer_Cell_max])
-202 [Exp_CD28/80/86/PD1/L1/L2]*Tumor.[C{PD1}{PDL1}{PDL2}]*([PDL1_receptors_per_C_Cl]/[Avagadro's_Num])*([T_per
-_Cancer_Cell_Int]/[T_per_Cancer_Cell_max])
-203 [Exp_CD28/80/86/PD1/L1/L2]*Tumor.[C{PD1}{PDL1}{PDL2}]*([PDL2_receptors_per_C_Cl]/[Avagadro's_Num])*([T_per
-_Cancer_Cell_Int]/[T_per_Cancer_Cell_max])
-204 [Exp_CD28/80/86/PD1/L1/L2]*Tumor.[C{PD1}{PDL1}{PDL2}{CD80}]*([PD1_receptors_per_C_Cl]/[Avagadro's_Num])*([
-T_per_Cancer_Cell_Int]/[T_per_Cancer_Cell_max])
-205 [Exp_CD28/80/86/PD1/L1/L2]*Tumor.[C{PD1}{PDL1}{PDL2}{CD80}]*([PDL1_receptors_per_C_Cl]/[Avagadro's_Num])*
-([T_per_Cancer_Cell_Int]/[T_per_Cancer_Cell_max])
-206 [Exp_CD28/80/86/PD1/L1/L2]*Tumor.[C{PD1}{PDL1}{PDL2}{CD80}]*([PDL2_receptors_per_C_Cl]/[Avagadro's_Num])*
-([T_per_Cancer_Cell_Int]/[T_per_Cancer_Cell_max])
-207 [Exp_CD28/80/86/PD1/L1/L2]*Tumor.[C{PD1}{PDL1}{PDL2}{CD80}]*([CD80_receptors_per_C_Cl]/[Avagadro's_Num])*
-([T_per_Cancer_Cell_Int]/[T_per_Cancer_Cell_max])
-208 [Exp_CD28/80/86/PD1/L1/L2]*Tumor.[C{PD1}{PDL2}]*([PD1_receptors_per_C_Cl]/[Avagadro's_Num])*([T_per_Cancer_
-Cell_Int]/[T_per_Cancer_Cell_max])
-209 [Exp_CD28/80/86/PD1/L1/L2]*Tumor.[C{PD1}{PDL2}]*([PDL2_receptors_per_C_Cl]/[Avagadro's_Num])*([T_per_Cancer
-_Cell_Int]/[T_per_Cancer_Cell_max])
-210 [Exp_CD28/80/86/PD1/L1/L2]*Tumor.[C{PD1}{PDL2}{CD80}]*([PD1_receptors_per_C_Cl]/[Avagadro's_Num])*([T_per_
-Cancer_Cell_Int]/[T_per_Cancer_Cell_max])
-211 [Exp_CD28/80/86/PD1/L1/L2]*Tumor.[C{PD1}{PDL2}{CD80}]*([PDL2_receptors_per_C_Cl]/[Avagadro's_Num])*([T_per
-_Cancer_Cell_Int]/[T_per_Cancer_Cell_max])
-212 [Exp_CD28/80/86/PD1/L1/L2]*Tumor.[C{PD1}{PDL2}{CD80}]*([CD80_receptors_per_C_Cl]/[Avagadro's_Num])*([T_per
-_Cancer_Cell_Int]/[T_per_Cancer_Cell_max])
-213 [Exp_CD28/80/86/PD1/L1/L2]*Tumor.[C{PDL1}]*([PDL1_receptors_per_C_Cl]/[Avagadro's_Num])*([T_per_Cancer_Cell_I
-nt]/[T_per_Cancer_Cell_max])
-214 [Exp_CD28/80/86/PD1/L1/L2]*Tumor.[C{PDL1}{CD80}]*([PDL1_receptors_per_C_Cl]/[Avagadro's_Num])*([T_per_Cance
-r_Cell_Int]/[T_per_Cancer_Cell_max])
-215 [Exp_CD28/80/86/PD1/L1/L2]*Tumor.[C{PDL1}{CD80}]*([CD80_receptors_per_C_Cl]/[Avagadro's_Num])*([T_per_Cance
-r_Cell_Int]/[T_per_Cancer_Cell_max])
-216 [Exp_CD28/80/86/PD1/L1/L2]*Tumor.[C{PDL1}{PDL2}]*([PDL1_receptors_per_C_Cl]/[Avagadro's_Num])*([T_per_Cance
-r_Cell_Int]/[T_per_Cancer_Cell_max])
-217 [Exp_CD28/80/86/PD1/L1/L2]*Tumor.[C{PDL1}{PDL2}]*([PDL2_receptors_per_C_Cl]/[Avagadro's_Num])*([T_per_Cance
-r_Cell_Int]/[T_per_Cancer_Cell_max])
-218 [Exp_CD28/80/86/PD1/L1/L2]*Tumor.[C{PDL1}{PDL2}{CD80}]*([PDL1_receptors_per_C_Cl]/[Avagadro's_Num])*([T_pe
-r_Cancer_Cell_Int]/[T_per_Cancer_Cell_max])
-219 [Exp_CD28/80/86/PD1/L1/L2]*Tumor.[C{PDL1}{PDL2}{CD80}]*([PDL2_receptors_per_C_Cl]/[Avagadro's_Num])*([T_pe
-r_Cancer_Cell_Int]/[T_per_Cancer_Cell_max])
-220 [Exp_CD28/80/86/PD1/L1/L2]*Tumor.[C{PDL1}{PDL2}{CD80}]*([CD80_receptors_per_C_Cl]/[Avagadro's_Num])*([T_pe
-r_Cancer_Cell_Int]/[T_per_Cancer_Cell_max])
-221 [Exp_CD28/80/86/PD1/L1/L2]*Tumor.[C{PDL2}]*([PDL2_receptors_per_C_Cl]/[Avagadro's_Num])*([T_per_Cancer_Cell_I
-nt]/[T_per_Cancer_Cell_max])
-222 [Exp_CD28/80/86/PD1/L1/L2]*Tumor.[C{PDL2}{CD80}]*([PDL2_receptors_per_C_Cl]/[Avagadro's_Num])*([T_per_Cance
-r_Cell_Int]/[T_per_Cancer_Cell_max])
-223 [Exp_CD28/80/86/PD1/L1/L2]*Tumor.[C{PDL2}{CD80}]*([CD80_receptors_per_C_Cl]/[Avagadro's_Num])*([T_per_Cance
-r_Cell_Int]/[T_per_Cancer_Cell_max])
+188 (Peripheral.PD1_mabP_leaky/(0.35*ISF*KP_PD1))*0.67*Q_L*(1-SigmaL)-Lymph_Node.PD1_mab*0.67*Q_L*(1-SigmaL)/VL
+189 (Peripheral.PD1_mabP_tight/(0.65*ISF*KP_PD1))*0.33*Q_L*(1-SigmaL)-Lymph_Node.PD1_mab*0.33*Q_L*(1-SigmaL)/VL
+190 (Peripheral.PDL1_mabP_leaky/(0.35*ISF*KP_PDL1))*0.67*Q_L*(1-SigmaL)-Lymph_Node.PDL1_mab*0.67*Q_L*(1-SigmaL)/VL
+191 (Peripheral.PDL1_mabP_tight/(0.65*ISF*KP_PDL1))*0.33*Q_L*(1-SigmaL)-Lymph_Node.PDL1_mab*0.33*Q_L*(1-SigmaL)/VL
+192 [Exp_CD28/80/86/PD1/L1/L2]*Tumor.[C{CD80}]*([CD80_receptors_per_C_Cl]/[Avagadro's_Num])*([T_per_Cancer_Cell_Int]/[T_per_Cancer_Cell_max])
+193 [Exp_CD28/80/86/PD1/L1/L2]*Tumor.[C{PD1}]*([PD1_receptors_per_C_Cl]/[Avagadro's_Num])*([T_per_Cancer_Cell_Int]/[T_per_Cancer_Cell_max])
+194 [Exp_CD28/80/86/PD1/L1/L2]*Tumor.[C{PD1}{CD80}]*([PD1_receptors_per_C_Cl]/[Avagadro's_Num])*([T_per_Cancer_Cell_Int]/[T_per_Cancer_Cell_max])
+195 [Exp_CD28/80/86/PD1/L1/L2]*Tumor.[C{PD1}{CD80}]*([CD80_receptors_per_C_Cl]/[Avagadro's_Num])*([T_per_Cancer_Cell_Int]/[T_per_Cancer_Cell_max])
+196 [Exp_CD28/80/86/PD1/L1/L2]*Tumor.[C{PD1}{PDL1}]*([PD1_receptors_per_C_Cl]/[Avagadro's_Num])*([T_per_Cancer_Cell_Int]/[T_per_Cancer_Cell_max])
+197 [Exp_CD28/80/86/PD1/L1/L2]*Tumor.[C{PD1}{PDL1}]*([PDL1_receptors_per_C_Cl]/[Avagadro's_Num])*([T_per_Cancer_Cell_Int]/[T_per_Cancer_Cell_max])
+198 [Exp_CD28/80/86/PD1/L1/L2]*Tumor.[C{PD1}{PDL1}{CD80}]*([PD1_receptors_per_C_Cl]/[Avagadro's_Num])*([T_per_Cancer_Cell_Int]/[T_per_Cancer_Cell_max])
+199 [Exp_CD28/80/86/PD1/L1/L2]*Tumor.[C{PD1}{PDL1}{CD80}]*([PDL1_receptors_per_C_Cl]/[Avagadro's_Num])*([T_per_Cancer_Cell_Int]/[T_per_Cancer_Cell_max])
+200 [Exp_CD28/80/86/PD1/L1/L2]*Tumor.[C{PD1}{PDL1}{CD80}]*([CD80_receptors_per_C_Cl]/[Avagadro's_Num])*([T_per_Cancer_Cell_Int]/[T_per_Cancer_Cell_max])
+201 [Exp_CD28/80/86/PD1/L1/L2]*Tumor.[C{PD1}{PDL1}{PDL2}]*([PD1_receptors_per_C_Cl]/[Avagadro's_Num])*([T_per_Cancer_Cell_Int]/[T_per_Cancer_Cell_max])
+202 [Exp_CD28/80/86/PD1/L1/L2]*Tumor.[C{PD1}{PDL1}{PDL2}]*([PDL1_receptors_per_C_Cl]/[Avagadro's_Num])*([T_per_Cancer_Cell_Int]/[T_per_Cancer_Cell_max])
+203 [Exp_CD28/80/86/PD1/L1/L2]*Tumor.[C{PD1}{PDL1}{PDL2}]*([PDL2_receptors_per_C_Cl]/[Avagadro's_Num])*([T_per_Cancer_Cell_Int]/[T_per_Cancer_Cell_max])
+204 [Exp_CD28/80/86/PD1/L1/L2]*Tumor.[C{PD1}{PDL1}{PDL2}{CD80}]*([PD1_receptors_per_C_Cl]/[Avagadro's_Num])*([T_per_Cancer_Cell_Int]/[T_per_Cancer_Cell_max])
+205 [Exp_CD28/80/86/PD1/L1/L2]*Tumor.[C{PD1}{PDL1}{PDL2}{CD80}]*([PDL1_receptors_per_C_Cl]/[Avagadro's_Num])*([T_per_Cancer_Cell_Int]/[T_per_Cancer_Cell_max])
+206 [Exp_CD28/80/86/PD1/L1/L2]*Tumor.[C{PD1}{PDL1}{PDL2}{CD80}]*([PDL2_receptors_per_C_Cl]/[Avagadro's_Num])*([T_per_Cancer_Cell_Int]/[T_per_Cancer_Cell_max])
+207 [Exp_CD28/80/86/PD1/L1/L2]*Tumor.[C{PD1}{PDL1}{PDL2}{CD80}]*([CD80_receptors_per_C_Cl]/[Avagadro's_Num])*([T_per_Cancer_Cell_Int]/[T_per_Cancer_Cell_max])
+208 [Exp_CD28/80/86/PD1/L1/L2]*Tumor.[C{PD1}{PDL2}]*([PD1_receptors_per_C_Cl]/[Avagadro's_Num])*([T_per_Cancer_Cell_Int]/[T_per_Cancer_Cell_max])
+209 [Exp_CD28/80/86/PD1/L1/L2]*Tumor.[C{PD1}{PDL2}]*([PDL2_receptors_per_C_Cl]/[Avagadro's_Num])*([T_per_Cancer_Cell_Int]/[T_per_Cancer_Cell_max])
+210 [Exp_CD28/80/86/PD1/L1/L2]*Tumor.[C{PD1}{PDL2}{CD80}]*([PD1_receptors_per_C_Cl]/[Avagadro's_Num])*([T_per_Cancer_Cell_Int]/[T_per_Cancer_Cell_max])
+211 [Exp_CD28/80/86/PD1/L1/L2]*Tumor.[C{PD1}{PDL2}{CD80}]*([PDL2_receptors_per_C_Cl]/[Avagadro's_Num])*([T_per_Cancer_Cell_Int]/[T_per_Cancer_Cell_max])
+212 [Exp_CD28/80/86/PD1/L1/L2]*Tumor.[C{PD1}{PDL2}{CD80}]*([CD80_receptors_per_C_Cl]/[Avagadro's_Num])*([T_per_Cancer_Cell_Int]/[T_per_Cancer_Cell_max])
+213 [Exp_CD28/80/86/PD1/L1/L2]*Tumor.[C{PDL1}]*([PDL1_receptors_per_C_Cl]/[Avagadro's_Num])*([T_per_Cancer_Cell_Int]/[T_per_Cancer_Cell_max])
+214 [Exp_CD28/80/86/PD1/L1/L2]*Tumor.[C{PDL1}{CD80}]*([PDL1_receptors_per_C_Cl]/[Avagadro's_Num])*([T_per_Cancer_Cell_Int]/[T_per_Cancer_Cell_max])
+215 [Exp_CD28/80/86/PD1/L1/L2]*Tumor.[C{PDL1}{CD80}]*([CD80_receptors_per_C_Cl]/[Avagadro's_Num])*([T_per_Cancer_Cell_Int]/[T_per_Cancer_Cell_max])
+216 [Exp_CD28/80/86/PD1/L1/L2]*Tumor.[C{PDL1}{PDL2}]*([PDL1_receptors_per_C_Cl]/[Avagadro's_Num])*([T_per_Cancer_Cell_Int]/[T_per_Cancer_Cell_max])
+217 [Exp_CD28/80/86/PD1/L1/L2]*Tumor.[C{PDL1}{PDL2}]*([PDL2_receptors_per_C_Cl]/[Avagadro's_Num])*([T_per_Cancer_Cell_Int]/[T_per_Cancer_Cell_max])
+218 [Exp_CD28/80/86/PD1/L1/L2]*Tumor.[C{PDL1}{PDL2}{CD80}]*([PDL1_receptors_per_C_Cl]/[Avagadro's_Num])*([T_per_Cancer_Cell_Int]/[T_per_Cancer_Cell_max])
+219 [Exp_CD28/80/86/PD1/L1/L2]*Tumor.[C{PDL1}{PDL2}{CD80}]*([PDL2_receptors_per_C_Cl]/[Avagadro's_Num])*([T_per_Cancer_Cell_Int]/[T_per_Cancer_Cell_max])
+220 [Exp_CD28/80/86/PD1/L1/L2]*Tumor.[C{PDL1}{PDL2}{CD80}]*([CD80_receptors_per_C_Cl]/[Avagadro's_Num])*([T_per_Cancer_Cell_Int]/[T_per_Cancer_Cell_max])
+221 [Exp_CD28/80/86/PD1/L1/L2]*Tumor.[C{PDL2}]*([PDL2_receptors_per_C_Cl]/[Avagadro's_Num])*([T_per_Cancer_Cell_Int]/[T_per_Cancer_Cell_max])
+222 [Exp_CD28/80/86/PD1/L1/L2]*Tumor.[C{PDL2}{CD80}]*([PDL2_receptors_per_C_Cl]/[Avagadro's_Num])*([T_per_Cancer_Cell_Int]/[T_per_Cancer_Cell_max])
+223 [Exp_CD28/80/86/PD1/L1/L2]*Tumor.[C{PDL2}{CD80}]*([CD80_receptors_per_C_Cl]/[Avagadro's_Num])*([T_per_Cancer_Cell_Int]/[T_per_Cancer_Cell_max])
 224 [kon_PD1-PD1mAb]*Tumor.[C10a=PD1]*Tumor.PD1_mabt/Vt - [koff_PD1-PD1mAb]*Tumor.[C10a=PD1:aPD1]
 225 [Exp_CD28/80/86/PD1/L1/L2]*(Tumor.[C10a=PD1]+[C10a=PD1:aPD1]+[T10a=PDL1:PD1=C10a])
-226 [kon_PDL1-PDL1mAb]*Tumor.[C10b=PDL1]*Tumor.PDL1_mabt/Vt - [koff_PDL1-
-PDL1mAb]*Tumor.[C10b=PDL1:aPDL1]
-227 [Exp_CD28/80/86/PD1/L1/L2]*(Tumor.[C10b=PDL1]+[C10b=PDL1:aPDL1]+ [T10b=PD1:PDL1=C10b]+
-[T10c=CD80:PDL1=C10b])
+226 [kon_PDL1-PDL1mAb]*Tumor.[C10b=PDL1]*Tumor.PDL1_mabt/Vt - [koff_PDL1-PDL1mAb]*Tumor.[C10b=PDL1:aPDL1]
+227 [Exp_CD28/80/86/PD1/L1/L2]*(Tumor.[C10b=PDL1]+[C10b=PDL1:aPDL1]+ [T10b=PD1:PDL1=C10b]+[T10c=CD80:PDL1=C10b])
 228 [Exp_CD28/80/86/PD1/L1/L2]*(Tumor.[C10c=PDL2] + [T10b=PD1:PDL2=C10c])
-229 [kon_PDL1-PDL1mAb]*Tumor.[C11a=PDL1]*Tumor.PDL1_mabt/Vt - [koff_PDL1-
-PDL1mAb]*Tumor.[C11a=PDL1:aPDL1]
+229 [kon_PDL1-PDL1mAb]*Tumor.[C11a=PDL1]*Tumor.PDL1_mabt/Vt - [koff_PDL1-PDL1mAb]*Tumor.[C11a=PDL1:aPDL1]
 230 [Exp_CD28/80/86/PD1/L1/L2]*(Tumor.[C11a=PDL1]+[C11a=PDL1:aPDL1]+ [T11b=PD1:PDL1=C11a])
 231 [Exp_CD28/80/86/PD1/L1/L2]*(Tumor.[C11b=CD80]+ [T11a=PDL1:CD80=C11b])
 232 [Exp_CD28/80/86/PD1/L1/L2]*(Tumor.[C12a=PDL2]+ [T12b=PD1:PDL2=C12a])
 233 [Exp_CD28/80/86/PD1/L1/L2]*(Tumor.[C12b=CD80]+ [T12a=PDL1:CD80=C12b])
-234 [kon_PDL1-PDL1mAb]*Tumor.[C13a=PDL1]*Tumor.PDL1_mabt/Vt - [koff_PDL1-
-PDL1mAb]*Tumor.[C13a=PDL1:aPDL1]
+234 [kon_PDL1-PDL1mAb]*Tumor.[C13a=PDL1]*Tumor.PDL1_mabt/Vt - [koff_PDL1-PDL1mAb]*Tumor.[C13a=PDL1:aPDL1]
 235 [Exp_CD28/80/86/PD1/L1/L2]*(Tumor.[C13a=PDL1]+[C13a=PDL1:aPDL1]+ [T13b=PD1:PDL1=C13a])
 236 [Exp_CD28/80/86/PD1/L1/L2]*(Tumor.[C13b=PDL2]+ [T13b=PD1:PDL2=C13b])
 237 [Exp_CD28/80/86/PD1/L1/L2]*(Tumor.[C13c=CD80]+ [T13a=PDL1:CD80=C13c])
-238 [kon_PD1_PDL1]*Tumor.[C14a=PD1]*Tumor.[T14a=PDL1]/[V_T:C_14] -
-[koff_PD1_PDL1]*Tumor.[T14a=PDL1:PD1=C14a]
+238 [kon_PD1_PDL1]*Tumor.[C14a=PD1]*Tumor.[T14a=PDL1]/[V_T:C_14] -[koff_PD1_PDL1]*Tumor.[T14a=PDL1:PD1=C14a]
 239 [Exp_CD28/80/86/PD1/L1/L2]*(Tumor.[C14a=PD1]+[C14a=PD1:aPD1]+ [T14a=PDL1:PD1=C14a])
-240 [kon_PDL1_CD80]*Tumor.[C14b=PDL1]*Tumor.[T14c=CD80]/[V_T:C_14] -
-[koff_PDL1_CD80]*Tumor.[T14c=CD80:PDL1=C14b]
-241 [kon_PDL1-PDL1mAb]*Tumor.[C14b=PDL1]*Tumor.PDL1_mabt/Vt - [koff_PDL1-
-PDL1mAb]*Tumor.[C14b=PDL1:aPDL1]
-242 [Exp_CD28/80/86/PD1/L1/L2]*(Tumor.[C14b=PDL1]+[C14b=PDL1:aPDL1]+ [T14b=PD1:PDL1=C14b]+
-[T14c=CD80:PDL1=C14b])
-243 [kon_PDL1_CD80]*Tumor.[C14c=CD80]*Tumor.[T14a=PDL1]/[V_T:C_14] -
-[koff_PDL1_CD80]*Tumor.[T14a=PDL1:CD80=C14c]
+240 [kon_PDL1_CD80]*Tumor.[C14b=PDL1]*Tumor.[T14c=CD80]/[V_T:C_14] -[koff_PDL1_CD80]*Tumor.[T14c=CD80:PDL1=C14b]
+241 [kon_PDL1-PDL1mAb]*Tumor.[C14b=PDL1]*Tumor.PDL1_mabt/Vt - [koff_PDL1-PDL1mAb]*Tumor.[C14b=PDL1:aPDL1]
+242 [Exp_CD28/80/86/PD1/L1/L2]*(Tumor.[C14b=PDL1]+[C14b=PDL1:aPDL1]+ [T14b=PD1:PDL1=C14b]+[T14c=CD80:PDL1=C14b])
+243 [kon_PDL1_CD80]*Tumor.[C14c=CD80]*Tumor.[T14a=PDL1]/[V_T:C_14] -[koff_PDL1_CD80]*Tumor.[T14a=PDL1:CD80=C14c]
 244 [Exp_CD28/80/86/PD1/L1/L2]*(Tumor.[C14c=CD80]+ [T14a=PDL1:CD80=C14c])
 245 [kon_PD1-PD1mAb]*Tumor.[C15a=PD1]*Tumor.PD1_mabt/Vt - [koff_PD1-PD1mAb]*Tumor.[C15a=PD1:aPD1]
 246 [Exp_CD28/80/86/PD1/L1/L2]*(Tumor.[C15a=PD1]+[C15a=PD1:aPD1]+ [T15a=PDL1:PD1=C15a])
-247 [kon_PD1_PDL2]*Tumor.[C15b=PDL2]*Tumor.[T15b=PD1]/[V_T:C_15] -
-[koff_PD1_PDL2]*Tumor.[T15b=PD1:PDL2=C15b]
+247 [kon_PD1_PDL2]*Tumor.[C15b=PDL2]*Tumor.[T15b=PD1]/[V_T:C_15] -[koff_PD1_PDL2]*Tumor.[T15b=PD1:PDL2=C15b]
 248 [Exp_CD28/80/86/PD1/L1/L2]*(Tumor.[C15b=PDL2] + [T15b=PD1:PDL2=C15b])
-249 [kon_PDL1_CD80]*Tumor.[C15c=CD80]*Tumor.[T15a=PDL1]/[V_T:C_15] -
-[koff_PDL1_CD80]*Tumor.[T15a=PDL1:CD80=C15c]
+249 [kon_PDL1_CD80]*Tumor.[C15c=CD80]*Tumor.[T15a=PDL1]/[V_T:C_15] -[koff_PDL1_CD80]*Tumor.[T15a=PDL1:CD80=C15c]
 250 [Exp_CD28/80/86/PD1/L1/L2]*(Tumor.[C15c=CD80]+ [T15a=PDL1:CD80=C15c])
-251 [kon_PD1_PDL1]*Tumor.[C16a=PD1]*Tumor.[T16a=PDL1]/[V_T:C_16] -
-[koff_PD1_PDL1]*Tumor.[T16a=PDL1:PD1=C16a]
+251 [kon_PD1_PDL1]*Tumor.[C16a=PD1]*Tumor.[T16a=PDL1]/[V_T:C_16] -[koff_PD1_PDL1]*Tumor.[T16a=PDL1:PD1=C16a]
 252 [kon_PD1-PD1mAb]*Tumor.[C16a=PD1]*Tumor.PD1_mabt/Vt - [koff_PD1-PD1mAb]*Tumor.[C16a=PD1:aPD1]
 253 [Exp_CD28/80/86/PD1/L1/L2]*(Tumor.[C16a=PD1]+[C16a=PD1:aPD1]+ [T16a=PDL1:PD1=C16a])
 254 [kon_PDL1-PDL1mAb]*Tumor.[C16b=PDL1]*Tumor.PDL1_mabt/Vt-[koff_PDL1-PDL1mAb]*Tumor.[C16b=PDL1:aPDL1]
-255 [Exp_CD28/80/86/PD1/L1/L2]*(Tumor.[C16b=PDL1]+[C16b=PDL1:aPDL1]+ [T16c=CD80:PDL1=C16b]+
-[T16b=PD1:PDL1=C16b])
-256 [kon_PD1_PDL2]*Tumor.[C16c=PDL2]*Tumor.[T16b=PD1]/[V_T:C_16] -
-[koff_PD1_PDL2]*Tumor.[T16b=PD1:PDL2=C16c]
+255 [Exp_CD28/80/86/PD1/L1/L2]*(Tumor.[C16b=PDL1]+[C16b=PDL1:aPDL1]+ [T16c=CD80:PDL1=C16b]+[T16b=PD1:PDL1=C16b])
+256 [kon_PD1_PDL2]*Tumor.[C16c=PDL2]*Tumor.[T16b=PD1]/[V_T:C_16] -[koff_PD1_PDL2]*Tumor.[T16b=PD1:PDL2=C16c]
 257 [Exp_CD28/80/86/PD1/L1/L2]*(Tumor.[C16c=PDL2]+ [T16b=PD1:PDL2=C16c])
 258 [Exp_CD28/80/86/PD1/L1/L2]*(Tumor.[C16d=CD80]+ [T16a=PDL1:CD80=C16d])
 259 [Exp_CD28/80/86/PD1/L1/L2]*(Tumor.[C2=PD1]+[C2=PD1:aPD1]+[T2=PDL1:PD1=C2])
@@ -383,15 +263,12 @@ PDL1mAb]*Tumor.[C14b=PDL1:aPDL1]
 263 [kon_PD1-PD1mAb]*Tumor.[C6a=PD1]*Tumor.PD1_mabt/Vt - [koff_PD1-PD1mAb]*Tumor.[C6a=PD1:aPD1]
 264 [Exp_CD28/80/86/PD1/L1/L2]*(Tumor.[C6a=PD1]+[C6a=PD1:aPD1]+[T6a=PDL1:PD1=C6a])
 265 [kon_PD1_PDL1]*Tumor.[C6b=PDL1]*Tumor.[T6b=PD1]/[V_T:C_6] - [koff_PD1_PDL1]*Tumor.[T6b=PD1:PDL1=C6b]
-266 [kon_PDL1_CD80]*Tumor.[C6b=PDL1]*Tumor.[T6c=CD80]/[V_T:C_6] -
-[koff_PDL1_CD80]*Tumor.[T6c=CD80:PDL1=C6b]
+266 [kon_PDL1_CD80]*Tumor.[C6b=PDL1]*Tumor.[T6c=CD80]/[V_T:C_6] -[koff_PDL1_CD80]*Tumor.[T6c=CD80:PDL1=C6b]
 267 [kon_PDL1-PDL1mAb]*Tumor.[C6b=PDL1]*Tumor.PDL1_mabt/Vt - [koff_PDL1-PDL1mAb]*Tumor.[C6b=PDL1:aPDL1]
-268 [Exp_CD28/80/86/PD1/L1/L2]*(Tumor.[C6b=PDL1]+[C6b=PDL1:aPDL1]+[T6b=PD1:PDL1=C6b]+[T6c=CD80:PDL1=C6b]
-)
+268 [Exp_CD28/80/86/PD1/L1/L2]*(Tumor.[C6b=PDL1]+[C6b=PDL1:aPDL1]+[T6b=PD1:PDL1=C6b]+[T6c=CD80:PDL1=C6b])
 269 [Exp_CD28/80/86/PD1/L1/L2]*(Tumor.[C7a=PD1]+[C7a=PD1:aPD1]+[T7a=PDL1:PD1=C7a])
 270 [Exp_CD28/80/86/PD1/L1/L2]*(Tumor.[C7b=PDL2]+[T7b=PD1:PDL2=C7b])
-271 [kon_PDL1_CD80]*Tumor.[C8a=PDL1]*Tumor.[T8b=CD80]/[V_T:C_8] -
-[koff_PDL1_CD80]*Tumor.[T8b=CD80:PDL1=C8a]
+271 [kon_PDL1_CD80]*Tumor.[C8a=PDL1]*Tumor.[T8b=CD80]/[V_T:C_8] -[koff_PDL1_CD80]*Tumor.[T8b=CD80:PDL1=C8a]
 272 [kon_PDL1-PDL1mAb]*Tumor.[C8a=PDL1]*Tumor.PDL1_mabt/Vt - [koff_PDL1-PDL1mAb]*Tumor.[C8a=PDL1:aPDL1]
 273 [Exp_CD28/80/86/PD1/L1/L2]*(Tumor.[C8a=PDL1]+[C8a=PDL1:aPDL1]+[T8a=PD1:PDL1=C8a]+[T8b=CD80:PDL1=C8a])
 274 [Exp_CD28/80/86/PD1/L1/L2]*(Tumor.[C8b=PDL2]+[T8a=PD1:PDL2=C8b])
@@ -401,141 +278,84 @@ PDL1mAb]*Tumor.[C14b=PDL1:aPDL1]
 278 Endo_CTLA4*Tumor.[CTLA4:CD80_TrAT]
 279 Endo_CTLA4*Tumor.[CTLA4:CD86_TrAT]
 280 Endo_CTLA4*Tumor.[CTLA4_CTLA4-Trt]
-281 [Exp_CD28/80/86/PD1/L1/L2]*Tumor.[T{PD1}{80}-{PDL1}{PDL2}C]*([PD1_receptors-per-
-Tcell]/[Avagadro's_Num])*([Cancer_per_T_Cell_Int]/[Cancer_per_T_Cell_max])
-282 [Exp_CD28/80/86/PD1/L1/L2]*Tumor.[T{PD1}{80}-{PDL1}{PDL2}C]*([CD80_receptors-per-
-Tcell]/[Avagadro's_Num])*([Cancer_per_T_Cell_Int]/[Cancer_per_T_Cell_max])
-283 [Exp_CD28/80/86/PD1/L1/L2]*Tumor.[T{PD1}{CD80}-{PDL1}C]*([PD1_receptors-per-
-Tcell]/[Avagadro's_Num])*([Cancer_per_T_Cell_Int]/[Cancer_per_T_Cell_max])
-284 [Exp_CD28/80/86/PD1/L1/L2]*Tumor.[T{PD1}{CD80}-{PDL1}C]*([CD80_receptors-per-
-Tcell]/[Avagadro's_Num])*([Cancer_per_T_Cell_Int]/[Cancer_per_T_Cell_max])
-285 [Exp_CD28/80/86/PD1/L1/L2]*Tumor.[T{PD1}{L1}{80}-{PD1}{80}{L1}{L2}C]*([PDL1_receptors-per-
-Tcell]/[Avagadro's_Num])*([Cancer_per_T_Cell_Int]/[Cancer_per_T_Cell_max])
-286 [Exp_CD28/80/86/PD1/L1/L2]*Tumor.[T{PD1}{L1}{80}-{PD1}{80}{L1}{L2}C]*([PD1_receptors-per-
-Tcell]/[Avagadro's_Num])*([Cancer_per_T_Cell_Int]/[Cancer_per_T_Cell_max])
-287 [Exp_CD28/80/86/PD1/L1/L2]*Tumor.[T{PD1}{L1}{80}-{PD1}{80}{L1}{L2}C]*([CD80_receptors-per-
-Tcell]/[Avagadro's_Num])*([Cancer_per_T_Cell_Int]/[Cancer_per_T_Cell_max])
-288 [Exp_CD28/80/86/PD1/L1/L2]*Tumor.[T{PD1}{L1}{80}-{PD1}{80}{L1}C]*([PDL1_receptors-per-
-Tcell]/[Avagadro's_Num])*([Cancer_per_T_Cell_Int]/[Cancer_per_T_Cell_max])
-289 [Exp_CD28/80/86/PD1/L1/L2]*Tumor.[T{PD1}{L1}{80}-{PD1}{80}{L1}C]*([PD1_receptors-per-
-Tcell]/[Avagadro's_Num])*([Cancer_per_T_Cell_Int]/[Cancer_per_T_Cell_max])
-290 [Exp_CD28/80/86/PD1/L1/L2]*Tumor.[T{PD1}{L1}{80}-{PD1}{80}{L1}C]*([CD80_receptors-per-
-Tcell]/[Avagadro's_Num])*([Cancer_per_T_Cell_Int]/[Cancer_per_T_Cell_max])
-291 [Exp_CD28/80/86/PD1/L1/L2]*Tumor.[T{PD1}{L1}{80}-{PD1}{L1}{L2}C]*([PDL1_receptors-per-
-Tcell]/[Avagadro's_Num])*([Cancer_per_T_Cell_Int]/[Cancer_per_T_Cell_max])
-292 [Exp_CD28/80/86/PD1/L1/L2]*Tumor.[T{PD1}{L1}{80}-{PD1}{L1}{L2}C]*([PD1_receptors-per-
-Tcell]/[Avagadro's_Num])*([Cancer_per_T_Cell_Int]/[Cancer_per_T_Cell_max])
-293 [Exp_CD28/80/86/PD1/L1/L2]*Tumor.[T{PD1}{L1}{80}-{PD1}{L1}{L2}C]*([CD80_receptors-per-
-Tcell]/[Avagadro's_Num])*([Cancer_per_T_Cell_Int]/[Cancer_per_T_Cell_max])
-294 [Exp_CD28/80/86/PD1/L1/L2]*Tumor.[T{PD1}{L1}{80}-{PD1}{L1}C]*([PDL1_receptors-per-
-Tcell]/[Avagadro's_Num])*([Cancer_per_T_Cell_Int]/[Cancer_per_T_Cell_max])
-295 [Exp_CD28/80/86/PD1/L1/L2]*Tumor.[T{PD1}{L1}{80}-{PD1}{L1}C]*([PD1_receptors-per-
-Tcell]/[Avagadro's_Num])*([Cancer_per_T_Cell_Int]/[Cancer_per_T_Cell_max])
-296 [Exp_CD28/80/86/PD1/L1/L2]*Tumor.[T{PD1}{L1}{80}-{PD1}{L1}C]*([CD80_receptors-per-
-Tcell]/[Avagadro's_Num])*([Cancer_per_T_Cell_Int]/[Cancer_per_T_Cell_max])
-297 [Exp_CD28/80/86/PD1/L1/L2]*Tumor.[T{PD1}{L1}-{PD1}{80}{PDL2}C]*([PDL1_receptors-per-
-Tcell]/[Avagadro's_Num])*([Cancer_per_T_Cell_Int]/[Cancer_per_T_Cell_max])
-298 [Exp_CD28/80/86/PD1/L1/L2]*Tumor.[T{PD1}{L1}-{PD1}{80}{PDL2}C]*([PD1_receptors-per-
-Tcell]/[Avagadro's_Num])*([Cancer_per_T_Cell_Int]/[Cancer_per_T_Cell_max])
-299 [Exp_CD28/80/86/PD1/L1/L2]*Tumor.[T{PD1}{L1}-{PD1}{L2}C]*([PDL1_receptors-per-
-Tcell]/[Avagadro's_Num])*([Cancer_per_T_Cell_Int]/[Cancer_per_T_Cell_max])
-300 [Exp_CD28/80/86/PD1/L1/L2]*Tumor.[T{PD1}{L1}-{PD1}{L2}C]*([PD1_receptors-per-
-Tcell]/[Avagadro's_Num])*([Cancer_per_T_Cell_Int]/[Cancer_per_T_Cell_max])
-301 [Exp_CD28/80/86/PD1/L1/L2]*Tumor.[T{PD1}{L1}-{PDL1}{80}{L2}C]*([PDL1_receptors-per-
-Tcell]/[Avagadro's_Num])*([Cancer_per_T_Cell_Int]/[Cancer_per_T_Cell_max])
-302 [Exp_CD28/80/86/PD1/L1/L2]*Tumor.[T{PD1}{L1}-{PDL1}{80}{L2}C]*([PD1_receptors-per-
-Tcell]/[Avagadro's_Num])*([Cancer_per_T_Cell_Int]/[Cancer_per_T_Cell_max])
-303 [Exp_CD28/80/86/PD1/L1/L2]*Tumor.[T{PD1}{L1}-{PDL1}{80}C]*([PDL1_receptors-per-
-Tcell]/[Avagadro's_Num])*([Cancer_per_T_Cell_Int]/[Cancer_per_T_Cell_max])
-304 [Exp_CD28/80/86/PD1/L1/L2]*Tumor.[T{PD1}{L1}-{PDL1}{80}C]*([PD1_receptors-per-
-Tcell]/[Avagadro's_Num])*([Cancer_per_T_Cell_Int]/[Cancer_per_T_Cell_max])
-305 [Exp_CD28/80/86/PD1/L1/L2]*Tumor.[T{PD1}{L1}-{PDL2}{80}C]*([PDL1_receptors-per-
-Tcell]/[Avagadro's_Num])*([Cancer_per_T_Cell_Int]/[Cancer_per_T_Cell_max])
-306 [Exp_CD28/80/86/PD1/L1/L2]*Tumor.[T{PD1}{L1}-{PDL2}{80}C]*([PD1_receptors-per-
-Tcell]/[Avagadro's_Num])*([Cancer_per_T_Cell_Int]/[Cancer_per_T_Cell_max])
-307 [Exp_CD28/80/86/PD1/L1/L2]*Tumor.[T{PD1}-{PDL2}C]*([PD1_receptors-per-
-Tcell]/[Avagadro's_Num])*([Cancer_per_T_Cell_Int]/[Cancer_per_T_Cell_max])
-308 [Exp_CD28/80/86/PD1/L1/L2]*Tumor.[T{PDL1}-{CD80}{PD1}C]*([PDL1_receptors-per-
-Tcell]/[Avagadro's_Num])*([Cancer_per_T_Cell_Int]/[Cancer_per_T_Cell_max])
-309 [Exp_CD28/80/86/PD1/L1/L2]*Tumor.[T{PDL1}-{CD80}C]*([PDL1_receptors-per-
-Tcell]/[Avagadro's_Num])*([Cancer_per_T_Cell_Int]/[Cancer_per_T_Cell_max])
-310 [Exp_CD28/80/86/PD1/L1/L2]*Tumor.[T{PDL1}-{PD1}C]*([PDL1_receptors-per-
-Tcell]/[Avagadro's_Num])*([Cancer_per_T_Cell_Int]/[Cancer_per_T_Cell_max])
-311 [kon_PD1_PDL1]*Tumor.[T10a=PDL1]*Tumor.[C10a=PD1]/[V_T:C_10] -
-[koff_PD1_PDL1]*Tumor.[T10a=PDL1:PD1=C10a]
+281 [Exp_CD28/80/86/PD1/L1/L2]*Tumor.[T{PD1}{80}-{PDL1}{PDL2}C]*([PD1_receptors-per-Tcell]/[Avagadro's_Num])*([Cancer_per_T_Cell_Int]/[Cancer_per_T_Cell_max])
+282 [Exp_CD28/80/86/PD1/L1/L2]*Tumor.[T{PD1}{80}-{PDL1}{PDL2}C]*([CD80_receptors-per-Tcell]/[Avagadro's_Num])*([Cancer_per_T_Cell_Int]/[Cancer_per_T_Cell_max])
+283 [Exp_CD28/80/86/PD1/L1/L2]*Tumor.[T{PD1}{CD80}-{PDL1}C]*([PD1_receptors-per-Tcell]/[Avagadro's_Num])*([Cancer_per_T_Cell_Int]/[Cancer_per_T_Cell_max])
+284 [Exp_CD28/80/86/PD1/L1/L2]*Tumor.[T{PD1}{CD80}-{PDL1}C]*([CD80_receptors-per-Tcell]/[Avagadro's_Num])*([Cancer_per_T_Cell_Int]/[Cancer_per_T_Cell_max])
+285 [Exp_CD28/80/86/PD1/L1/L2]*Tumor.[T{PD1}{L1}{80}-{PD1}{80}{L1}{L2}C]*([PDL1_receptors-per-Tcell]/[Avagadro's_Num])*([Cancer_per_T_Cell_Int]/[Cancer_per_T_Cell_max])
+286 [Exp_CD28/80/86/PD1/L1/L2]*Tumor.[T{PD1}{L1}{80}-{PD1}{80}{L1}{L2}C]*([PD1_receptors-per-Tcell]/[Avagadro's_Num])*([Cancer_per_T_Cell_Int]/[Cancer_per_T_Cell_max])
+287 [Exp_CD28/80/86/PD1/L1/L2]*Tumor.[T{PD1}{L1}{80}-{PD1}{80}{L1}{L2}C]*([CD80_receptors-per-Tcell]/[Avagadro's_Num])*([Cancer_per_T_Cell_Int]/[Cancer_per_T_Cell_max])
+288 [Exp_CD28/80/86/PD1/L1/L2]*Tumor.[T{PD1}{L1}{80}-{PD1}{80}{L1}C]*([PDL1_receptors-per-Tcell]/[Avagadro's_Num])*([Cancer_per_T_Cell_Int]/[Cancer_per_T_Cell_max])
+289 [Exp_CD28/80/86/PD1/L1/L2]*Tumor.[T{PD1}{L1}{80}-{PD1}{80}{L1}C]*([PD1_receptors-per-Tcell]/[Avagadro's_Num])*([Cancer_per_T_Cell_Int]/[Cancer_per_T_Cell_max])
+290 [Exp_CD28/80/86/PD1/L1/L2]*Tumor.[T{PD1}{L1}{80}-{PD1}{80}{L1}C]*([CD80_receptors-per-Tcell]/[Avagadro's_Num])*([Cancer_per_T_Cell_Int]/[Cancer_per_T_Cell_max])
+291 [Exp_CD28/80/86/PD1/L1/L2]*Tumor.[T{PD1}{L1}{80}-{PD1}{L1}{L2}C]*([PDL1_receptors-per-Tcell]/[Avagadro's_Num])*([Cancer_per_T_Cell_Int]/[Cancer_per_T_Cell_max])
+292 [Exp_CD28/80/86/PD1/L1/L2]*Tumor.[T{PD1}{L1}{80}-{PD1}{L1}{L2}C]*([PD1_receptors-per-Tcell]/[Avagadro's_Num])*([Cancer_per_T_Cell_Int]/[Cancer_per_T_Cell_max])
+293 [Exp_CD28/80/86/PD1/L1/L2]*Tumor.[T{PD1}{L1}{80}-{PD1}{L1}{L2}C]*([CD80_receptors-per-Tcell]/[Avagadro's_Num])*([Cancer_per_T_Cell_Int]/[Cancer_per_T_Cell_max])
+294 [Exp_CD28/80/86/PD1/L1/L2]*Tumor.[T{PD1}{L1}{80}-{PD1}{L1}C]*([PDL1_receptors-per-Tcell]/[Avagadro's_Num])*([Cancer_per_T_Cell_Int]/[Cancer_per_T_Cell_max])
+295 [Exp_CD28/80/86/PD1/L1/L2]*Tumor.[T{PD1}{L1}{80}-{PD1}{L1}C]*([PD1_receptors-per-Tcell]/[Avagadro's_Num])*([Cancer_per_T_Cell_Int]/[Cancer_per_T_Cell_max])
+296 [Exp_CD28/80/86/PD1/L1/L2]*Tumor.[T{PD1}{L1}{80}-{PD1}{L1}C]*([CD80_receptors-per-Tcell]/[Avagadro's_Num])*([Cancer_per_T_Cell_Int]/[Cancer_per_T_Cell_max])
+297 [Exp_CD28/80/86/PD1/L1/L2]*Tumor.[T{PD1}{L1}-{PD1}{80}{PDL2}C]*([PDL1_receptors-per-Tcell]/[Avagadro's_Num])*([Cancer_per_T_Cell_Int]/[Cancer_per_T_Cell_max])
+298 [Exp_CD28/80/86/PD1/L1/L2]*Tumor.[T{PD1}{L1}-{PD1}{80}{PDL2}C]*([PD1_receptors-per-Tcell]/[Avagadro's_Num])*([Cancer_per_T_Cell_Int]/[Cancer_per_T_Cell_max])
+299 [Exp_CD28/80/86/PD1/L1/L2]*Tumor.[T{PD1}{L1}-{PD1}{L2}C]*([PDL1_receptors-per-Tcell]/[Avagadro's_Num])*([Cancer_per_T_Cell_Int]/[Cancer_per_T_Cell_max])
+300 [Exp_CD28/80/86/PD1/L1/L2]*Tumor.[T{PD1}{L1}-{PD1}{L2}C]*([PD1_receptors-per-Tcell]/[Avagadro's_Num])*([Cancer_per_T_Cell_Int]/[Cancer_per_T_Cell_max])
+301 [Exp_CD28/80/86/PD1/L1/L2]*Tumor.[T{PD1}{L1}-{PDL1}{80}{L2}C]*([PDL1_receptors-per-Tcell]/[Avagadro's_Num])*([Cancer_per_T_Cell_Int]/[Cancer_per_T_Cell_max])
+302 [Exp_CD28/80/86/PD1/L1/L2]*Tumor.[T{PD1}{L1}-{PDL1}{80}{L2}C]*([PD1_receptors-per-Tcell]/[Avagadro's_Num])*([Cancer_per_T_Cell_Int]/[Cancer_per_T_Cell_max])
+303 [Exp_CD28/80/86/PD1/L1/L2]*Tumor.[T{PD1}{L1}-{PDL1}{80}C]*([PDL1_receptors-per-Tcell]/[Avagadro's_Num])*([Cancer_per_T_Cell_Int]/[Cancer_per_T_Cell_max])
+304 [Exp_CD28/80/86/PD1/L1/L2]*Tumor.[T{PD1}{L1}-{PDL1}{80}C]*([PD1_receptors-per-Tcell]/[Avagadro's_Num])*([Cancer_per_T_Cell_Int]/[Cancer_per_T_Cell_max])
+305 [Exp_CD28/80/86/PD1/L1/L2]*Tumor.[T{PD1}{L1}-{PDL2}{80}C]*([PDL1_receptors-per-Tcell]/[Avagadro's_Num])*([Cancer_per_T_Cell_Int]/[Cancer_per_T_Cell_max])
+306 [Exp_CD28/80/86/PD1/L1/L2]*Tumor.[T{PD1}{L1}-{PDL2}{80}C]*([PD1_receptors-per-Tcell]/[Avagadro's_Num])*([Cancer_per_T_Cell_Int]/[Cancer_per_T_Cell_max])
+307 [Exp_CD28/80/86/PD1/L1/L2]*Tumor.[T{PD1}-{PDL2}C]*([PD1_receptors-per-Tcell]/[Avagadro's_Num])*([Cancer_per_T_Cell_Int]/[Cancer_per_T_Cell_max])
+308 [Exp_CD28/80/86/PD1/L1/L2]*Tumor.[T{PDL1}-{CD80}{PD1}C]*([PDL1_receptors-per-Tcell]/[Avagadro's_Num])*([Cancer_per_T_Cell_Int]/[Cancer_per_T_Cell_max])
+309 [Exp_CD28/80/86/PD1/L1/L2]*Tumor.[T{PDL1}-{CD80}C]*([PDL1_receptors-per-Tcell]/[Avagadro's_Num])*([Cancer_per_T_Cell_Int]/[Cancer_per_T_Cell_max])
+310 [Exp_CD28/80/86/PD1/L1/L2]*Tumor.[T{PDL1}-{PD1}C]*([PDL1_receptors-per-Tcell]/[Avagadro's_Num])*([Cancer_per_T_Cell_Int]/[Cancer_per_T_Cell_max])
+311 [kon_PD1_PDL1]*Tumor.[T10a=PDL1]*Tumor.[C10a=PD1]/[V_T:C_10] -[koff_PD1_PDL1]*Tumor.[T10a=PDL1:PD1=C10a]
 312 [kon_PDL1-PDL1mAb]*Tumor.[T10a=PDL1]*Tumor.PDL1_mabt/Vt-[koff_PDL1-PDL1mAb]*Tumor.[T10a=PDL1:aPDL1]
 313 [Exp_CD28/80/86/PD1/L1/L2]*(Tumor.[T10a=PDL1]+[T10a=PDL1:aPDL1]+[T10a=PDL1:PD1=C10a])
-314 [kon_PD1_PDL1]*Tumor.[T10b=PD1]*Tumor.[C10b=PDL1]/[V_T:C_10] -
-[koff_PD1_PDL1]*Tumor.[T10b=PD1:PDL1=C10b]
-315 [kon_PD1_PDL2]*Tumor.[T10b=PD1]*Tumor.[C10c=PDL2]/[V_T:C_10] -
-[koff_PD1_PDL2]*Tumor.[T10b=PD1:PDL2=C10c]
-316 [Exp_CD28/80/86/PD1/L1/L2]*(Tumor.[T10b=PD1]+[T10b=PD1:aPD1]+ [T10b=PD1:PDL1=C10b]+
-[T10b=PD1:PDL2=C10c])
-317 [kon_PDL1_CD80]*Tumor.[T10c=CD80]*Tumor.[C10b=PDL1]/[V_T:C_10] -
-[koff_PDL1_CD80]*Tumor.[T10c=CD80:PDL1=C10b]
+314 [kon_PD1_PDL1]*Tumor.[T10b=PD1]*Tumor.[C10b=PDL1]/[V_T:C_10] -[koff_PD1_PDL1]*Tumor.[T10b=PD1:PDL1=C10b]
+315 [kon_PD1_PDL2]*Tumor.[T10b=PD1]*Tumor.[C10c=PDL2]/[V_T:C_10] -[koff_PD1_PDL2]*Tumor.[T10b=PD1:PDL2=C10c]
+316 [Exp_CD28/80/86/PD1/L1/L2]*(Tumor.[T10b=PD1]+[T10b=PD1:aPD1]+ [T10b=PD1:PDL1=C10b]+[T10b=PD1:PDL2=C10c])
+317 [kon_PDL1_CD80]*Tumor.[T10c=CD80]*Tumor.[C10b=PDL1]/[V_T:C_10] -[koff_PDL1_CD80]*Tumor.[T10c=CD80:PDL1=C10b]
 318 [Exp_CD28/80/86/PD1/L1/L2]*(Tumor.[T10c=CD80]+ [T10c=CD80:PDL1=C10b])
-319 [kon_PDL1_CD80]*Tumor.[T11a=PDL1]*Tumor.[C11b=CD80]/[V_T:C_11] -
-[koff_PDL1_CD80]*Tumor.[T11a=PDL1:CD80=C11b]
-320 [kon_PDL1-PDL1mAb]*Tumor.[T11a=PDL1]*Tumor.PDL1_mabt/Vt - [koff_PDL1-
-PDL1mAb]*Tumor.[T11a=PDL1:aPDL1]
+319 [kon_PDL1_CD80]*Tumor.[T11a=PDL1]*Tumor.[C11b=CD80]/[V_T:C_11] -[koff_PDL1_CD80]*Tumor.[T11a=PDL1:CD80=C11b]
+320 [kon_PDL1-PDL1mAb]*Tumor.[T11a=PDL1]*Tumor.PDL1_mabt/Vt - [koff_PDL1-PDL1mAb]*Tumor.[T11a=PDL1:aPDL1]
 321 [Exp_CD28/80/86/PD1/L1/L2]*(Tumor.[T11a=PDL1]+[T11a=PDL1:aPDL1]+ [T11a=PDL1:CD80=C11b])
-322 [kon_PD1_PDL1]*Tumor.[T11b=PD1]*Tumor.[C11a=PDL1]/[V_T:C_11] -
-[koff_PD1_PDL1]*Tumor.[T11b=PD1:PDL1=C11a]
+322 [kon_PD1_PDL1]*Tumor.[T11b=PD1]*Tumor.[C11a=PDL1]/[V_T:C_11] -[koff_PD1_PDL1]*Tumor.[T11b=PD1:PDL1=C11a]
 323 [Exp_CD28/80/86/PD1/L1/L2]*(Tumor.[T11b=PD1]+[T11b=PD1:aPD1]+ [T11b=PD1:PDL1=C11a])
-324 [kon_PDL1_CD80]*Tumor.[T12a=PDL1]*Tumor.[C12b=CD80]/[V_T:C_12] -
-[koff_PDL1_CD80]*Tumor.[T12a=PDL1:CD80=C12b]
-325 [kon_PDL1-PDL1mAb]*Tumor.[T12a=PDL1]*Tumor.PDL1_mabt/Vt - [koff_PDL1-
-PDL1mAb]*Tumor.[T12a=PDL1:aPDL1]
+324 [kon_PDL1_CD80]*Tumor.[T12a=PDL1]*Tumor.[C12b=CD80]/[V_T:C_12] -[koff_PDL1_CD80]*Tumor.[T12a=PDL1:CD80=C12b]
+325 [kon_PDL1-PDL1mAb]*Tumor.[T12a=PDL1]*Tumor.PDL1_mabt/Vt - [koff_PDL1-PDL1mAb]*Tumor.[T12a=PDL1:aPDL1]
 326 [Exp_CD28/80/86/PD1/L1/L2]*(Tumor.[T12a=PDL1]+[T12a=PDL1:aPDL1]+ [T12a=PDL1:CD80=C12b])
-327 [kon_PD1_PDL2]*Tumor.[T12b=PD1]*Tumor.[C12a=PDL2]/[V_T:C_12] -
-[koff_PD1_PDL2]*Tumor.[T12b=PD1:PDL2=C12a]
+327 [kon_PD1_PDL2]*Tumor.[T12b=PD1]*Tumor.[C12a=PDL2]/[V_T:C_12] -[koff_PD1_PDL2]*Tumor.[T12b=PD1:PDL2=C12a]
 328 [Exp_CD28/80/86/PD1/L1/L2]*(Tumor.[T12b=PD1]+[T12b=PD1:aPD1]+ [T12b=PD1:PDL2=C12a])
-329 [kon_PDL1_CD80]*Tumor.[T13a=PDL1]*Tumor.[C13c=CD80]/[V_T:C_13] -
-[koff_PDL1_CD80]*Tumor.[T13a=PDL1:CD80=C13c]
+329 [kon_PDL1_CD80]*Tumor.[T13a=PDL1]*Tumor.[C13c=CD80]/[V_T:C_13] -[koff_PDL1_CD80]*Tumor.[T13a=PDL1:CD80=C13c]
 330 [Exp_CD28/80/86/PD1/L1/L2]*(Tumor.[T13a=PDL1]+[T13a=PDL1:aPDL1]+ [T13a=PDL1:CD80=C13c])
-331 [kon_PD1_PDL1]*Tumor.[T13b=PD1]*Tumor.[C13a=PDL1]/[V_T:C_13] -
-[koff_PD1_PDL1]*Tumor.[T13b=PD1:PDL1=C13a]
-332 [kon_PD1_PDL2]*Tumor.[T13b=PD1]*Tumor.[C13b=PDL2]/[V_T:C_13] -
-[koff_PD1_PDL2]*Tumor.[T13b=PD1:PDL2=C13b]
+331 [kon_PD1_PDL1]*Tumor.[T13b=PD1]*Tumor.[C13a=PDL1]/[V_T:C_13] -[koff_PD1_PDL1]*Tumor.[T13b=PD1:PDL1=C13a]
+332 [kon_PD1_PDL2]*Tumor.[T13b=PD1]*Tumor.[C13b=PDL2]/[V_T:C_13] -[koff_PD1_PDL2]*Tumor.[T13b=PD1:PDL2=C13b]
 333 [kon_PD1-PD1mAb]*Tumor.[T13b=PD1]*Tumor.PD1_mabt/Vt-[koff_PD1-PD1mAb]*Tumor.[T13b=PD1:aPD1]
-334 [Exp_CD28/80/86/PD1/L1/L2]*(Tumor.[T13b=PD1]+[T13b=PD1:aPD1]+ [T13b=PD1:PDL2=C13b]+
-[T13b=PD1:PDL1=C13a])
-335 [kon_PDL1-PDL1mAb]*Tumor.[T14a=PDL1]*Tumor.PDL1_mabt/Vt - [koff_PDL1-
-PDL1mAb]*Tumor.[T14a=PDL1:aPDL1]
-336 [Exp_CD28/80/86/PD1/L1/L2]*(Tumor.[T14a=PDL1]+[T14a=PDL1:aPDL1]+ [T14a=PDL1:PD1=C14a]+
-[T14a=PDL1:CD80=C14c])
-337 [kon_PD1_PDL1]*Tumor.[T14b=PD1]*Tumor.[C14b=PDL1]/[V_T:C_14] -
-[koff_PD1_PDL1]*Tumor.[T14b=PD1:PDL1=C14b]
+334 [Exp_CD28/80/86/PD1/L1/L2]*(Tumor.[T13b=PD1]+[T13b=PD1:aPD1]+ [T13b=PD1:PDL2=C13b]+[T13b=PD1:PDL1=C13a])
+335 [kon_PDL1-PDL1mAb]*Tumor.[T14a=PDL1]*Tumor.PDL1_mabt/Vt - [koff_PDL1-PDL1mAb]*Tumor.[T14a=PDL1:aPDL1]
+336 [Exp_CD28/80/86/PD1/L1/L2]*(Tumor.[T14a=PDL1]+[T14a=PDL1:aPDL1]+ [T14a=PDL1:PD1=C14a]+[T14a=PDL1:CD80=C14c])
+337 [kon_PD1_PDL1]*Tumor.[T14b=PD1]*Tumor.[C14b=PDL1]/[V_T:C_14] -[koff_PD1_PDL1]*Tumor.[T14b=PD1:PDL1=C14b]
 338 [Exp_CD28/80/86/PD1/L1/L2]*(Tumor.[T14b=PD1]+[T14b=PD1:aPD1]+ [T14b=PD1:PDL1=C14b])
 339 [Exp_CD28/80/86/PD1/L1/L2]*(Tumor.[T14c=CD80]+ [T14c=CD80:PDL1=C14b])
-340 [kon_PD1_PDL1]*Tumor.[T15a=PDL1]*Tumor.[C15a=PD1]/[V_T:C_15] -
-[koff_PD1_PDL1]*Tumor.[T15a=PDL1:PD1=C15a]
+340 [kon_PD1_PDL1]*Tumor.[T15a=PDL1]*Tumor.[C15a=PD1]/[V_T:C_15] -[koff_PD1_PDL1]*Tumor.[T15a=PDL1:PD1=C15a]
 341 [kon_PDL1-PDL1mAb]*Tumor.[T15a=PDL1]*Tumor.PDL1_mabt/Vt -[koff_PDL1-PDL1mAb]*Tumor.[T15a=PDL1:aPDL1]
-342 [Exp_CD28/80/86/PD1/L1/L2]*(Tumor.[T15a=PDL1]+[T15a=PDL1:aPDL1]+ [T15a=PDL1:CD80=C15c]+
-[T15a=PDL1:PD1=C15a])
+342 [Exp_CD28/80/86/PD1/L1/L2]*(Tumor.[T15a=PDL1]+[T15a=PDL1:aPDL1]+ [T15a=PDL1:CD80=C15c]+[T15a=PDL1:PD1=C15a])
 343 [kon_PD1-PD1mAb]*Tumor.[T15b=PD1]*Tumor.PD1_mabt/Vt - [koff_PD1-PD1mAb]*Tumor.[T15b=PD1:aPD1]
 344 [Exp_CD28/80/86/PD1/L1/L2]*(Tumor.[T15b=PD1]+[T15b=PD1:aPD1]+ [T15b=PD1:PDL2=C15b])
-345 [kon_PDL1_CD80]*Tumor.[T16a=PDL1]*Tumor.[C16d=CD80]/[V_T:C_16] -
-[koff_PDL1_CD80]*Tumor.[T16a=PDL1:CD80=C16d]
-346 [kon_PDL1-PDL1mAb]*Tumor.[T16a=PDL1]*Tumor.PDL1_mabt/Vt - [koff_PDL1-
-PDL1mAb]*Tumor.[T16a=PDL1:aPDL1]
-347 [Exp_CD28/80/86/PD1/L1/L2]*(Tumor.[T16a=PDL1]+[T16a=PDL1:aPDL1]+ [T16a=PDL1:PD1=C16a]+
-[T16a=PDL1:CD80=C16d])
-348 [kon_PD1_PDL1]*Tumor.[T16b=PD1]*Tumor.[C16b=PDL1]/[V_T:C_16] -
-[koff_PD1_PDL1]*Tumor.[T16b=PD1:PDL1=C16b]
+345 [kon_PDL1_CD80]*Tumor.[T16a=PDL1]*Tumor.[C16d=CD80]/[V_T:C_16] -[koff_PDL1_CD80]*Tumor.[T16a=PDL1:CD80=C16d]
+346 [kon_PDL1-PDL1mAb]*Tumor.[T16a=PDL1]*Tumor.PDL1_mabt/Vt - [koff_PDL1-PDL1mAb]*Tumor.[T16a=PDL1:aPDL1]
+347 [Exp_CD28/80/86/PD1/L1/L2]*(Tumor.[T16a=PDL1]+[T16a=PDL1:aPDL1]+ [T16a=PDL1:PD1=C16a]+[T16a=PDL1:CD80=C16d])
+348 [kon_PD1_PDL1]*Tumor.[T16b=PD1]*Tumor.[C16b=PDL1]/[V_T:C_16] -[koff_PD1_PDL1]*Tumor.[T16b=PD1:PDL1=C16b]
 349 [kon_PD1-PD1mAb]*Tumor.[T16b=PD1]*Tumor.PD1_mabt/Vt - [koff_PD1-PD1mAb]*Tumor.[T16b=PD1:aPD1]
-350 [Exp_CD28/80/86/PD1/L1/L2]*(Tumor.[T16b=PD1]+[T16b=PD1:aPD1]+ [T16b=PD1:PDL2=C16c]+
-[T16b=PD1:PDL1=C16b])
-351 [kon_PDL1_CD80]*Tumor.[T16c=CD80]*Tumor.[C16b=PDL1]/[V_T:C_16] -
-[koff_PDL1_CD80]*Tumor.[T16c=CD80:PDL1=C16b]
+350 [Exp_CD28/80/86/PD1/L1/L2]*(Tumor.[T16b=PD1]+[T16b=PD1:aPD1]+ [T16b=PD1:PDL2=C16c]+[T16b=PD1:PDL1=C16b])
+351 [kon_PDL1_CD80]*Tumor.[T16c=CD80]*Tumor.[C16b=PDL1]/[V_T:C_16] -[koff_PDL1_CD80]*Tumor.[T16c=CD80:PDL1=C16b]
 352 [Exp_CD28/80/86/PD1/L1/L2]*(Tumor.[T16c=CD80]+ [T16c=CD80:PDL1=C16b])
 353 [kon_PD1_PDL1]*Tumor.[T2=PDL1]*Tumor.[C2=PD1]/[V_T:C_2] - [koff_PD1_PDL1]*Tumor.[T2=PDL1:PD1=C2]
 354 [Exp_CD28/80/86/PD1/L1/L2]*(Tumor.[T2=PDL1]+[T2=PDL1:aPDL1]+[T2=PDL1:PD1=C2])
 355 [kon_PD1_PDL1]*Tumor.[T3a=PD1]*Tumor.[C3=PDL1]/[V_T:C_3] - [koff_PD1_PDL1]*Tumor.[T3a=PD1:PDL1=C3]
 356 [kon_PD1-PD1mAb]*Tumor.[T3a=PD1]*Tumor.PD1_mabt/Vt - [koff_PD1-PD1mAb]*Tumor.[T3a=PD1:aPD1]
 357 [Exp_CD28/80/86/PD1/L1/L2]*(Tumor.[T3a=PD1]+[T3a=PD1:aPD1]+[T3a=PD1:PDL1=C3])
-358 [kon_PDL1_CD80]*Tumor.[T3b=CD80]*Tumor.[C3=PDL1]/[V_T:C_3] -
-[koff_PDL1_CD80]*Tumor.[T3b=CD80:PDL1=C3]
+358 [kon_PDL1_CD80]*Tumor.[T3b=CD80]*Tumor.[C3=PDL1]/[V_T:C_3] -[koff_PDL1_CD80]*Tumor.[T3b=CD80:PDL1=C3]
 359 [Exp_CD28/80/86/PD1/L1/L2]*(Tumor.[T3b=CD80]+[T3b=CD80:PDL1=C3])
 360 [kon_PD1_PDL2]*Tumor.[T4=PD1]*Tumor.[C4=PDL2]/[V_T:C_4] - [koff_PD1_PDL2]*Tumor.[T4=PD1:PDL2=C4]
 361 [kon_PD1-PD1mAb]*Tumor.[T4=PD1]*Tumor.PD1_mabt/Vt - [koff_PD1-PD1mAb]*Tumor.[T4=PD1:aPD1]
@@ -557,8 +377,7 @@ PDL1mAb]*Tumor.[T16a=PDL1:aPDL1]
 377 [kon_PD1_PDL2]*Tumor.[T8a=PD1]*Tumor.[C8b=PDL2]/[V_T:C_8] - [koff_PD1_PDL2]*Tumor.[T8a=PD1:PDL2=C8b]
 378 [Exp_CD28/80/86/PD1/L1/L2]*(Tumor.[T8a=PD1]+[T8a=PD1:aPD1]+[T8a=PD1:PDL1=C8a]+[T8a=PD1:PDL2=C8b])
 379 [Exp_CD28/80/86/PD1/L1/L2]*(Tumor.[T8b=CD80]+[T8b=CD80:PDL1=C8a])
-380 [kon_PDL1_CD80]*Tumor.[T9=PDL1]*Tumor.[C9b=CD80]/[V_T:C_9] - [koff_PDL1_CD80]*Tumor.[T9=PDL1-
-CD80=C9b]
+380 [kon_PDL1_CD80]*Tumor.[T9=PDL1]*Tumor.[C9b=CD80]/[V_T:C_9] - [koff_PDL1_CD80]*Tumor.[T9=PDL1-CD80=C9b]
 381 [kon_PDL1-PDL1mAb]*Tumor.[T9=PDL1]*Tumor.PDL1_mabt/Vt - [koff_PDL1-PDL1mAb]*Tumor.[T9=PDL1:aPDL1]
 382 [Exp_CD28/80/86/PD1/L1/L2]*(Tumor.[T9=PDL1]+[T9=PDL1:aPDL1]+[T9=PDL1-PD1=C9a]+[T9=PDL1-CD80=C9b])
 383 kf_RestingMacrophage*Tumor.APC_T
@@ -569,25 +388,19 @@ CD80=C9b]
 388 Debris_Transport*Tumor.C_DebrisT*(1-1/[Num_TDLN_Considered])
 389 kf_CanDecay*Tumor.Cancer
 390 [Exp_CD28/80/86/PD1/L1/L2]*(Tumor.CD80_mAPCT+[CTLA4:CD80_TrAT])
-391 [kon_PDL1_CD80]*Tumor.CD80_TeffT*Tumor.PDL1_TregT/[Vol_Cell-Rec_Tr-TeffT] -
-[koff_PDL1_CD80]*Tumor.[PDL1:CD80_TrTeff]
+391 [kon_PDL1_CD80]*Tumor.CD80_TeffT*Tumor.PDL1_TregT/[Vol_Cell-Rec_Tr-TeffT] -[koff_PDL1_CD80]*Tumor.[PDL1:CD80_TrTeff]
 392 [Exp_CD28/80/86/PD1/L1/L2]*(Tumor.CD80_TeffT+[PDL1:CD80_TrTeff])
 393 [Exp_CD28/80/86/PD1/L1/L2]*(Tumor.CD80_TeffT1+[PDL1:CD80_MDSCT])
 394 [Exp_CD28/80/86/PD1/L1/L2]*(Tumor.CD86_mAPCT+[CTLA4:CD86_TrAT])
-395 Kpa_TB*S_TB*Vt_avg_const*(1.43/1.63)*Tumor.CTLA4_mabt/(Vt_Teff*Tumor_Void_Fraction)-
-Kpa_TB*S_TB*Vt_avg_const*(1.43/1.63)*Lymph_Node.CTLA4_mab/(VL)
-396 [kon_CTLA4_CD80]*Tumor.CTLA4_TregT*Tumor.CD80_mAPCT/[Vol_Cell-Rec_Tr-APCT] -
-[koff_CTLA4_CD80]*Tumor.[CTLA4:CD80_TrAT]
-397 [kon_CTLA4_CD86]*Tumor.CTLA4_TregT*Tumor.CD86_mAPCT/[Vol_Cell-Rec_Tr-APCT] -
-[koff_CTLA4_CD86]*Tumor.[CTLA4:CD86_TrAT]
-398 kon_CTLA4mAb_CTLA4*Tumor.CTLA4_TregT*Tumor.CTLA4_mabt/Vt -
-koff_CTLA4mAb_CTLA4*Tumor.[CTLA4_CTLA4-Trt]
+395 Kpa_TB*S_TB*Vt_avg_const*(1.43/1.63)*Tumor.CTLA4_mabt/(Vt_Teff*Tumor_Void_Fraction)-Kpa_TB*S_TB*Vt_avg_const(1.43/1.63)*Lymph_Node.CTLA4_mab/(VL)
+396 [kon_CTLA4_CD80]*Tumor.CTLA4_TregT*Tumor.CD80_mAPCT/[Vol_Cell-Rec_Tr-APCT] -[koff_CTLA4_CD80]*Tumor.[CTLA4:CD80_TrAT]
+397 [kon_CTLA4_CD86]*Tumor.CTLA4_TregT*Tumor.CD86_mAPCT/[Vol_Cell-Rec_Tr-APCT] -[koff_CTLA4_CD86]*Tumor.[CTLA4:CD86_TrAT]
+398 kon_CTLA4mAb_CTLA4*Tumor.CTLA4_TregT*Tumor.CTLA4_mabt/Vt -koff_CTLA4mAb_CTLA4*Tumor.[CTLA4_CTLA4-Trt]
 399 [Exp_CTLA4]*(Tumor.CTLA4_TregT+[CTLA4:CD80_TrAT]+[CTLA4:CD86_TrAT]+[CTLA4_CTLA4-Trt])
 400 EffT_Turnover*Tumor.Effector_TT
 401 EffT_Res_Conversion*Tumor.Effector_TT*(1-TheEnd)*.9
 402 EffT_Res_Conversion*Tumor.Effector_TT*(1-TheEnd)*.1
-403 CancerTEng * Tumor.Cancer1 * ((Tumor.Effector_TT_C_Eng/(Tumor.Cancer1+1E-100*mole))^gamma_TC_Assoc)/(s_Assoc
-+ (Tumor.Effector_TT_C_Eng/(Tumor.Cancer1+1E-100*mole))^gamma_TC_Assoc)
+403 CancerTEng * Tumor.Cancer1 * ((Tumor.Effector_TT_C_Eng/(Tumor.Cancer1+1E-100*mole))^gamma_TC_Assoc)/(s_Assoc + (Tumor.Effector_TT_C_Eng/(Tumor.Cancer1+1E-100*mole))^gamma_TC_Assoc)
 404 EffT_Turnover*Tumor.EffT_AR_Vasc
 405 J_Tmr*Tumor.EffT_AR_Vasc
 406 EffT_Turnover*Tumor.EffT_b_Vasc
@@ -599,20 +412,14 @@ koff_CTLA4mAb_CTLA4*Tumor.[CTLA4_CTLA4-Trt]
 412 mAPC_Migrate*Tumor.mAPC_T*(1/[Num_TDLN_Considered])*(1-[mAPC_Debis_T_Inact])
 413 mAPC_Migrate*Tumor.mAPC_T*(1-1/[Num_TDLN_Considered])
 414 mAPC_Migrate*Tumor.mAPC_T*[mAPC_Debis_T_Inact]
-415 [Exp_CD28/80/86/PD1/L1/L2]*Tumor.mAPCT_EngTregT*([CD80_receptors-per-
-mAPC]/[Avagadro's_Num])*(1/Tr_cells_per_mAPC)
-416 [Exp_CD28/80/86/PD1/L1/L2]*Tumor.mAPCT_EngTregT*([CD86_receptors-per-
-mAPC]/[Avagadro's_Num])*(1/Tr_cells_per_mAPC)
-417 TregTMDSCEng*Tumor.Effector_TT_MDSCs*((Tumor.MDSC_T/(Tumor.Effector_TT_MDSCs + 1E-
-100*mole))^gamma_TC_Assoc)/( s_Assoc + (Tumor.MDSC_T/( Tumor.Effector_TT_MDSCs + 1E-
-100*mole))^gamma_TC_Assoc)
+415 [Exp_CD28/80/86/PD1/L1/L2]*Tumor.mAPCT_EngTregT*([CD80_receptors-per-mAPC]/[Avagadro's_Num])*(1/Tr_cells_per_mAPC)
+416 [Exp_CD28/80/86/PD1/L1/L2]*Tumor.mAPCT_EngTregT*([CD86_receptors-per-mAPC]/[Avagadro's_Num])*(1/Tr_cells_per_mAPC)
+417 TregTMDSCEng*Tumor.Effector_TT_MDSCs*((Tumor.MDSC_T/(Tumor.Effector_TT_MDSCs + 1E-100*mole))^gamma_TC_Assoc)/( s_Assoc + (Tumor.MDSC_T/( Tumor.Effector_TT_MDSCs + 1E-100*mole))^gamma_TC_Assoc)
 418 [Exp_CD28/80/86/PD1/L1/L2]*Tumor.MDSCsT_EngTeff*([PD1_receptors-per-Tcell]/[Avagadro's_Num])*(1/T_per_Tr_cell)
-419 [Exp_CD28/80/86/PD1/L1/L2]*Tumor.MDSCsT_EngTeff*([PDL1_receptors-per-
-Tcell]/[Avagadro's_Num])*(1/T_per_Tr_cell)
+419 [Exp_CD28/80/86/PD1/L1/L2]*Tumor.MDSCsT_EngTeff*([PDL1_receptors-per-Tcell]/[Avagadro's_Num])*(1/T_per_Tr_cell)
 420 [Treg:T_IntTime]*Tumor.MDSCsT_Teff*[Sig_MDSCTeff=Total]
 421 [Treg:T_IntTime]*Tumor.MDSCsT_Teff*(1-[Sig_MDSCTeff=Total])
-422 Kpa_TB*S_TB*Vt_avg_const*(1.43/1.63)*Tumor.PD1_mabt/(Vt_Teff*Tumor_Void_Fraction)-
-Kpa_TB*S_TB*Vt_avg_const*(1.43/1.63)*Lymph_Node.PD1_mab/(VL)
+422 Kpa_TB*S_TB*Vt_avg_const*(1.43/1.63)*Tumor.PD1_mabt/(Vt_Teff*Tumor_Void_Fraction)-Kpa_TB*S_TB*Vt_avg_const*(1.43/1.63)*Lymph_Node.PD1_mab/(VL)
 423 [kon_PD1-PD1mAb]*Tumor.PD1_mabt*Tumor.[C14a=PD1]/Vt - [koff_PD1-PD1mAb]*Tumor.[C14a=PD1:aPD1]
 424 [kon_PD1-PD1mAb]*Tumor.PD1_mabt*Tumor.[C2=PD1]/Vt - [koff_PD1-PD1mAb]*Tumor.[C2=PD1:aPD1]
 425 [kon_PD1-PD1mAb]*Tumor.PD1_mabt*Tumor.[C7a=PD1]/Vt - [koff_PD1-PD1mAb]*Tumor.[C7a=PD1:aPD1]
@@ -625,35 +432,26 @@ Kpa_TB*S_TB*Vt_avg_const*(1.43/1.63)*Lymph_Node.PD1_mab/(VL)
 432 [kon_PD1-PD1mAb]*Tumor.PD1_mabt*Tumor.[T8a=PD1]/Vt - [koff_PD1-PD1mAb]*Tumor.[T8a=PD1:aPD1]
 433 [kon_PD1-PD1mAb]*Tumor.PD1_mabt*Tumor.PD1_TeffT/Vt - [koff_PD1-PD1mAb]*Tumor.[PD1:aPD1_Teff]
 434 [kon_PD1-PD1mAb]*Tumor.PD1_MDSCsT*Tumor.PD1_mabt/Vt - [koff_PD1-PD1mAb]*Tumor.[PD1:aPD1_MDSCs]
-435 [kon_PD1_PDL1]*Tumor.PD1_MDSCsT*Tumor.PDL1_TeffT1/[Vol_Cell-Rec_MDSC-TeffT] -
-[koff_PD1_PDL1]*Tumor.[PD1:PDL1_MDSCT]
+435 [kon_PD1_PDL1]*Tumor.PD1_MDSCsT*Tumor.PDL1_TeffT1/[Vol_Cell-Rec_MDSC-TeffT] - [koff_PD1_PDL1]*Tumor.[PD1:PDL1_MDSCT]
 436 [Exp_CD28/80/86/PD1/L1/L2]*(Tumor.PD1_MDSCsT+[PD1:PDL1_MDSCT]+[PD1:aPD1_MDSCs])
-437 [kon_PD1_PDL1]*Tumor.PD1_TeffT*Tumor.PDL1_TregT/[Vol_Cell-Rec_Tr-TeffT] -
-[koff_PD1_PDL1]*Tumor.[PDL1:PD1_TrTeff]
+437 [kon_PD1_PDL1]*Tumor.PD1_TeffT*Tumor.PDL1_TregT/[Vol_Cell-Rec_Tr-TeffT] - [koff_PD1_PDL1]*Tumor.[PDL1:PD1_TrTeff]
 438 [Exp_CD28/80/86/PD1/L1/L2]*(Tumor.PD1_TeffT+[PDL1:PD1_TrTeff]+[PD1:aPD1_Teff])
 439 [kon_PD1-PD1mAb]*Tumor.PD1_TeffT1*Tumor.PD1_mabt/Vt - [koff_PD1-PD1mAb]*Tumor.[PD1:aPD1_Teff1]
 440 [Exp_CD28/80/86/PD1/L1/L2]*(Tumor.PD1_TeffT1+[PDL1:PD1_MDSCT]+[PD1:aPD1_Teff1])
 441 [kon_PD1-PD1mAb]*Tumor.PD1_TregT*Tumor.PD1_mabt/Vt - [koff_PD1-PD1mAb]*Tumor.[PD1:aPD1_Treg]
 442 [Exp_CD28/80/86/PD1/L1/L2]*(Tumor.PD1_TregT+[PD1:PDL1_TrTeff]+[PD1:aPD1_Treg])
-443 Kpa_TB*S_TB*Vt_avg_const*(1.43/1.63)*Tumor.PDL1_mabt/(Vt_Teff*Tumor_Void_Fraction)-
-Kpa_TB*S_TB*Vt_avg_const*(1.43/1.63)*Lymph_Node.PDL1_mab/(VL)
+443 Kpa_TB*S_TB*Vt_avg_const*(1.43/1.63)*Tumor.PDL1_mabt/(Vt_Teff*Tumor_Void_Fraction)-Kpa_TB*S_TB*Vt_avg_const*(1.43/1.63)*Lymph_Node.PDL1_mab/(VL)
 444 [kon_PDL1-PDL1mAb]*Tumor.PDL1_mabt*Tumor.[C3=PDL1]/Vt - [koff_PDL1-PDL1mAb]*Tumor.[C3=PDL1:aPDL1]
-445 [kon_PDL1-PDL1mAb]*Tumor.PDL1_mabt*Tumor.[T13a=PDL1]/Vt - [koff_PDL1-
-PDL1mAb]*Tumor.[T13a=PDL1:aPDL1]
+445 [kon_PDL1-PDL1mAb]*Tumor.PDL1_mabt*Tumor.[T13a=PDL1]/Vt - [koff_PDL1-PDL1mAb]*Tumor.[T13a=PDL1:aPDL1]
 446 [kon_PDL1-PDL1mAb]*Tumor.PDL1_mabt*Tumor.[T2=PDL1]/Vt - [koff_PDL1-PDL1mAb]*Tumor.[T2=PDL1:aPDL1]
 447 [kon_PDL1-PDL1mAb]*Tumor.PDL1_mabt*Tumor.[T7a=PDL1]/Vt - [koff_PDL1-PDL1mAb]*Tumor.[T7a=PDL1:aPDL1]
 448 [kon_PDL1-PDL1mAb]*Tumor.PDL1_mabt*Tumor.PDL1_TeffT/Vt - [koff_PDL1-PDL1mAb]*Tumor.[PDL1:aPDL1_Teff]
 417 [kon_PDL1-PDL1mAb]*Tumor.PDL1_mabt*Tumor.PDL1_TeffT1/Vt -[koff_PDL1-PDL1mAb]*Tumor.[PDL1:aPDL1_Teff1]
-418 [kon_PDL1_CD80]*Tumor.PDL1_MDSCsT*Tumor.CD80_TeffT1/[Vol_Cell-Rec_MDSC-TeffT] -
-[koff_PDL1_CD80]*Tumor.[PDL1:CD80_MDSCT]
-419 [kon_PD1_PDL1]*Tumor.PDL1_MDSCsT*Tumor.PD1_TeffT1/[Vol_Cell-Rec_MDSC-TeffT] -
-[koff_PD1_PDL1]*Tumor.[PDL1:PD1_MDSCT]
-420 [kon_PDL1-PDL1mAb]*Tumor.PDL1_MDSCsT*Tumor.PDL1_mabt/Vt - [koff_PDL1-
-PDL1mAb]*Tumor.[PDL1:aPDL1_MDSCs]
-421 [Exp_CD28/80/86/PD1/L1/L2]*(Tumor.PDL1_MDSCsT+[PDL1:CD80_MDSCT]+[PDL1:PD1_MDSCT]+[PDL1:aPDL1_MD
-SCs])
-422 [kon_PD1_PDL1]*Tumor.PDL1_TeffT*Tumor.PD1_TregT/[Vol_Cell-Rec_Tr-TeffT] -
-[koff_PD1_PDL1]*Tumor.[PD1:PDL1_TrTeff]
+418 [kon_PDL1_CD80]*Tumor.PDL1_MDSCsT*Tumor.CD80_TeffT1/[Vol_Cell-Rec_MDSC-TeffT] -[koff_PDL1_CD80]*Tumor.[PDL1:CD80_MDSCT]
+419 [kon_PD1_PDL1]*Tumor.PDL1_MDSCsT*Tumor.PD1_TeffT1/[Vol_Cell-Rec_MDSC-TeffT] -[koff_PD1_PDL1]*Tumor.[PDL1:PD1_MDSCT]
+420 [kon_PDL1-PDL1mAb]*Tumor.PDL1_MDSCsT*Tumor.PDL1_mabt/Vt - [koff_PDL1-PDL1mAb]*Tumor.[PDL1:aPDL1_MDSCs]
+421 [Exp_CD28/80/86/PD1/L1/L2]*(Tumor.PDL1_MDSCsT+[PDL1:CD80_MDSCT]+[PDL1:PD1_MDSCT]+[PDL1:aPDL1_MDSCs])
+422 [kon_PD1_PDL1]*Tumor.PDL1_TeffT*Tumor.PD1_TregT/[Vol_Cell-Rec_Tr-TeffT] -[koff_PD1_PDL1]*Tumor.[PD1:PDL1_TrTeff]
 423 [Exp_CD28/80/86/PD1/L1/L2]*(Tumor.PDL1_TeffT+[PD1:PDL1_TrTeff]+[PDL1:aPDL1_Teff])
 424 [Exp_CD28/80/86/PD1/L1/L2]*(Tumor.PDL1_TeffT1+[PD1:PDL1_MDSCT]+[PDL1:aPDL1_Teff1])
 425 [kon_PDL1-PDL1mAb]*Tumor.PDL1_TregT*Tumor.PDL1_mabt/Vt - [koff_PDL1-PDL1mAb]*Tumor.[PDL1:aPDL1_Treg]
@@ -668,8 +466,7 @@ SCs])
 434 [Exp_CD28/80/86/PD1/L1/L2]*Tumor.Teff_EngTregT*([CD80_receptors-per-Tcell]/[Avagadro's_Num])*(1/Tr_per_T_cell)
 435 [Exp_CD28/80/86/PD1/L1/L2]*Tumor.Teff_EngTregT*([PD1_receptors-per-Tcell]/[Avagadro's_Num])*(1/Tr_per_T_cell)
 436 [Exp_CD28/80/86/PD1/L1/L2]*Tumor.Teff_EngTregT*([PDL1_receptors-per-Tcell]/[Avagadro's_Num])*(1/Tr_per_T_cell)
-437 TregTMDSCEng*Tumor.Effector_TT_TregT *((TregT/(Tumor.Effector_TT_TregT + 1E-20*mole))^gamma_TC_Assoc)/(
-s_Assoc + (TregT/(Tumor.Effector_TT_TregT + 1E-20*mole))^gamma_TC_Assoc)
+437 TregTMDSCEng*Tumor.Effector_TT_TregT *((TregT/(Tumor.Effector_TT_TregT + 1E-20*mole))^gamma_TC_Assoc)/(s_Assoc + (TregT/(Tumor.Effector_TT_TregT + 1E-20*mole))^gamma_TC_Assoc)
 438 [Exp_CTLA4]*Tumor.TregT_EngAPC*([CTLA4_receptors-Tr]/[Avagadro's_Num])*(1/mAPC_per_Tr_cell)
 439 [Exp_CD28/80/86/PD1/L1/L2]*Tumor.TregT_EngTeff*([PD1_receptors-per-Tcell]/[Avagadro's_Num])*(1/T_per_Tr_cell)
 440 [Exp_CD28/80/86/PD1/L1/L2]*Tumor.TregT_EngTeff*([PDL1_receptors-per-Tcell]/[Avagadro's_Num])*(1/T_per_Tr_cell)
